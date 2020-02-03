@@ -1,0 +1,85 @@
+---
+name: Chris
+surname: Oldmeadow
+position: "Director"
+address: "Data Science, Hunter Medical Research Institute"
+phone: +1410329874
+www: ChrisOldmeadow.github.io
+email: "christopher.oldmeadow@hmri.org.au"
+twitter: chrisoldmeadow
+github: ChrisOldmeadow
+linkedin: chris-oldmeadow
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+```
+
+# Biography
+
+Dr Oldmeadow is the Director of the Clinical Research Design, IT and Statistical Support (CReDITSS) Unit at HMRI. Dr Oldmeadow is an applied statistician with an international reputation for managing, maintaining and analysing large complex health related data sets.  He oversees statistical consultancy projects from various fields of research, including Cancer, Stroke, Cardiology, Respiratory, Public Health, and Health Services. He has a strong track-record in co-ordinating the analytic plans of research projects. He has years of experience as the statistical leader for the design, analysis and data management of clinical studies, ranging from Pilot/Phase1 through to Phase 4, and across the spectrum of translational research. 
+
+Dr Oldmeadow’s methodological expertise spans a broad range of experimental settings such as single arm trials, parallel group, cross-over, stepped-wedge; biomarker and diagnostic studies; as well as observational studies, registries and linked administrative data sets. He is also actively researching statistical methodologies in biostatistics in the areas of causal modelling, missing data, and Bayesian statistics.
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
+  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
+  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Employment History
+
+
+
+
+# Competitive funding
+
+```{r}
+tribble(
+  ~Year, ~Type, ~Desc,
+  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
+  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
+) %>% 
+  brief_entries(
+    glue::glue("Nobel Prize in {Type}"),
+    Year, 
+    Desc
+  )
+```
+
+# Publications
+
+```{r}
+id<-"Lo70aGIAAAAJ&hl&"
+l <-scholar:: get_profile(id)
+
+
+```
+
+Dr Oldmeadow  has published over 200 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `{r l$h_index}` and an i10-index of `{r l$i10_index}`, with `{r l$total_cites} citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
+
+```{r}
+scholar::get_publications(id) %>% 
+  distinct(title, .keep_all = TRUE) %>%
+  transmute(bibtype = "Article", author = as.character(author),
+            title = as.character(title),
+            journaltitle = as.character(journal), year, key = row_number()) %>% 
+  RefManageR::as.BibEntry() %>% 
+  RefManageR::WriteBib("oldmeadow.bib")
+
+bibliography_entries("oldmeadow.bib")
+```
+
+
