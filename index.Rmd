@@ -1,0 +1,161 @@
+---
+title: "Chris Oldmeadow"
+author: Chris Oldmeadow
+date: "`r Sys.Date()`"
+output:
+  pagedown::html_resume:
+    # set it to true for a self-contained HTML page but it'll take longer to render
+    self_contained: false
+---
+
+Aside
+================================================================================
+
+
+![Chris Oldmeadow](oldmeadow.jpg){width=80%}
+
+
+Contact Info {#contact}
+--------------------------------------------------------------------------------
+
+- <i class="fa fa-envelope"></i> chris.oldmeadow@hmri.org.au
+- <i class="fa fa-github"></i> [github.com/ChrisOldmeadow](https://github.com/ChrisOldmeadow)
+- <i class="fa fa-phone"></i> +1410329874
+- For more information, please contact me via email.
+
+
+Skills {#skills}
+--------------------------------------------------------------------------------
+
+- Study design in pilot studies, and clinical trials (phase 1-phase4)
+
+- Bayesian statistics, linked administrative data
+
+- Developing dashboards and applications for visualising and interacting with data
+
+- Highly skilled in R, SAS, Stata, Bash, Perl, Python, LaTeX
+
+
+More info {#more-info}
+--------------------------------------------------------------------------------
+
+See full CV at ChrisOldmeadow.github.io/cv for more complete list of positions and publications.
+
+
+Last updated on `r Sys.Date()`.
+
+
+
+Main
+================================================================================
+
+Chris Oldmeadow {#title}
+--------------------------------------------------------------------------------
+
+I am a biostatistician, bioinformatician and data scientist with over 15 years experience applying statistical methods to public health, clinical and biological data, as well as leading and coordinating the analytical plans across the spectrum of clinical research studies.
+
+
+
+Education {data-icon=graduation-cap data-concise=true}
+--------------------------------------------------------------------------------
+
+###  University of Newcastle
+
+B.Mathematics (Hons)
+
+Newcastle, Australia
+
+2004
+
+Thesis: Variable length Markov Chains for DNA motif detection
+
+### Queensland University of Technology
+
+PhD Statistics
+
+Brisbane, Australia
+
+2009
+
+Thesis: Latent Variable Models in Statistical Genetics
+
+
+
+  
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Director: Clinical Research Design, IT, and Statistical Services
+
+Hunter Medical Research Institute
+
+NSW, Australia
+
+2018 -
+
+::: concise
+- Overseen increases in income by 20% per year
+- Increased cost recovery rate by 10% (absolute)
+- Expanded biostatistics,  data management, and bioinformatic teams
+- Chief Investigator on $3 million per year in competitive funding
+- 13 direct reports and heavy workload of analysis and study design
+:::
+
+### Senior Statistician, Clinical Research Design, IT, and Statistical Services 
+
+Hunter Medical Research Institute
+
+NSW, Australia
+
+2013 - 2019
+
+::: concise
+- Co-authored papers at ~50 per year with a high fraction in A or A* journals 
+- Over $1 million per year in competitive funding
+- Supervised a team of ~ 10 statisticians 
+- Study statistician on a number of large clinical trials
+:::
+
+
+###  Post doctoral research fellow
+
+Hunter Medical Research Institute
+
+NSW, Australia
+
+2009 - 2013
+
+::: concise
+- Methods development in statistical genetics
+- Consultant biostatistician
+:::
+
+###  Post doctoral research fellow
+
+Monash University
+
+Vic, Australia
+
+2009
+
+::: concise
+- Developed methods in Bioinformatics (Bayesian DNA sequence segmentation, information criterion)
+:::
+
+
+Selected Publications {data-icon=file}
+--------------------------------------------------------------------------------
+
+```{r, echo=FALSE,warning=FALSE, comment=FALSE, message=FALSE}
+library(magrittr)
+library(dplyr)
+library(knitr)
+library(kableExtra)
+scholar::get_publications("Lo70aGIAAAAJ&hl&") %>% 
+   distinct(title, .keep_all = TRUE) %>%
+  select(year,author,title, journal) %>%
+  arrange(desc(year)) %>%
+  kable()%>%
+  kable_styling(fixed_thead = T,font_size = 7)
+```
