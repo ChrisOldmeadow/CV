@@ -20,7 +20,7 @@ Contact Info {#contact}
 
 - <i class="fa fa-envelope"></i> chris.oldmeadow@hmri.org.au
 - <i class="fa fa-github"></i> [github.com/ChrisOldmeadow](https://github.com/ChrisOldmeadow)
-- <i class="fa fa-phone"></i> +1410329874
+- <i class="fa fa-phone"></i> +140420499
 - For more information, please contact me via email.
 
 
