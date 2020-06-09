@@ -18,14 +18,14 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> christopher.oldmeadow@hmri.org.au
+- <i class="fa fa-envelope"></i> Christopher.oldmeadow@hmri.org.au
 - <i class="fa fa-github"></i> [github.com/ChrisOldmeadow](https://github.com/ChrisOldmeadow)
 
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Study design |  Bayesian statistics | Big data sets | Clincial Trials | Dashboards | visualising data
+- Study design |  Bayesian statistics | Big data sets | Clinical Trials | Dashboards | visualising data
 
 - Highly skilled in R, SAS, Stata, Bash, Perl, Python
 
@@ -150,7 +150,7 @@ Vic, Australia
 :::
 
 
- Publications {data-icon=file}
+ Top 5 Publications by citations {data-icon=file}
 --------------------------------------------------------------------------------
 
 
@@ -174,9 +174,10 @@ t<- scholar::get_publications("Lo70aGIAAAAJ&hl&") %>%
 
 ```
 
+Publications statisstics {data-icon=file}
+--------------------------------------------------------------------------------
 
-
-```{r, echo = FALSE}
+```{r, fig.width=6, fig.height=3, echo = FALSE}
 ggplot(t, aes(x= year)) +
 geom_bar() +
 geom_text(stat='count', aes(label=..count..), vjust=-1)
@@ -187,7 +188,7 @@ geom_text(stat='count', aes(label=..count..), vjust=-1)
 
 
 
-```{r, echo = FALSE}
+```{r,fig.width=6, fig.height=3,  echo = FALSE}
 
 ct <- scholar::get_citation_history("Lo70aGIAAAAJ&hl&")
 
