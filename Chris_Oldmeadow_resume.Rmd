@@ -18,22 +18,28 @@ Aside
 Contact Info {#contact}
 --------------------------------------------------------------------------------
 
-- <i class="fa fa-envelope"></i> chris.oldmeadow@hmri.org.au
+- <i class="fa fa-envelope"></i> christopher.oldmeadow@hmri.org.au
 - <i class="fa fa-github"></i> [github.com/ChrisOldmeadow](https://github.com/ChrisOldmeadow)
-- <i class="fa fa-phone"></i> +1410329874
-- For more information, please contact me via email.
 
 
 Skills {#skills}
 --------------------------------------------------------------------------------
 
-- Study design in pilot studies, and clinical trials (phase 1-phase4)
+- Study design |  Bayesian statistics | Big data sets | Clincial Trials | Dashboards | visualising data
 
-- Bayesian statistics, linked administrative data
+- Highly skilled in R, SAS, Stata, Bash, Perl, Python
 
-- Developing dashboards and applications for visualising and interacting with data
 
-- Highly skilled in R, SAS, Stata, Bash, Perl, Python, LaTeX
+Impact {#impact}
+--------------------------------------------------------------------------------
+```{r, echo = FALSE}
+l <- scholar::get_profile("Lo70aGIAAAAJ&")
+```
+total cites: `r l$total_cites`
+H-index: `r l$h_index`
+i10-index: `r l$i10_index`
+
+
 
 
 More info {#more-info}
@@ -98,7 +104,7 @@ NSW, Australia
 - Overseen increases in income by 20% per year
 - Increased cost recovery rate by 10% (absolute)
 - Expanded biostatistics,  data management, and bioinformatic teams
-- Chief Investigator on $3 million per year in competitive funding
+- Chief Investigator over $10 million in competitive funding
 - 13 direct reports and heavy workload of analysis and study design
 :::
 
@@ -144,18 +150,49 @@ Vic, Australia
 :::
 
 
-Selected Publications {data-icon=file}
+ Publications {data-icon=file}
 --------------------------------------------------------------------------------
+
+
 
 ```{r, echo=FALSE,warning=FALSE, comment=FALSE, message=FALSE}
 library(magrittr)
 library(dplyr)
 library(knitr)
 library(kableExtra)
-scholar::get_publications("Lo70aGIAAAAJ&hl&") %>% 
+library(ggplot2)
+t<- scholar::get_publications("Lo70aGIAAAAJ&hl&") %>% 
    distinct(title, .keep_all = TRUE) %>%
-  select(year,author,title, journal) %>%
-  arrange(desc(year)) %>%
-  kable()%>%
+  filter(year >= 2009 & journal != "Abstract book for the ISBNPA") 
+ t %>% select(year, author, title, journal, cites) %>%
+  arrange(desc(cites)) %>%
+  head(n=5) %>%
+   kable()%>%
   kable_styling(fixed_thead = T,font_size = 7)
+  
+
+
+```
+
+
+
+```{r, echo = FALSE}
+ggplot(t, aes(x= year)) +
+geom_bar() +
+geom_text(stat='count', aes(label=..count..), vjust=-1)
+
+
+```
+
+
+
+
+```{r, echo = FALSE}
+
+ct <- scholar::get_citation_history("Lo70aGIAAAAJ&hl&")
+
+## Plot citation trend
+ggplot(ct, aes(year, cites)) + geom_line() + geom_point()
+
+
 ```
