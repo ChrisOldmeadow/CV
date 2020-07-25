@@ -174,7 +174,7 @@ t<- scholar::get_publications("Lo70aGIAAAAJ&hl&") %>%
 
 ```
 
-Publications statisstics {data-icon=file}
+Publications statistics {data-icon=file}
 --------------------------------------------------------------------------------
 
 ```{r, fig.width=6, fig.height=3, echo = FALSE}

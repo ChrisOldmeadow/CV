@@ -68,7 +68,7 @@ l <-scholar:: get_profile(id)
 
 ```
 
-Dr Oldmeadow  has published over 200 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `{r l$h_index}` and an i10-index of `{r l$i10_index}`, with `{r l$total_cites} citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
+Dr Oldmeadow  has published over 250 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `{r l$h_index}` and an i10-index of `{r l$i10_index}`, with `{r l$total_cites} citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
 
 ```{r}
 scholar::get_publications(id) %>% 
