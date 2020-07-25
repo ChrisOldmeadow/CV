@@ -16,6 +16,7 @@ output: vitae::awesomecv
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
+library(here)
 ```
 
 # Biography
@@ -68,18 +69,18 @@ l <-scholar:: get_profile(id)
 
 ```
 
-Dr Oldmeadow  has published over 250 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `{r l$h_index}` and an i10-index of `{r l$i10_index}`, with `{r l$total_cites} citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
+Dr Oldmeadow  has published over 250 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `r l$h_index` and an i10-index of `r l$i10_index`, with `r l$total_cites` citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
 
 ```{r}
-scholar::get_publications(id) %>% 
-  distinct(title, .keep_all = TRUE) %>%
-  transmute(bibtype = "Article", author = as.character(author),
-            title = as.character(title),
-            journaltitle = as.character(journal), year, key = row_number()) %>% 
-  RefManageR::as.BibEntry() %>% 
-  RefManageR::WriteBib("oldmeadow.bib")
+#scholar::get_publications(id) %>% 
+  #distinct(title, .keep_all = TRUE) %>%
+#  transmute(bibtype = "Article", author = as.character(author),
+#            title = as.character(title),
+#            journaltitle = as.character(journal), year, key = row_number()) %>% 
+#  RefManageR::as.BibEntry() %>% 
+#  RefManageR::WriteBib("oldmeadow.bib")
 
-bibliography_entries("oldmeadow.bib")
+bibliography_entries(here("publications", "oldmeadow.bib"))
 ```
 
 
