@@ -2,9 +2,9 @@
 name: Chris
 surname: Oldmeadow
 position: "Director"
-address: "Data Science, Hunter Medical Research Institute"
+address: "Data Sciences, Hunter Medical Research Institute"
 phone: +1410329874
-www: ChrisOldmeadow.github.io
+www: www.chrisoldmeadow.xyz
 email: "christopher.oldmeadow@hmri.org.au"
 twitter: chrisoldmeadow
 github: ChrisOldmeadow
@@ -17,6 +17,8 @@ output: vitae::awesomecv
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
 library(here)
+library(tidyverse)
+library(kableExtra)
 ```
 
 # Biography
@@ -32,9 +34,8 @@ Dr Oldmeadow’s methodological expertise spans a broad range of experimental se
 library(tibble)
 tribble(
   ~ Degree, ~ Year, ~ Institution, ~ Where,
-  "Informal studies", "1889-91", "Flying University", "Warsaw, Poland",
-  "Master of Physics", "1893", "Sorbonne Université", "Paris, France",
-  "Master of Mathematics", "1894", "Sorbonne Université", "Paris, France"
+  "Bachelor of Mathematics (Hon)", "2004", "University of Newcastle", "NSW, Australia",
+  "PhD (Statistics)", "2009", "Queensland University of Technology", "QLD, Australia",
 ) %>% 
   detailed_entries(Degree, Year, Institution, Where)
 ```
@@ -42,34 +43,57 @@ tribble(
 
 # Employment History
 
-
-
+```{r}
+tribble(
+  ~ Start, ~ End, ~ Position, ~ Institute,
+  2008, 2009, "Post Doctoral Research Fellow", "Department of Statistics, Monash University",
+  2009, 2013, "Post Doctoral Research Fellow", "School of Medicine and Public Health, University of Newcastle",
+  2013, 2018, "Senior Statistician", "Hunter Medical Research Institute",
+  2018, NA, "Associate Director, Data Sciences", "Hunter Medical Research Institute"
+  ) %>% 
+  arrange(-Start) %>%
+  mutate(End = replace_na(End, "")) %>%
+  mutate(Years = if_else(End == Start,
+        as.character(Start),
+        paste(Start, "--", End, sep = ""),
+        paste(Start, "--", End, sep = ""))) %>%
+  select(Years, Position, Institute) %>%
+ kable(format = "latex", booktabs = T) %>%
+ kable_styling(latex_options = c("striped"))
+  
+```
 
 # Competitive funding
 
 ```{r}
-tribble(
-  ~Year, ~Type, ~Desc,
-  1903, "Physics", "Awarded for her work on radioactivity with Pierre Curie and Henri Becquerel",
-  1911, "Chemistry", "Awarded for the discovery of radium and polonium"
-) %>% 
-  brief_entries(
-    glue::glue("Nobel Prize in {Type}"),
-    Year, 
-    Desc
-  )
+dat <- read_csv(file = here("funding_oldmeadow.csv"))
+num_amt <- readr::parse_number(dat$Amount)
+tot <- sum(as.numeric(num_amt))
+```
+
+Dr Oldmeadow has been awarded over `r scales::dollar(tot)` in competitive funding as chief investigator.
+
+
+```{r}
+dat %>%
+    kable(format = "latex", longtable = TRUE, booktabs = T) %>%
+    kable_styling(latex_options = c("striped", "scale_down")) %>%
+    column_spec(2, width = "15em") %>%
+    column_spec(3, width = "20em")
+ #   collapse_rows(columns = 1)
+
 ```
 
 # Publications
 
 ```{r}
-id<-"Lo70aGIAAAAJ&hl&"
-l <-scholar:: get_profile(id)
+id <- "Lo70aGIAAAAJ&hl&"
+l <- scholar::get_profile(id)
 
 
 ```
 
-Dr Oldmeadow  has published over 250 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `r l$h_index` and an i10-index of `r l$i10_index`, with `r l$total_cites` citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
+Dr Oldmeadow  has published over 260 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `r l$h_index` and an i10-index of `r l$i10_index`, with `r l$total_cites` citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
 
 ```{r}
 #scholar::get_publications(id) %>% 
