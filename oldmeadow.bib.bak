@@ -180,7 +180,7 @@ CONCLUSION: Genetic susceptibility to AMD was higher in European compared to Chi
 	month = jun,
 	year = {2020},
 	pmid = {32511069},
-	keywords = {age-related macular degeneration, diet, Epidemiology, ethnic difference, factor analysis, genetic risk},
+	keywords = {age-related macular degeneration, diet, Epidemiology, ethnic difference, genetic risk, factor analysis},
 	pages = {1--10}
 }
 
@@ -239,7 +239,7 @@ CONCLUSION: Genetic susceptibility to AMD was higher in European compared to Chi
 	author = {Martin, J. and Keall, P. and Siva, S. and Greer, P. and Christie, D. and Moore, K. and Dowling, J. and Pryor, D. and Chong, P. and McLeod, N. and Raman, A. and Lynam, J. and Smart, J. and Oldmeadow, C. and Tang, C.I. and Murphy, D.G. and Millar, J. and Tai, K.H. and Holloway, L. and Reeves, P. and Hayden, A. and Lim, T. and Holt, T. and Sidhom, M.},
 	month = jan,
 	year = {2019},
-	keywords = {clinical trial, protocol, radiation oncology}
+	keywords = {protocol, clinical trial, radiation oncology}
 }
 
 @article{hobden_validity_2017,
@@ -343,7 +343,7 @@ Publisher: Elsevier},
 	author = {Sinclair, P.M. and Kable, A. and Levett-Jones, T. and Holder, C. and Oldmeadow, C.J.},
 	month = aug,
 	year = {2019},
-	keywords = {Nursing, randomised control trial},
+	keywords = {randomised control trial, Nursing},
 	pages = {2745--2759}
 }
 
@@ -433,7 +433,7 @@ Publisher: John Wiley \& Sons},
 	author = {Lai, J.S. and Hure, A.J. and Oldmeadow, C. and McEvoy, M. and Byles, J. and Attia, J.},
 	month = feb,
 	year = {2017},
-	keywords = {DAG, nutrition, regression modelling},
+	keywords = {nutrition, regression modelling, DAG},
 	pages = {273--281}
 }
 
@@ -582,7 +582,7 @@ Publisher: John Wiley \& Sons},
 	author = {Sharmin, S. and Kypri, K. and Wadolowski, M. and Bruno, R. and Khanam, M. and Aiken, A. and Hutchinson, D. and Najman, J.M. and Slade, T. and McBride, N. and Attia, J. and Palazzi, K. and Oldmeadow, C. and Mattick, R.P.},
 	month = aug,
 	year = {2019},
-	keywords = {alcohol drinking, Chort study, Interrupted time series},
+	keywords = {alcohol drinking, Interrupted time series, Chort study},
 	pages = {736--740}
 }
 
@@ -830,7 +830,7 @@ Publisher: Elsevier},
 	author = {Dowse, E. and Chan, S. and Ebert, L. and Wynne, O. and Thomas, S. and Jones, D. and Fealy, S. and Evans, T-J. and Oldmeadow, C.},
 	year = {2020},
 	note = {Publisher: Springer Nature Switzerland AG},
-	keywords = {administrative data, depression, Regression modelling}
+	keywords = {depression, administrative data, Regression modelling}
 }
 
 @article{saluja_impact_2020,
@@ -975,7 +975,7 @@ Publisher: Elsevier},
 	month = may,
 	year = {2019},
 	note = {Publisher: Elsevier BV},
-	keywords = {m-health, Physical activity, randomised control trial},
+	keywords = {Physical activity, m-health, randomised control trial},
 	pages = {503--514}
 }
 
@@ -1320,7 +1320,7 @@ Publisher: Federal University of Sao Carlos, Department of Physiotherapy},
 	author = {Bonevski, B. and Twyman, L. and Paul, C. and D'Este, C. and West, R. and Siahpush, M. and Oldmeadow, C. and Palazzi, K. and Bryant, J. and Guillaumier, A.},
 	month = jan,
 	year = {2015},
-	keywords = {regression modelling, smoking}
+	keywords = {smoking, regression modelling}
 }
 
 @article{holliday_common_2012,
@@ -2090,7 +2090,7 @@ Publisher: Frontiers Research Foundation},
 	author = {Bar-Zeev, Y. and Bovill, M. and Bonevski, B. and Gruppetta, M. and Oldmeadow, C. and Palazzi, K. and Atkins, L. and Reath, J. and Gould, G.S.},
 	month = jun,
 	year = {2019},
-	keywords = {smoking cessation, stepped-wedge trial}
+	keywords = {stepped-wedge trial, smoking cessation}
 }
 
 @article{searle_calf_2019,
@@ -2289,7 +2289,7 @@ Publisher: Frontiers Research Foundation},
 	author = {Kelly, P. and Deane, F. and Byrne, G. and Degan, T. and Osborne, B. and Townsend, C. and McKay, J. and Robinson, L. and Oldmeadow, C. and Lawson, K. and Searles, A. and Lunn, J.},
 	month = jan,
 	year = {2020},
-	keywords = {Protocol, randomised control trial}
+	keywords = {randomised control trial, Protocol}
 }
 
 @article{troy_diagnostic_2020,
@@ -2346,7 +2346,7 @@ Publisher: Frontiers Research Foundation},
 	author = {Joseph, D. and Denham, J.W. and Steigler, A. and Lamb, D.S. and Spry, N.A. and Stanley, J. and Shannon, T. and Duchesne, G. and Atkinson, C. and Matthews, J.H.L. and Turner, S. and Kenny, L. and Christie, D. and Tai, K.H. and Gogna, N.K. and Kearvell, R. and Murray, J. and Ebert, M.A. and Haworth, A. and Delahunt, B. and Oldmeadow, C. and Attia, J.},
 	month = mar,
 	year = {2020},
-	keywords = {Clincial Trial, Prostate cancer, randomised control trial},
+	keywords = {Prostate cancer, randomised control trial, Clincial Trial},
 	pages = {693--702}
 }
 
@@ -2360,7 +2360,7 @@ Publisher: Frontiers Research Foundation},
 	author = {Delahunt, B. and Murray, J.D. and Steigler, A. and Atkinson, C. and Christie, D. and Duchesne, G. and Egevad, L. and Joseph, D. and Matthews, J. and Oldmeadow, C. and Samaratunga, H. and Spry, N.A. and Srigley, J.R. and Hondermarck, H. and Denham, J.W.},
 	month = apr,
 	year = {2020},
-	keywords = {prediction models, prostate cancer}
+	keywords = {prostate cancer, prediction models}
 }
 
 @article{jackson_better_2020,
@@ -2419,7 +2419,7 @@ Publisher: Frontiers Research Foundation},
 	author = {Ranasinghe, W.K.B. and Attia, J. and Oldmeadow, C. and Lawrentschuk, N. and Robertson, J. and Ranasinghe, T. and Bolton, D. and Persad, R.},
 	year = {2013},
 	note = {Publisher: Wiley},
-	keywords = {administrative data, bladder carcinoma carcinoma in situ Australia, linked data, registry data},
+	keywords = {linked data, administrative data, bladder carcinoma carcinoma in situ Australia, registry data},
 	pages = {46--52}
 }
 
@@ -2462,7 +2462,7 @@ Publisher: BioMed Central},
 	author = {Guillaumier, A. and McCrabb, S. and Spratt, N.J. and Pollack, M. and Baker, A.L. and Magin, P. and Turner, A. and Oldmeadow, C. and Collins, C. and Callister, R. and Levi, C. and Searles, A. and Deeming, S. and Wynne, O. and Denham, A.M.J. and Clancy, B. and Bonevski, B.},
 	month = aug,
 	year = {2019},
-	keywords = {randomised control trial, Stroke, web interventions}
+	keywords = {Stroke, web interventions, randomised control trial}
 }
 
 @article{holliday_examination_2013,
@@ -2551,7 +2551,7 @@ Publisher: BioMed Central},
 	author = {Sutherland, R. and Campbell, E. and Nathan, N. and Wolfenden, L. and Lubans, D.R. and Morgan, P.J. and Gillham, K. and Oldmeadow, C. and Searles, A. and Reeves, P. and Williams, M. and Evans, N. and Bailey, A. and Morrison, R. and McLaughlin, M. and Wiggers, J.},
 	month = jul,
 	year = {2019},
-	keywords = {cluster randomised control trial, physical activity, protocol}
+	keywords = {protocol, cluster randomised control trial, physical activity}
 }
 
 @article{hutchesson_targeted_2018,
@@ -2567,30 +2567,6 @@ Publisher: BioMed Central},
 	note = {Publisher: Healthcare},
 	keywords = {RCT, weight loss},
 	pages = {1--19}
-}
-
-@article{hasnain_thrombolysis_2020,
-	title = {Thrombolysis implementation intervention and clinical outcome: a secondary analysis of a cluster randomized trial},
-	volume = {20},
-	issn = {1471-2261},
-	shorttitle = {Thrombolysis implementation intervention and clinical outcome},
-	doi = {10.1186/s12872-020-01705-9},
-	abstract = {BACKGROUND: Multiple studies have attempted to increase the rate of intravenous thrombolysis for ischemic stroke using interventions to promote adherence to guidelines. Still, many of them did not measure individual-level impact. This study aimed to make a posthoc comparison of the clinical outcomes of patients in the "Thrombolysis ImPlementation in Stroke (TIPS)" study, which aimed to improve rates of intravenous thrombolysis in Australia.
-METHODS: A posthoc analysis was conducted using individual-level patient data. Excellent (Three-month post treatment modified Rankin Score 0-2) and poor clinical outcome (Three-month post treatment modified Rankin Score 5-6) and post treatment parenchymal haematoma were the three main outcomes, and a mixed logistic regression model was used to assess the difference between the intervention and control groups.
-RESULTS: There was a non-significant higher odds of having an excellent clinical outcome of 57\% (odds ratio: 1.57; 95\% CI: 0.73-3.39) and 33\% (odds ratio: 1.33; 95\% CI: 0.73-2.44) during the active-and post-intervention period respectively, for the intervention compared to the control group. A non-significant lower odds of having a poor clinical outcome was also found in the intervention, relative to control group of 4\% (odds ratio: 0.96; 95\% CI: 0.56-2.07) and higher odds of having poor outcome of 44\% (odds ratio: 1.44 95\% CI: 0.61-3.41) during both active and post-intervention period respectively. Similarly, a non-significant lower odds of parenchymal haematoma was also found for the intervention group during the both active- (odds ratio: 0.53; 95\% CI: 0.21-1.32) and post-intervention period (odds ratio: 0.96; 95\% CI: 0.36-2.52).
-CONCLUSION: The TIPS multi-component implementation approach was not effective in reducing the odds of post-treatment severe disability at 90 days, or post-thrombolysis hemorrhage.
-TRIAL REGISTRATION: Clinical Trial Registration-URL: http://www.anzctr.org.au/ Unique Identifier: ACTRN12613000939796 .},
-	language = {eng},
-	number = {1},
-	journal = {BMC cardiovascular disorders},
-	author = {Hasnain, Md Golam and Paul, Christine L. and Attia, John R. and Ryan, Annika and Kerr, Erin and Oldmeadow, Christopher and D'Este, Catherine A. and Bivard, Andrew and Hubbard, Isobel J. and Milton, Abul Hasnat and Levi, Christopher R.},
-	month = oct,
-	year = {2020},
-	pmid = {33023494},
-	pmcid = {PMC7542125},
-	keywords = {cluster randomised control trial, Implementation intervention, Ischemic stroke},
-	pages = {432},
-	file = {Full Text:/home/chris/Zotero/storage/4TB8NGVT/Hasnain et al. - 2020 - Thrombolysis implementation intervention and clini.pdf:application/pdf}
 }
 
 @article{lim_systematic_2017,
@@ -2789,7 +2765,7 @@ Publisher: American Association for the Advancement of Science},
 	month = oct,
 	year = {2013},
 	note = {Publisher: Wiley-Blackwell},
-	keywords = {DAG, Geriatrics \& Gerontology},
+	keywords = {Geriatrics \& Gerontology, DAG},
 	pages = {1838--1839}
 }
 
@@ -2918,7 +2894,7 @@ Publisher: John WIley \& Sons},
 	author = {Denham, J.W. and Joseph, D. and Lamb, D.S. and Spry, N.A. and Duchesne, G. and Matthews, J. and Atkinson, C. and Tai, K.H. and Christie, D. and Kenny, L.},
 	month = jan,
 	year = {2014},
-	keywords = {clincial trial, factorial trial, Prostate cancer},
+	keywords = {Prostate cancer, factorial trial, clincial trial},
 	pages = {1076--1089}
 }
 
@@ -3052,7 +3028,7 @@ Publisher: Taylor \& Francis},
 	year = {2015},
 	note = {Place: Shannon, Clare Ireland
 Publisher: Elsevier Ireland Ltd},
-	keywords = {Androgen suppression, Clinical Trial, Dose escalation, High dose rate brachytherapy boost, Prostate cancer, randomised control trial},
+	keywords = {Prostate cancer, Androgen suppression, Dose escalation, High dose rate brachytherapy boost, Clinical Trial, randomised control trial},
 	pages = {301--307}
 }
 
@@ -3083,7 +3059,7 @@ Publisher: Elsevier Ireland Ltd},
 	year = {2015},
 	note = {Place: England
 Publisher: Biomed Central},
-	keywords = {Alcohol Drinking, stepped-wedge trial},
+	keywords = {stepped-wedge trial, Alcohol Drinking},
 	pages = {465--465}
 }
 
@@ -3147,7 +3123,7 @@ Conclusions: In Bangladesh, more than one-quarter of women who report an uninten
 	author = {Noble, N. and Paul, C. and Turon, H. and Oldmeadow, C.},
 	month = dec,
 	year = {2015},
-	keywords = {clustering, SNAP, systematic review},
+	keywords = {systematic review, clustering, SNAP},
 	pages = {16--41}
 }
 
@@ -3681,7 +3657,7 @@ IMPACT: The findings may be useful to guide education and policy initiatives in 
 	month = sep,
 	year = {2020},
 	pmid = {32888206},
-	keywords = {acute care, cross-sectional studies, end-of-life care, Latent Class Analysis}
+	keywords = {Latent Class Analysis, acute care, cross-sectional studies, end-of-life care}
 }
 
 @article{clover_reduced_2017,
@@ -3751,7 +3727,7 @@ Publisher: Wiley},
 	author = {Davies, A.J. and Naudin, C. and Al-Omary, M. and Khan, A. and Oldmeadow, C. and Jones, M. and Bastian, B. and Bhagwandeen, R. and Fletcher, P. and Leitch, J. and Boyle, A.},
 	month = may,
 	year = {2017},
-	keywords = {CArdiology, Interrupted time series},
+	keywords = {Interrupted time series, CArdiology},
 	pages = {557--562}
 }
 
@@ -3782,7 +3758,7 @@ Publisher: Wiley},
 	month = feb,
 	year = {2017},
 	note = {Publisher: Public Library of Science},
-	keywords = {Causal modelling, DAGs, regressoin modelling}
+	keywords = {DAGs, Causal modelling, regressoin modelling}
 }
 
 @article{warren_genome-wide_2017-1,
@@ -3911,4 +3887,288 @@ CONCLUSION: Higher pain is associated with less HN peak and total rotation durin
 	year = {2020},
 	pmid = {32859398},
 	keywords = {Neck Pain, Pilot study}
+}
+
+@article{blair_nurses_2021,
+	title = {Nurses' perspectives of recognising and responding to unsafe practice by their peers: a national cross-sectional survey},
+	issn = {1365-2702},
+	shorttitle = {Nurses' perspectives of recognising and responding to unsafe practice by their peers},
+	doi = {10.1111/jocn.15670},
+	abstract = {AIMS: This study aimed to identify behaviours and cues that nurses recognise as indications of unsafe practice, perceived factors that contribute to unsafe practice and actions nurses take in response.
+DESIGN: Cross-sectional survey.
+METHODS: National cross-sectional survey of a random sample of Registered Nurses (n = 231) in New Zealand, in 2017-2018. The STROBE Checklist was used to report this study.
+RESULTS: Nurses reported a high rate of episodes of unsafe practices and recognised a range of behaviours and cues that alerted them to the potential for unsafe practice. Several organizational issues were perceived to contribute to unsafe practice occurring. The reporting of episodes of unsafe practice and perceived organisational support was low for nurses compared to managers.
+CONCLUSION: Failure to recognise and respond to unsafe practice may indicate a tolerance for substandard practice by individual nurses, or by the organisation. Nurses who recognise unsafe practice must be supported by the organisation.
+IMPACT: What problem did the study address? This study measured practicing nurses' recognition of, and response to unsafe practice by their peers. What are the main findings? Sixty-six percent of participants reported working with a colleague they felt was practicing unsafely. High workloads, poor teamwork, poor skill mix, and poor organisational culture were identified as contributing to unsafe practice. The reporting rate of unsafe practice was low. Where and on whom will the research have an impact. Creating awareness of the prevalence of unsafe practice informs the profession about the magnitude of the problem and associated issues. Study results can be used by regulatory authorities and health care organisations to develop policies about recognising and responding to unsafe practice. Organisational responses should be non-punitive and should include an investigation and action to prevent further occurrences.},
+	language = {eng},
+	journal = {Journal of Clinical Nursing},
+	author = {Blair, Wendy and Kable, Ashley and Palazzi, Kerrin and Courtney-Pratt, Helen and Doran, Evan and Oldmeadow, Christopher},
+	month = jan,
+	year = {2021},
+	pmid = {33484009},
+	keywords = {behaviours, cues, intervening, Nurses, recognition, reporting, unsafe practice}
+}
+
+@article{wark_ace2_2021,
+	title = {{ACE2} expression is elevated in airway epithelial cells from older and male healthy individuals but reduced in asthma},
+	issn = {1440-1843},
+	doi = {10.1111/resp.14003},
+	abstract = {BACKGROUND AND OBJECTIVE: COVID-19 is complicated by acute lung injury, and death in some individuals. It is caused by SARS-CoV-2 that requires the ACE2 receptor and serine proteases to enter AEC. We determined what factors are associated with ACE2 expression particularly in patients with asthma and COPD.
+METHODS: We obtained lower AEC from 145 people from two independent cohorts, aged 2-89 years, Newcastle (n = 115) and Perth (n = 30), Australia. The Newcastle cohort was enriched with people with asthma (n = 37) and COPD (n = 38). Gene expression for ACE2 and other genes potentially associated with SARS-CoV-2 cell entry was assessed by qPCR, and protein expression was confirmed with immunohistochemistry on endobronchial biopsies and cultured AEC.
+RESULTS: Increased gene expression of ACE2 was associated with older age (P = 0.03) and male sex (P = 0.03), but not with pack-years smoked. When we compared gene expression between adults with asthma, COPD and healthy controls, mean ACE2 expression was lower in asthma patients (P = 0.01). Gene expression of furin, a protease that facilitates viral endocytosis, was also lower in patients with asthma (P = 0.02), while ADAM-17, a disintegrin that cleaves ACE2 from the surface, was increased (P = 0.02). ACE2 protein expression was also reduced in endobronchial biopsies from asthma patients.
+CONCLUSION: Increased ACE2 expression occurs in older people and males. Asthma patients have reduced expression. Altered ACE2 expression in the lower airway may be an important factor in virus tropism and may in part explain susceptibility factors and why asthma patients are not over-represented in those with COVID-19 complications.},
+	language = {eng},
+	journal = {Respirology (Carlton, Vic.)},
+	author = {Wark, Peter A. B. and Pathinayake, Prabuddha S. and Kaiko, Gerard and Nichol, Kristy and Ali, Ayesha and Chen, Ling and Sutanto, Erika N. and Garratt, Luke W. and Sohal, Sukhwinder S. and Lu, Wenying and Eapen, Mathew S. and Oldmeadow, Christopher and Bartlett, Nathan and Reid, Andrew and Veerati, Punnam and Hsu, Alan C.-Y. and Looi, Kevin and Iosifidis, Thomas and Stick, Stephen M. and Hansbro, Philip M. and Kicic, Anthony},
+	month = jan,
+	year = {2021},
+	pmid = {33455043},
+	keywords = {bronchial asthma, chronic obstructive pulmonary disease, coronavirus disease, COVID-19, pandemic, SARS-CoV-2, viral infections}
+}
+
+@article{jayakody_frequent_2020,
+	title = {Frequent avoidable admissions amongst {Aboriginal} and non-{Aboriginal} people with chronic conditions in {New} {South} {Wales}, {Australia}: a historical cohort study},
+	volume = {20},
+	issn = {1472-6963},
+	shorttitle = {Frequent avoidable admissions amongst {Aboriginal} and non-{Aboriginal} people with chronic conditions in {New} {South} {Wales}, {Australia}},
+	doi = {10.1186/s12913-020-05950-8},
+	abstract = {BACKGROUND: Aboriginal and Torres Strait Islander people have high rates of avoidable hospital admissions for chronic conditions, however little is known about the frequency of avoidable admissions for this population. This study examined trends in avoidable admissions among Aboriginal and non-Aboriginal people with chronic conditions in New South Wales (NSW), Australia.
+METHODS: A historical cohort analysis using de-identified linked administrative data of Aboriginal patients and an equal number of randomly sampled non-Aboriginal patients between 2005/06 to 2013/14. Eligible patients were admitted to a NSW public hospital and who had one or more of the following ambulatory care sensitive chronic conditions as a principal diagnosis: diabetic complications, asthma, angina, hypertension, congestive heart failure and/or chronic obstructive pulmonary disease. The primary outcomes were the number of avoidable admissions for an individual in each financial year, and whether an individual had three or more admissions compared with one to two avoidable admissions in each financial year. Poisson and logistic regression models and a test for differences in yearly trends were used to assess the frequency of avoidable admissions over time, adjusting for sociodemographic variables and restricted to those aged ≤75 years.
+RESULTS: Once eligibility criteria had been applied, there were 27,467 avoidable admissions corresponding to 19,025 patients between 2005/06 to 2013/14 (71.2\% Aboriginal; 28.8\% non-Aboriginal). Aboriginal patients were 15\% more likely than non-Aboriginal patients to have a higher number of avoidable admissions per financial year (IRR = 1.15; 95\% CI: 1.11, 1.20). Aboriginal patients were almost twice as likely as non-Aboriginal patients to experience three or more avoidable admissions per financial year (OR = 1.90; 95\% CI = 1.60, 2.26). There were no significant differences between Aboriginal and non-Aboriginal people in yearly trends for either the number of avoidable admissions, or whether or not an individual experienced three or more avoidable admissions per financial year (p = 0.859; 0.860 respectively).
+CONCLUSION: Aboriginal people were significantly more likely to experience frequent avoidable admissions over a nine-year period compared to non-Aboriginal people. These high rates reflect the need for further research into which interventions are able to successfully reduce avoidable admissions among Aboriginal people, and the importance of culturally appropriate community health care.},
+	language = {eng},
+	number = {1},
+	journal = {BMC health services research},
+	author = {Jayakody, Amanda and Oldmeadow, Christopher and Carey, Mariko and Bryant, Jamie and Evans, Tiffany and Ella, Stephen and Attia, John and Towle, Simon and Sanson-Fisher, Robert},
+	month = nov,
+	year = {2020},
+	pmid = {33238996},
+	pmcid = {PMC7690010},
+	keywords = {Aboriginal health, Chronic disease, Data linkage, Frequent admissions, Health services research},
+	pages = {1082},
+	file = {Full Text:/home/chris/Zotero/storage/JNRKFWMW/Jayakody et al. - 2020 - Frequent avoidable admissions amongst Aboriginal a.pdf:application/pdf}
+}
+
+@article{jensen_longitudinal_2020,
+	title = {Longitudinal {Analysis} of {Lung} {Function} in {Pregnant} {Women} with and without {Asthma}},
+	issn = {2213-2201},
+	doi = {10.1016/j.jaip.2020.10.061},
+	abstract = {BACKGROUND: Spirometry is commonly used to assess and monitor lung function. It may also be a useful tool to monitor maternal health during pregnancy. However, large studies examining lung function across gestation are limited. Also, whether spirometry values follow the same pattern during pregnancy in women with and without asthma is unknown.
+OBJECTIVE: To investigate the effect of advancing gestation, and its interaction with asthma, on lung function in a large well-defined cohort of pregnant women.
+METHODS: Data were obtained from prospective cohorts involving women with (n = 770) and without (n = 259) asthma (2004-2017), recruited between 12 and 22 weeks' gestation. Lung function (forced vital capacity [FVC], FEV1, FEV1:FVC\%) was assessed periodically during pregnancy using spirometry. Multilevel mixed-effect regression models were used to assess changes in lung function over gestation.
+RESULTS: Asthma had a significant effect on baseline lung function (FEV1\%, -9\%; FVC\%, -3\%; FEV1:FVC\%, -4\%). FVC\% decreased with advancing gestation (-0.07\%/wk; 95\% CI, -0.10 to -0.04]), as did FEV1\%, but only among those without asthma (women without asthma: -0.14\%/wk, 95\% CI, -0.22 to -0.06\%; compared with women with asthma: 0.02\%/wk, 95\% CI, -0.01 to 0.06). FEV1:FVC\% remained relatively stable for women without asthma (0.03\%/wk; 95\% CI, -0.08 to 0.02), but increased for women with asthma (0.06\%/wk; 95\% CI, 0.04 to 0.16).
+CONCLUSIONS: Data suggest that advancing gestation negatively affects FVC\% and FEV1\%. This is consistent with extrapulmonary restriction from advancing pregnancy. Yet, the presence of asthma altered the trajectories of FEV1\% and FEV1:FVC\%. Optimal asthma management during pregnancy might have opposed the negative effects of gestation on lung function.},
+	language = {eng},
+	journal = {The Journal of Allergy and Clinical Immunology. In Practice},
+	author = {Jensen, Megan E. and Robijn, Annelies L. and Gibson, Peter G. and Oldmeadow, Christopher and {Managing Asthma in Pregnancy study collaborative group} and {Breathing for Life Trial collaborative group} and Murphy, Vanessa E.},
+	month = nov,
+	year = {2020},
+	pmid = {33197643},
+	keywords = {Asthma, Pregnancy, Gestation, Pulmonary function tests, Spirometry}
+}
+
+@article{kable_evaluation_2020,
+	title = {Evaluation of a safe medication strategy intervention for people with dementia with an unplanned admission: {Results} from the {Safe} {Medication} {Strategy} {Dementia} {Study}},
+	issn = {1741-6612},
+	shorttitle = {Evaluation of a safe medication strategy intervention for people with dementia with an unplanned admission},
+	doi = {10.1111/ajag.12877},
+	abstract = {OBJECTIVE: To evaluate whether a safe medication strategy compared with usual care, provided to people with dementia during an unplanned admission, reduces readmissions to hospital and re-presentation to emergency departments within three months.
+METHODS: A prospective, controlled pre-/post-trial conducted at two regional hospitals in New South Wales, Australia.
+RESULTS: No treatment effect was seen for time to first re-presentation or readmission within three months (P = .3). Compliance with six strategies applicable for all participants in the intervention phase was 58\%. There was no treatment effect for secondary outcomes including dose administration aid use, home medicines review (HMR) requests by general practitioners and completed HMRs; however, they were significantly higher at the intervention site in both phases.
+CONCLUSION: A bundle of care to improve medication safety in people with dementia did not reduce re-presentations or readmissions within three months.},
+	language = {eng},
+	journal = {Australasian Journal on Ageing},
+	author = {Kable, Ashley and Hullick, Carolyn and Palazzi, Kerrin and Oldmeadow, Christopher and Searles, Andrew and Ling, Rod and Pond, Dimity and Fullerton, Anne and Fraser, Samantha and Bruce, Remia and Murdoch, Wendy and Attia, John},
+	month = nov,
+	year = {2020},
+	pmid = {33166034},
+	keywords = {dementia, hospitals, medication reconciliation, patient safety}
+}
+
+@article{vandelanotte_are_2020,
+	title = {Are web-based personally tailored physical activity videos more effective than personally tailored text-based interventions? {Results} from the three-arm randomised controlled {TaylorActive} trial},
+	issn = {1473-0480},
+	shorttitle = {Are web-based personally tailored physical activity videos more effective than personally tailored text-based interventions?},
+	doi = {10.1136/bjsports-2020-102521},
+	abstract = {OBJECTIVES: Some online, personally tailored, text-based physical activity interventions have proven effective. However, people tend to 'skim' and 'scan' web-based text rather than thoroughly read their contents. In contrast, online videos are more engaging and popular. We examined whether web-based personally tailored physical activity videos were more effective in promoting physical activity than personally tailored text and generic information.
+METHODS: 501 adults were randomised into a video-tailored intervention, text-tailored intervention or control. Over a 3-month period, intervention groups received access to eight sessions of web-based personally tailored physical activity advice. Only the delivery method differed between intervention groups: tailored video versus tailored text. The primary outcome was 7-day ActiGraph-GT3X+ measured moderate-to-vigorous physical activity (MVPA) assessed at 0, 3 and 9 months. Secondary outcomes included self-reported MVPA and website engagement. Differences were examined using generalised linear mixed models with intention-to-treat and multiple imputation.
+RESULTS: Accelerometer-assessed MVPA increased 23\% in the control (1.23 (1.06, 1.43)), 12\% in the text-tailored (1.12 (0.95, 1.32)) and 28\% in the video-tailored (1.28 (1.06, 1.53)) groups at the 3-month follow-up only, though there were no significant between-group differences. Both text-tailored (1.77 (1.37, 2.28]) and video-tailored (1.37 (1.04, 1.79)) groups significantly increased self-reported MVPA more than the control group at 3 months only, but there were no differences between video-tailored and text-tailored groups. The video-tailored group spent significantly more time on the website compared with text-tailored participants (90 vs 77 min, p=0.02).
+CONCLUSIONS: The personally tailored videos were not more effective than personally tailored text in increasing MVPA. The findings from this study conflict with pilot study outcomes and previous literature. Process evaluation and mediation analyses will provide further insights.
+TRIAL REGISTRATION NUMBER: ACTRN12615000057583.},
+	language = {eng},
+	journal = {British Journal of Sports Medicine},
+	author = {Vandelanotte, Corneel and Short, Camille E. and Plotnikoff, Ronald C. and Rebar, Amanda and Alley, Stephanie and Schoeppe, Stephanie and Canoy, Doreen F. and Hooker, Cindy and Power, Deborah and Oldmeadow, Christopher and Leigh, Lucy and To, Quyen and Mummery, W. Kerry and Duncan, Mitch J.},
+	month = nov,
+	year = {2020},
+	pmid = {33144346},
+	keywords = {physical activity, accelerometer, behaviour, intervention efficacy, randomised controlled trial}
+}
+
+@article{griffin_neurotrophic_2020,
+	title = {The neurotrophic tyrosine kinase receptor 1 ({TrkA}) is overexpressed in oesophageal squamous cell carcinoma},
+	issn = {1465-3931},
+	doi = {10.1016/j.pathol.2020.08.009},
+	abstract = {Nerve growth factor (NGF) and its receptors, the neurotrophic receptor tyrosine kinase 1 (NTRK1/TrkA) and the common neurotrophin receptor (NGFR/p75NTR), are increasingly implicated in cancer progression, but their clinicopathological significance in oesophageal cancer is unclear. In this study, the expression of NGF, NTRK1 and NGFR were analysed by immunohistochemistry in a cohort of 303 oesophageal cancers versus 137 normal adjacent oesophageal tissues. Immunostaining was digitally quantified and compared to clinicopathological parameters. NGF and NGFR staining were found in epithelial cells and at similar levels between oesophageal cancers and normal oesophageal tissue. NGFR staining was slightly increased with grade (p=0.0389). Interestingly, NTRK1 staining was markedly higher in oesophageal squamous cell carcinoma (OR 2.31, 95\%CI 1.13-4.38, p{\textless}0.0001) and significantly lower in adenocarcinoma (OR 0.50, 95\%CI 0.44-0.63, p{\textless}0.0001) compared to normal oesophageal tissue. In addition, NTRK1 staining was decreased in grade 2 and grade 3 (OR 0.51, 95\%CI 0.21-1.40, p{\textless}0.0001) compared to grade 1, suggesting a preferential involvement of this receptor in the more differentiated forms of oesophageal carcinomas. Together, these data point to NTRK1 as a biomarker and a candidate therapeutic target in oesophageal squamous cell carcinoma.},
+	language = {eng},
+	journal = {Pathology},
+	author = {Griffin, Nathan and Gao, Fangfang and Jobling, Phillip and Oldmeadow, Christopher and Wills, Vanessa and Walker, Marjorie M. and Faulkner, Sam and Hondermarck, Hubert},
+	month = oct,
+	year = {2020},
+	pmid = {33143904},
+	keywords = {NGF, NGF receptors, NGFR/p75(NTR), NTRK1/TrkA, Oesophageal cancer}
+}
+
+@article{hullick_reducing_2021,
+	title = {Reducing {Hospital} {Transfers} from {Aged} {Care} {Facilities}: {A} {Large}-{Scale} {Stepped} {Wedge} {Evaluation}},
+	volume = {69},
+	issn = {1532-5415},
+	shorttitle = {Reducing {Hospital} {Transfers} from {Aged} {Care} {Facilities}},
+	doi = {10.1111/jgs.16890},
+	abstract = {BACKGROUND/OBJECTIVES: Older people living in residential aged care facilities (RACFs) experience acute deterioration requiring assessment and decision making. We evaluated the impact of a large-scale regional Aged Care Emergency (ACE) program in reducing hospital admissions and emergency department (ED) transfers.
+DESIGN: A stepped wedge nonrandomized cluster trial with 11 steps, implemented from May 2013 to August 2016.
+SETTING: A large regional and rural area of northern and western New South Wales, Australia.
+PARTICIPANTS: Nine hospital EDs and 81 RACFs participated in the evaluation.
+INTERVENTION: The ACE program is an integrated nurse-led intervention underpinned by a community of practice designed to improve the capability of RACFs managing acutely unwell residents. It includes telephone support, evidence-based algorithms, defining goals of care for ED transfer, case management in the ED, and an education program.
+MEASUREMENTS: ED transfers and subsequent hospital admissions were collected from administrative data including 13 months baseline and 9 months follow-up.
+RESULTS: A total of 18,837 eligible ED visits were analyzed. After accounting for clustering by RACFs and adjusting for time of the year as well as RACF characteristics, a statistically significant reduction in hospital admissions (adjusted incident rate ratio = .79; 95\% confidence interval [CI] = .68-.92); P = .0025) was seen (i.e., residents were 21\% less likely to be admitted to the hospital). This was also observed in ED visit rates (adjusted incidence rate ratio = .80; 95\% CI = .69-.92; P = .0023) (i.e., residents were 20\% less likely to be transferred to the ED). Seven-day ED re-presentation fell from 5.7\% to 4.9\%, and 30-day hospital readmissions fell from 12\% to 10\%.
+CONCLUSION: The stepped wedge design allowed rigorous evaluation of a real-world large-scale intervention. These results confirm that the ACE program can be scaled up to a large geographic area and can reduce ED visits and hospitalization of older people with complex healthcare needs living in RACFs.},
+	language = {eng},
+	number = {1},
+	journal = {Journal of the American Geriatrics Society},
+	author = {Hullick, Carolyn J. and Hall, Alix E. and Conway, Jane F. and Hewitt, Jacqueline M. and Darcy, Leigh F. and Barker, Roslyn T. and Oldmeadow, Christopher and Attia, John R.},
+	month = jan,
+	year = {2021},
+	pmid = {33124692},
+	keywords = {avoidable hospitalization, geriatric emergency medicine, long-term care, model of care, stepped wedge design},
+	pages = {201--209}
+}
+
+@article{gould_supports_2020,
+	title = {Supports {Used} by {Aboriginal} and {Torres} {Strait} {Islander} {Women} for {Their} {Health}, including {Smoking} {Cessation}, and a {Baby}'s {Health}: {A} {Cross}-{Sectional} {Survey} in {New} {South} {Wales}, {Australia}},
+	volume = {17},
+	issn = {1660-4601},
+	shorttitle = {Supports {Used} by {Aboriginal} and {Torres} {Strait} {Islander} {Women} for {Their} {Health}, including {Smoking} {Cessation}, and a {Baby}'s {Health}},
+	doi = {10.3390/ijerph17217766},
+	abstract = {This study explored Aboriginal and Torres Strait Islander women's use of supports for their general health, for smoking cessation, and the health of babies or children, and analyzed the women's predictors for seeking types of support. Aboriginal and Torres Strait Islander women were recruited for a cross-sectional survey in two regions of NSW N = 132. The 19-item survey questioned the likelihood that the participant would use the various supports for their health, to quit smoking, and for a baby or child's health. Logistic regression analyses were performed on N = 98 with complete data. Older participants were less likely to use Facebook or the internet for their health, or the health of a child, but were more likely to consult with health professionals. Women who had quit smoking were less likely to use an app for their health compared to smokers. Women who had a child living in their household were less likely to use the internet for a child's health. This community-based study revealed age-related differences for access to health services and differences according to smoking status. Patterns of internet and app use warrant further consideration when planning strategies to improve Aboriginal and Torres Strait Islander women and children's health.},
+	language = {eng},
+	number = {21},
+	journal = {International Journal of Environmental Research and Public Health},
+	author = {Gould, Gillian S. and Holder, Carl and Oldmeadow, Christopher and Gruppetta, Maree},
+	month = oct,
+	year = {2020},
+	pmid = {33114142},
+	pmcid = {PMC7660307},
+	keywords = {Smoking Cessation, smoking cessation, Aboriginal women, Adolescent, Adult, Australia, Child, child health, Cross-Sectional Studies, Female, health services, Humans, Infant, maternal health, Middle Aged, New South Wales, Oceanic Ancestry Group, online support, Patient Acceptance of Health Care, pregnancy, prenatal health, Social Support, Torres Strait Islander women, Young Adult},
+	file = {Full Text:/home/chris/Zotero/storage/IVRJKBGT/Gould et al. - 2020 - Supports Used by Aboriginal and Torres Strait Isla.pdf:application/pdf}
+}
+
+@article{forbes_non-pharmacological_2020,
+	title = {Non-pharmacological approaches to procedural anxiety reduction for patients undergoing radiotherapy for cancer: systematic review protocol},
+	volume = {10},
+	issn = {2044-6055},
+	shorttitle = {Non-pharmacological approaches to procedural anxiety reduction for patients undergoing radiotherapy for cancer},
+	doi = {10.1136/bmjopen-2019-035155},
+	abstract = {INTRODUCTION: Procedural anxiety relates to an affective state of anxiety or fear in relation to a medical procedure. Various treatment-related factors may elicit anxiety among oncology patients, including fear of diagnostic imaging (such as MRI scans) and impending treatment and medical procedures (such as chemotherapy and radiotherapy). It is common in oncology settings to manage acute anxiety relating to medical procedures with anxiolytic medication. However, pharmacological approaches are not suitable for many patients. Despite this, non-pharmacological interventions are infrequently used. The aim of this systematic review is to determine whether non-pharmacological interventions delivered prior to, or during, radiotherapy are effective in reducing procedural anxiety.
+METHODS AND ANALYSIS: Data sources will include the bibliographic databases CINAHL, MEDLINE, EMBASE, PsycINFO and Cochrane Central Register of Controlled trials (CENTRAL) (from inception onward). Eligible studies will include adult patients with cancer undergoing radiotherapy treatment. Included studies will be those which employ a non-pharmacological intervention, delivered within existing radiotherapy appointments, with the aim of reducing procedural anxiety related to radiotherapy. All research designs with a control or other comparison group will be included. The primary outcome will be change in levels of self-reported procedural anxiety. Secondary outcomes will be changes in scores on physiological measures of anxiety and/or changes in treatment completion and/or changes in treatment duration and/or changes in psychological distress. Two investigators will independently complete title and abstract screening, full-text screening, data extraction and assessment of methodological quality. If appropriate, a meta-analyses will be performed. Any important amendments to this protocol will be updated in the PROSPERO registration and documented in the resulting review publication.
+ETHICS AND DISSEMINATION: No ethical issues are anticipated from this review. The findings will be disseminated through peer-reviewed publication and at conferences by presentation.
+SYSTEMATIC REVIEW REGISTRATION: CRD42019112941.},
+	language = {eng},
+	number = {10},
+	journal = {BMJ open},
+	author = {Forbes, Erin and Baker, Amanda L. and Britton, Ben and Clover, Kerrie and Skelton, Eliza and Oultram, Sharon and Oldmeadow, Christopher and McCarter, Kristen},
+	month = oct,
+	year = {2020},
+	pmid = {33039983},
+	pmcid = {PMC7549444},
+	keywords = {radiation oncology, adult radiotherapy, anxiety disorders},
+	pages = {e035155},
+	file = {Full Text:/home/chris/Zotero/storage/4WLM2T49/Forbes et al. - 2020 - Non-pharmacological approaches to procedural anxie.pdf:application/pdf}
+}
+
+@article{hasnain_thrombolysis_2020,
+	title = {Thrombolysis implementation intervention and clinical outcome: a secondary analysis of a cluster randomized trial},
+	volume = {20},
+	issn = {1471-2261},
+	shorttitle = {Thrombolysis implementation intervention and clinical outcome},
+	doi = {10.1186/s12872-020-01705-9},
+	abstract = {BACKGROUND: Multiple studies have attempted to increase the rate of intravenous thrombolysis for ischemic stroke using interventions to promote adherence to guidelines. Still, many of them did not measure individual-level impact. This study aimed to make a posthoc comparison of the clinical outcomes of patients in the "Thrombolysis ImPlementation in Stroke (TIPS)" study, which aimed to improve rates of intravenous thrombolysis in Australia.
+METHODS: A posthoc analysis was conducted using individual-level patient data. Excellent (Three-month post treatment modified Rankin Score 0-2) and poor clinical outcome (Three-month post treatment modified Rankin Score 5-6) and post treatment parenchymal haematoma were the three main outcomes, and a mixed logistic regression model was used to assess the difference between the intervention and control groups.
+RESULTS: There was a non-significant higher odds of having an excellent clinical outcome of 57\% (odds ratio: 1.57; 95\% CI: 0.73-3.39) and 33\% (odds ratio: 1.33; 95\% CI: 0.73-2.44) during the active-and post-intervention period respectively, for the intervention compared to the control group. A non-significant lower odds of having a poor clinical outcome was also found in the intervention, relative to control group of 4\% (odds ratio: 0.96; 95\% CI: 0.56-2.07) and higher odds of having poor outcome of 44\% (odds ratio: 1.44 95\% CI: 0.61-3.41) during both active and post-intervention period respectively. Similarly, a non-significant lower odds of parenchymal haematoma was also found for the intervention group during the both active- (odds ratio: 0.53; 95\% CI: 0.21-1.32) and post-intervention period (odds ratio: 0.96; 95\% CI: 0.36-2.52).
+CONCLUSION: The TIPS multi-component implementation approach was not effective in reducing the odds of post-treatment severe disability at 90 days, or post-thrombolysis hemorrhage.
+TRIAL REGISTRATION: Clinical Trial Registration-URL: http://www.anzctr.org.au/ Unique Identifier: ACTRN12613000939796 .},
+	language = {eng},
+	number = {1},
+	journal = {BMC cardiovascular disorders},
+	author = {Hasnain, Md Golam and Paul, Christine L. and Attia, John R. and Ryan, Annika and Kerr, Erin and Oldmeadow, Christopher and D'Este, Catherine A. and Bivard, Andrew and Hubbard, Isobel J. and Milton, Abul Hasnat and Levi, Christopher R.},
+	month = oct,
+	year = {2020},
+	pmid = {33023494},
+	pmcid = {PMC7542125},
+	keywords = {Implementation intervention, Ischemic stroke, Clinical outcome, Intravenous thrombolysis},
+	pages = {432},
+	file = {Full Text:/home/chris/Zotero/storage/AUBSKDSR/Hasnain et al. - 2020 - Thrombolysis implementation intervention and clini.pdf:application/pdf}
+}
+
+@article{khan_effect_2020-1,
+	title = {Effect of unintended pregnancy on skilled antenatal care uptake in {Bangladesh}: analysis of national survey data},
+	volume = {78},
+	issn = {0778-7367},
+	shorttitle = {Effect of unintended pregnancy on skilled antenatal care uptake in {Bangladesh}},
+	doi = {10.1186/s13690-020-00468-1},
+	abstract = {Background: Around 48\% of all pregnancies in low- and middle-income countries are unintended. Unintended pregnancy may contribute to lower use of antenatal care (ANC); however, current research in the area is largely inconclusive due to the methodological approaches applied.
+Methods: Responses from 4493 women extracted from the 2014 Bangladesh Demographic and Health Survey (BDHS) were used to assess the association between unintended pregnancy and subsequent uptake of at least one and at least four skilled ANC visits. For this, Bayesian multilevel logistic regression models with informative priors (representing a range of values within which the researcher is certain the true effect of the parameters included lies) were used, adjusting for other factors that affect ANC uptake. Informative priors were selected from the BDHS data collected in 2004, 2007, and 2011.
+Results: Around 64\% of women in Bangladesh who had at least one pregnancy within 3 years prior to the survey (that ended in a live birth) received ANC at least once, and of these around 32\% used ANC at least four times. Mistimed (aOR, 0.73, 95\% Cred I, 0.66-0.81) and unwanted (aOR, 0.69, 95\% Cred I, 0.64-0.75) pregnancy were associated with reduced odds of attending the recommended minimum of four skilled ANC visits compared with wanted pregnancy. These likelihoods were even lower for at least one skilled ANC visit among women with a mistimed (aOR, 0.59, 95\% Cred I, 0.53-0.65) or an unwanted pregnancy (aOR, 0.67, 95\% Cred I, 0.61-0.74) than women with a wanted pregnancy.
+Conclusions: In Bangladesh, more than one-quarter of women who report an unintended pregnancy at conception and do not terminate the pregnancy are at high risk of not using ANC. It is important for policies to include women with unintended pregnancy in mainstream healthcare services. This will increase the use of ANC and reduce associated adverse consequences.},
+	language = {eng},
+	journal = {Archives of Public Health = Archives Belges De Sante Publique},
+	author = {Khan, Md Nuruzzaman and Harris, Melissa L. and Oldmeadow, Christopher and Loxton, Deborah},
+	year = {2020},
+	pmid = {32974015},
+	pmcid = {PMC7493902},
+	keywords = {Antenatal care uptake, Bangladesh, Informative Bayesian approach, Multilevel logistic regression model, Unintended pregnancy},
+	pages = {81},
+	file = {Full Text:/home/chris/Zotero/storage/ZPSE8UUQ/Khan et al. - 2020 - Effect of unintended pregnancy on skilled antenata.pdf:application/pdf}
+}
+
+@article{fealy_demographic_2020-1,
+	title = {Demographic and social-cognitive factors associated with gestational weight gain in an {Australian} pregnancy cohort},
+	volume = {39},
+	issn = {1873-7358},
+	doi = {10.1016/j.eatbeh.2020.101430},
+	abstract = {AIM: To identify and describe the demographic and social-cognitive factors associated with excessive gestational weight gain using the Weight-Related Behaviours Questionnaire, within an Australian pregnancy cohort.
+BACKGROUND: Supporting women to achieve optimal weight gain in pregnancy is complex. Social-cognitive factors are recognised antecedents to, and mediators of, weight related behaviour change. Less is known about their role during pregnancy.
+METHODS: 159 women enrolled in a pregnancy cohort study completed the Weight-Related Behaviours Questionnaire (WRBQ) at approximately 19 weeks gestation, and total gestational weight gain was later measured at 36 weeks. Summary scores were reported descriptively. Multivariable logistic regression was used to test demographic (maternal age, pre pregnancy body mass index, parity, smoking status, marital status, education) and social-cognitive factors (weight locus of control, self- efficacy, attitudes towards weight gain, body image, feelings about motherhood, career orientation) as predictors of excessive gestational weight gain.
+FINDINGS: Maternal age was the sole demographic factor predictive of excessive gestational weight gain. Older participants (34-41 yrs) were less likely to gain excessive weight when compare to younger participants (18-24 yrs): Odds Ratio 0.20, 95\% Confidence Interval 0.05, 0.82. Body image (measured as personal satisfaction and perception of own weight) was the sole social-cognitive factor associated with excessive gestational weight gain. For every one unit improvement in body image score, there was a 33\% decreased odds of excessive gestational weight gain (OR 0.67, 95\% CI 0.53, 0.85).
+CONCLUSION: This study suggests that younger maternal age and lower perceived body image are predictive of excessive gestational weight gain.},
+	language = {eng},
+	journal = {Eating Behaviors},
+	author = {Fealy, Shanna and Attia, John and Leigh, Lucy and Oldmeadow, Christopher and Hazelton, Michael and Foureur, Maralyn and Collins, Clare E. and Smith, Roger and Hure, Alexis},
+	month = dec,
+	year = {2020},
+	pmid = {32942238},
+	keywords = {Cognitive, Gestational weight gain, Health behaviour, Pregnancy, Australia, Female, Humans, Body image, Body Mass Index, Cognition, Cohort Studies, Demography, Gestational Weight Gain, Risk Factors, Social},
+	pages = {101430}
+}
+
+@article{waller_perceptions_2020-1,
+	title = {Perceptions of optimal end-of-life care in hospitals: {A} cross-sectional study of nurses in three locations},
+	volume = {76},
+	issn = {1365-2648},
+	shorttitle = {Perceptions of optimal end-of-life care in hospitals},
+	doi = {10.1111/jan.14510},
+	abstract = {AIM: To examine whether nurses' location of employment, demographics, or training influences their perceptions of what constitutes optimal care for dying patients in hospital.
+DESIGN: Questionnaire-based, cross-sectional study.
+METHODS: Between December 2016-June 2018, 582 registered or enrolled nurses from Australia (N = 153), South Korea (N = 241), and Hong Kong (N = 188) employed in a variety of hospital care units rated the extent to which they agreed with 29 indicators of optimal end-of-life care across four domains: patient, family, healthcare team, and healthcare system. Latent class analysis identified classes of respondents with similar responses.
+RESULTS: Top five indicators rated by participants included: 'physical symptoms managed well'; 'private rooms and unlimited visiting hours'; 'spend as much time with the patient as families wish'; 'end-of-life care documents stored well and easily accessed' and 'families know and follow patient's wishes'. Four latent classes were generated: 'Whole system/holistic' (Class 1); 'Patient/provider-dominated' (Class 2); 'Family-dominated' (Class 3) and 'System-dominated' (Class 4). Class 1 had the highest proportion of nurses responding positively for all indicators. Location was an important correlate of perceptions, even after controlling for individual characteristics.
+CONCLUSION: Nurses' perceptions of optimal end-of-life care are associated with location, but perhaps not in the direction that stereotypes would suggest. Findings highlight the importance of developing and implementing location-specific approaches to optimize end-of-life care in hospitals.
+IMPACT: The findings may be useful to guide education and policy initiatives in Asian and Western countries that stress that end-of-life care is more than symptom management. Indicators can be used to collect data that help quantify differences between optimal care and the care actually being delivered, thereby determining where improvements might be made.},
+	language = {eng},
+	number = {11},
+	journal = {Journal of Advanced Nursing},
+	author = {Waller, Amy and Chan, Sally and Chan, Carmen W. H. and Chow, Meyrick C. M. and Kim, Miyoung and Kang, Sook Jung and Oldmeadow, Christopher and Sanson-Fisher, Robert},
+	month = nov,
+	year = {2020},
+	pmid = {32888206},
+	keywords = {acute care, cross-sectional studies, end-of-life care, Australia, Hong Kong, nurses, South Korea},
+	pages = {3014--3025}
 }
