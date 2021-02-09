@@ -22,7 +22,7 @@ cvDir=/home/chris/CV
 cvBuildDir=/home/chris/CV/Builds
 
 # Name of the CV file
-cvName="Chris_Oldemadow-CV-$(date +%Y-%m-%d)"
+cvName="Chris_Oldmeadow-CV-$(date +%Y-%m-%d)"
 
 
 ###
@@ -41,7 +41,7 @@ echo '<h2>Publications</h2>' | cat - Builds/publications.html > temp && mv temp 
 #
 
 rm Builds/funding.html
-echo '<h1>Competative Funding</h1>' > Builds/funding.html
+echo '<h2>Competative Funding</h2>' > Builds/funding.html
 R < get_funding.R --no-save
 
 ###
