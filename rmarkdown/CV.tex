@@ -1,0 +1,2711 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Chris}{Oldmeadow}
+
+\position{Director}
+\address{Data Sciences, Hunter Medical Research Institute}
+
+\mobile{1410329874}
+\email{\href{mailto:christopher.oldmeadow@hmri.org.au}{\nolinkurl{christopher.oldmeadow@hmri.org.au}}}
+\homepage{www.chrisoldmeadow.xyz}
+\github{ChrisOldmeadow}
+\linkedin{chris-oldmeadow}
+\twitter{chrisoldmeadow}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[3] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {February 2021}
+    {Chris Oldmeadow~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{biography}{%
+\section{Biography}\label{biography}}
+
+Dr Oldmeadow is the Director of the Clinical Research Design, IT and
+Statistical Support (CReDITSS) Unit at HMRI. Dr Oldmeadow is an applied
+statistician with an international reputation for managing, maintaining
+and analysing large complex health related data sets. He oversees
+statistical consultancy projects from various fields of research,
+including Cancer, Stroke, Cardiology, Respiratory, Public Health, and
+Health Services. He has a strong track-record in co-ordinating the
+analytic plans of research projects. He has years of experience as the
+statistical leader for the design, analysis and data management of
+clinical studies, ranging from Pilot/Phase1 through to Phase 4, and
+across the spectrum of translational research.
+
+Dr Oldmeadow's methodological expertise spans a broad range of
+experimental settings such as single arm trials, parallel group,
+cross-over, stepped-wedge; biomarker and diagnostic studies; as well as
+observational studies, registries and linked administrative data sets.
+He is also actively researching statistical methodologies in
+biostatistics in the areas of causal modeling, missing data, and
+Bayesian statistics.
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{Bachelor of Mathematics (Hon)}{University of Newcastle}{NSW, Australia}{2004}{}\vspace{-4.0mm}
+    \cventry{PhD (Statistics)}{Queensland University of Technology}{QLD, Australia}{2009}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{employment-history}{%
+\section{Employment History}\label{employment-history}}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{lll}
+\toprule
+Years & Position & Institute\\
+\midrule
+\rowcolor{gray!6}  2018-- & Associate Director, Data Sciences & Hunter Medical Research Institute\\
+2013--2018 & Senior Statistician & Hunter Medical Research Institute\\
+\rowcolor{gray!6}  2009--2013 & Post Doctoral Research Fellow & School of Medicine and Public Health, University of Newcastle\\
+2008--2009 & Post Doctoral Research Fellow & Department of Statistics, Monash University\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\hypertarget{competitive-funding}{%
+\section{Competitive funding}\label{competitive-funding}}
+
+Dr Oldmeadow has been awarded over \$14,725,587 in competitive funding
+as chief investigator.
+
+\begin{longtable}{r>{\raggedright\arraybackslash}p{15em}>{\raggedright\arraybackslash}p{20em}l}
+\toprule
+Year & Scheme & Title & Amount\\
+\midrule
+\rowcolor{gray!6}  2019 & NSW Ministry of Health, Cardiovascular Disease (CVD) Clinician Scientist Grants & Cardioprotective effects of the pneumococcal polysaccharide vaccine & \$600,000.00\\
+2019 & NHMRC Target Call Research into Healthy Ageing of Aboriginal and Torres Strait Islander Peoples & Improving implementation of Health Assessments for Aboriginal and Torres Strait Islander clients in mainstream general practice: a cluster randomised controlled trial & \$745,057.00\\
+\rowcolor{gray!6}  2019 & NHMRC Project grant & A trial of vaporised nicotine products for smoking cessation following discharge from drug and alcohol residential withdrawal services & \$1,833,513.00\\
+2019 & ARC Discovery project & Taking action: Increasing Advance Personal Planning by older adults & \$542,000.00\\
+2018 & NHMRC
+\rowcolor{gray!6}  Targeted Call for Research - Dementia in Indigenous Australians & Addressing health and care needs of Aboriginal and Torres Strait Islander people living with dementia and their communities & \$3,095,009.00\\
+\addlinespace
+2018 & Australian Rotary Health & Pilot randomised controlled trial of a telephone delivered intervention for hazardous alcohol use among young people living with severe mental ill-health & \$86,747.00\\
+\rowcolor{gray!6}  2018 & NHMRC Global Alliance for Chronic Diseases & 'Indigenous Counselling and Nicotine (ICAN) QUIT in Pregnancy' - a cluster randomised trial to implement culturally competent evidence-based smoking cessation for pregnant Aboriginal and Torres Strait & \$2,318,652.00\\
+2018 & NHMRC project grant & Healthy living after stroke: An online intervention for improving stroke survivor health behaviours and quality of life & \$599,124.00\\
+\rowcolor{gray!6}  2018 & Dementia and Aged Care Services Research and Innovation Funding Round (DACS) & Does a targeted intervention improve medication safety after discharge and improve outcomes for people with dementia and their carers & \$544,096.00\\
+2018 & NHMRC CRE & Aboriginal child  and adolescent health improvement through Aboriginal leadership and collaborative research teams & \$2,499,588.00\\
+\addlinespace
+\rowcolor{gray!6}  2018 & NSW Ministry of Health AOD Innovation Grants & Routine Outcome Monitoring (ROM) plus feedback in SMART Recovery Australia: A feasibility study examining SMART ROM & \$358,913.00\\
+2018 & NSW Ministry of Health AOD Innovation Grants & A randomised controlled trial of a continuing care telephone intervention following residential substance abuse treatment’ & \$517,874.00\\
+\rowcolor{gray!6}  2016 & NHMRC Partnership & A randomised controlled trial of the effectiveness of ‘Enable Me’: an e-health innovation for stroke survivors and support persons. & \$253,264.00\\
+2016 & National Stroke Foundation & A randomised controlled trial of the effectiveness of ‘Enable Me’: an e-health innovation for stroke survivors and support persons & \$29,444.00\\
+\rowcolor{gray!6}  2016 & NSW Ministry of Health & Phase 1 and 2 of the Indigenous Counselling and Nicotine (ICAN) QUIT in Pregnancy & \$136,275.00\\
+\addlinespace
+2016 & Victorian Responsible Gambling Foundation (TENDER) & The susceptibility, prevalence, type and burden of adolescent gambling: an opportunity for an ongoing monitoring tool & \$174,967.00\\
+\rowcolor{gray!6}  2015 & NSW Ministry of Health (TENDER) & Evaluating the Quit for New Life & \$270,908.00\\
+2015 & Australian Rotary Health & Improving uptake of colorectal screening among primary care attendees. & \$17,000.00\\
+\rowcolor{gray!6}  2015 & Australian Rotary Health & Delivery of care, are we doing enough? An investigation in to the treatment provided for depression in Australian alcohol treatment centers. & \$17,000.00\\
+2014 & Hunter Medical Research Institute & Improving uptake of colorectal cancer screening among primary care attendees. & \$37,500.00\\
+\addlinespace
+\rowcolor{gray!6}  2013 & Cancer Institute NSW & Providing tailored web-based information to support colorectal cancer patients in their preparation for and recovery from surgery: A feasibility study. & \$48,656.00\\
+\bottomrule
+\end{longtable}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+Dr Oldmeadow has published over 280 journal articles, in peer reviewed
+journals including a number in leading journals (e.g.~Nature, Lancet,
+Lancet Oncology and Science). He has a H-index of 39 and an i10-index of
+118, with 8686 citations since 2009. The topics of his papers reflect
+the variety of projects Dr Oldmeadow is involved in.
+
+\hypertarget{bibliography}{}
+\leavevmode\hypertarget{ref-bruce_evaluation_2020}{}%
+\CSLLeftMargin{1. }
+\CSLRightInline{Bruce, R., Murdoch, W., Kable, A., Palazzi, K., Hullick,
+C., Pond, D., Oldmeadow, C., Searles, A., Fullerton, A., Fraser, S.,
+Ling, R., \& Attia, J. (2020). Evaluation of Carer Strain and Carer
+Coping with Medications for People with Dementia after Discharge:
+Results from the SMS Dementia Study. \emph{Healthcare (Basel,
+Switzerland)}, \emph{8}(3).
+\url{https://doi.org/10.3390/healthcare8030248}}
+
+\leavevmode\hypertarget{ref-sutherland_scale-up_2020}{}%
+\CSLLeftMargin{2. }
+\CSLRightInline{Sutherland, R., Campbell, E., McLaughlin, M., Nathan,
+N., Wolfenden, L., Lubans, D. R., Morgan, P. J., Gillham, K., Oldmeadow,
+C., Searles, A., Reeves, P., Williams, M., Kajons, N., Bailey, A.,
+Boyer, J., Lecathelinais, C., Davies, L., McKenzie, T., Hollis, J., \&
+Wiggers, J. (2020). Scale-up of the Physical Activity 4 Everyone (PA4E1)
+intervention in secondary schools: 12-month implementation outcomes from
+a cluster randomized controlled trial. \emph{The International Journal
+of Behavioral Nutrition and Physical Activity}, \emph{17}(1), 100.
+\url{https://doi.org/10.1186/s12966-020-01000-y}}
+
+\leavevmode\hypertarget{ref-gunathilake_relationships_2014}{}%
+\CSLLeftMargin{3. }
+\CSLRightInline{Gunathilake, R., Krishnamurthy, V., Oldmeadow, C., Kerr,
+E., Padmakumar, C., Attia, J., Parsons, M., \& Levi, C. (2014).
+Relationships between age, other predictive variables, and the 90-day
+functional outcome after intravenous thrombolysis for acute ischemic
+stroke. \emph{AUSTRALASIAN JOURNAL ON AGEING}, \emph{33}, 19--19.
+\url{http://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2\&SrcApp=PARTNER_APP\&SrcAuth=LinksAMR\&KeyUT=WOS:000337969400027\&DestLinkType=FullRecord\&DestApp=ALL_WOS\&UsrCustomerID=3567906c6fc598e4a73915c2777eae93}}
+
+\leavevmode\hypertarget{ref-sunner_pace-it_2020}{}%
+\CSLLeftMargin{4. }
+\CSLRightInline{Sunner, C., Giles, M. T., Parker, V., Dilworth, S.,
+Bantawa, K., Kable, A., Oldmeadow, C., \& Foureur, M. (2020). PACE-IT
+study protocol: A stepped wedge cluster randomised controlled trial
+evaluating the implementation of telehealth visual assessment in
+emergency care for people living in residential aged-care facilities.
+\emph{BMC Health Services Research}, \emph{20}(1), 672.
+\url{https://doi.org/10.1186/s12913-020-05539-1}}
+
+\leavevmode\hypertarget{ref-kelly_feasibility_2020}{}%
+\CSLLeftMargin{5. }
+\CSLRightInline{Kelly, P. J., Beck, A. K., Baker, A. L., Deane, F. P.,
+Hides, L., Manning, V., Shakeshaft, A., Larance, B., Neale, J., Kelly,
+J., Oldmeadow, C., Searles, A., Treloar, C., Gray, R. M., Argent, A., \&
+McGlaughlin, R. (2020). Feasibility of a Mobile Health App for Routine
+Outcome Monitoring and Feedback in Mutual Support Groups Coordinated by
+SMART Recovery Australia: Protocol for a Pilot Study. \emph{JMIR
+Research Protocols}, \emph{9}(7), e15113.
+\url{https://doi.org/10.2196/15113}}
+
+\leavevmode\hypertarget{ref-schonberg_development_2020}{}%
+\CSLLeftMargin{6. }
+\CSLRightInline{Schönberg, S., Asher, R., Stewart, S., Fenwick, M. J.,
+Ashton, L., Bucher, T., Van der Horst, K., Oldmeadow, C., Collins, C.
+E., \& Shrewsbury, V. A. (2020). Development of the Home Cooking
+EnviRonment and Equipment Inventory Observation form (Home-CookERITM):
+An Assessment of Content Validity, Face Validity, and Inter-Rater
+Agreement. \emph{Nutrients}, \emph{12}(6).
+\url{https://doi.org/10.3390/nu12061853}}
+
+\leavevmode\hypertarget{ref-wark_omalizumab_2020}{}%
+\CSLLeftMargin{7. }
+\CSLRightInline{Wark, P., Hussaini, S., Holder, C., Powell, H., Gibson,
+P., \& Oldmeadow, C. (2020). Omalizumab Is an Effective Intervention in
+Severe Asthma with Fungal Sensitization. \emph{The Journal of Allergy
+and Clinical Immunology. In Practice}.
+\url{https://doi.org/10.1016/j.jaip.2020.05.055}}
+
+\leavevmode\hypertarget{ref-allan_stepped_2020}{}%
+\CSLLeftMargin{8. }
+\CSLRightInline{Allan, J., Nott, S., Chambers, B., Hawthorn, G., Munro,
+A., Doran, C., Oldmeadow, C., Coleman, C., \& Saksena, T. (2020). A
+stepped wedge trial of efficacy and scalability of a virtual clinical
+pharmacy service (VCPS) in rural and remote NSW health facilities.
+\emph{BMC Health Services Research}, \emph{20}(1), 373.
+\url{https://doi.org/10.1186/s12913-020-05229-y}}
+
+\leavevmode\hypertarget{ref-jones_exploring_2020}{}%
+\CSLLeftMargin{9. }
+\CSLRightInline{Jones, M., Whitton, C., Tan, A. G., Holliday, E. G.,
+Oldmeadow, C., Flood, V. M., Sim, X., Chai, J.-F., Hamzah, H., Klein,
+R., Teo, Y.-Y., Mitchell, P., Wong, T. Y., Tai, E. S., Van Dam, R. M.,
+Attia, J., \& Wang, J. J. (2020). Exploring Factors Underlying Ethnic
+Difference in Age-related Macular Degeneration Prevalence.
+\emph{Ophthalmic Epidemiology}, 1--10.
+\url{https://doi.org/10.1080/09286586.2020.1762229}}
+
+\leavevmode\hypertarget{ref-clover_which_2016}{}%
+\CSLLeftMargin{10. }
+\CSLRightInline{Clover, K. A., Oldmeadow, C., Nelson, L., Rogers, K.,
+Mitchell, A. J., \& Carter, G. (2016). Which items on the distress
+thermometer problem list are the most distressing? \emph{Supportive Care
+in Cancer}, \emph{24}(11), 4549--4557.
+\url{https://doi.org/10.1007/s00520-016-3294-z}}
+
+\leavevmode\hypertarget{ref-jayakody_unplanned_2018}{}%
+\CSLLeftMargin{11. }
+\CSLRightInline{Jayakody, A., Oldmeadow, C., Carey, M., Bryant, J.,
+Evans, T., Ella, S., Attia, J., \& Sanson-Fisher, R. (2018). Unplanned
+readmission or death after discharge for Aboriginal and non-Aboriginal
+people with chronic disease in NSW Australia: A retrospective cohort
+study. \emph{BMC Health Services Research}, \emph{18}(1).
+\url{https://doi.org/10.1186/s12913-018-3723-4}}
+
+\leavevmode\hypertarget{ref-rachakonda_unmet_2015}{}%
+\CSLLeftMargin{12. }
+\CSLRightInline{Rachakonda, K., George, M., Shafiei, M., \& Oldmeadow,
+C. (2015). Unmet Supportive Cancer Care Needs: An Exploratory
+Quantitative Study in Rural Australia. \emph{World Journal of Oncology},
+\emph{6}(4), 387--393. \url{https://doi.org/10.14740/wjon928w}}
+
+\leavevmode\hypertarget{ref-martin_trog_2019}{}%
+\CSLLeftMargin{13. }
+\CSLRightInline{Martin, J., Keall, P., Siva, S., Greer, P., Christie,
+D., Moore, K., Dowling, J., Pryor, D., Chong, P., McLeod, N., Raman, A.,
+Lynam, J., Smart, J., Oldmeadow, C., Tang, C. I., Murphy, D. G., Millar,
+J., Tai, K. H., Holloway, L., \ldots{} Sidhom, M. (2019). TROG 18.01
+phase III randomised clinical trial of the Novel Integration of New
+prostate radiation schedules with adJuvant Androgen deprivation: NINJA
+study protocol. \emph{BMJ Open}, \emph{9}(8).
+\url{https://doi.org/10.1136/bmjopen-2019-030731}}
+
+\leavevmode\hypertarget{ref-hobden_validity_2017}{}%
+\CSLLeftMargin{14. }
+\CSLRightInline{Hobden, B., Schwandt, M. L., Carey, M., Lee, M. R.,
+Farokhnia, M., Bouhlal, S., Oldmeadow, C., \& Leggio, L. (2017). The
+Validity of the Montgomery--Asberg Depression Rating Scale in an
+Inpatient Sample with Alcohol Dependence. \emph{Alcoholism: Clinical and
+Experimental Research}, \emph{41}(6), 1220--1227.
+\url{https://doi.org/10.1111/acer.13400}}
+
+\leavevmode\hypertarget{ref-jackson_role_2018}{}%
+\CSLLeftMargin{15. }
+\CSLRightInline{Jackson, J. K., Patterson, A. J., MacDonald-Wicks, L.
+K., Oldmeadow, C., \& McEvoy, M. A. (2018). The role of inorganic
+nitrate and nitrite in cardiovascular disease risk factors: A systematic
+review and meta-analysis of human evidence. \emph{Nutrition Reviews},
+\emph{76}(5), 348--371. \url{https://doi.org/10.1093/nutrit/nuy005}}
+
+\leavevmode\hypertarget{ref-sutherland_physical_2016}{}%
+\CSLLeftMargin{16. }
+\CSLRightInline{Sutherland, R. L., Campbell, E. M., Lubans, D. R.,
+Morgan, P. J., Nathan, N. K., Wolfenden, L., Okely, A. D., Gillham, K.
+E., Hollis, J. L., Oldmeadow, C. J., Williams, A. J., Davies, L. J.,
+Wiese, J. S., Bisquera, A., \& Wiggers, J. H. (2016). The Physical
+Activity 4 Everyone Cluster Randomized Trial: 2-Year Outcomes of a
+School Physical Activity Intervention Among Adolescents. \emph{American
+Journal of Preventive Medicine}, \emph{51}(2), 195--205.
+\url{https://doi.org/10.1016/j.amepre.2016.02.020}}
+
+\leavevmode\hypertarget{ref-yoshino_interpretation_2012}{}%
+\CSLLeftMargin{17. }
+\CSLRightInline{Yoshino, O., Quail, A. W., Oldmeadow, C. J., \& Balogh,
+Z. J. (2012). The interpretation of intra-abdominal pressures from
+animal models: The rabbit to human example. \emph{Injury: International
+Journal of the Care of the Injured}, \emph{43}(2), 169--173.}
+
+\leavevmode\hypertarget{ref-bar-zeev_indigenous_2017}{}%
+\CSLLeftMargin{18. }
+\CSLRightInline{Bar-Zeev, Y., Bonevski, B., Bovill, M., Gruppetta, M.,
+Oldmeadow, C., Palazzi, K., Atkins, L., Reath, J., \& Gould, G. S.
+(2017). The Indigenous Counselling and Nicotine (ICAN) QUIT in pregnancy
+pilot study protocol: A feasibility step-wedge cluster randomised trial
+to improve health providers' management of smoking during pregnancy.
+\emph{BMJ Open}, \emph{7}(8).
+\url{https://doi.org/10.1136/bmjopen-2017-016095}}
+
+\leavevmode\hypertarget{ref-jayakody_impact_2018}{}%
+\CSLLeftMargin{19. }
+\CSLRightInline{Jayakody, A., Passmore, E., Oldmeadow, C., Bryant, J.,
+Carey, M., Simons, E., Cashmore, A., Maher, L., Hennessey, K., Bunfield,
+J., Terare, M., Milat, A., \& Sanson-Fisher, R. (2018). The impact of
+telephone follow up on adverse events for Aboriginal people with chronic
+disease in new South Wales, Australia: A retrospective cohort study.
+\emph{International Journal for Equity in Health}, \emph{17}(1).
+\url{https://doi.org/10.1186/s12939-018-0776-2}}
+
+\leavevmode\hypertarget{ref-sinclair_ckd-detect_2019}{}%
+\CSLLeftMargin{20. }
+\CSLRightInline{Sinclair, P. M., Kable, A., Levett-Jones, T., Holder,
+C., \& Oldmeadow, C. J. (2019). The CKD-DETECT study: An RCT aimed at
+improving intention to initiate a kidney health check in Australian
+practice nurses. \emph{Journal of Clinical Nursing}, \emph{28}(15-16),
+2745--2759. \url{https://doi.org/10.1111/jocn.14882}}
+
+\leavevmode\hypertarget{ref-dray_systematic_2017}{}%
+\CSLLeftMargin{21. }
+\CSLRightInline{Dray, J., Bowman, J., Campbell, E., Freund, M.,
+Wolfenden, L., Hodder, R. K., McElwaine, K., Tremain, D., Bartlem, K.,
+Bailey, J., Small, T., Palazzi, K., Oldmeadow, C., \& Wiggers, J.
+(2017). Systematic Review of Universal Resilience-Focused Interventions
+Targeting Child and Adolescent Mental Health in the School Setting.
+\emph{Journal of the American Academy of Child and Adolescent
+Psychiatry}, \emph{56}(10), 813--824.
+\url{https://doi.org/10.1016/j.jaac.2017.07.780}}
+
+\leavevmode\hypertarget{ref-dodd_testing_2019}{}%
+\CSLLeftMargin{22. }
+\CSLRightInline{Dodd, N., Carey, M., Mansfield, E., Oldmeadow, C., \&
+Evans, T. (2019). Testing the effectiveness of a general practice
+intervention to improve uptake of colorectal cancer screening: A
+randomised controlled trial. \emph{Australian and New Zealand Journal of
+Public Health}, \emph{43}(5), 464--469.
+\url{https://doi.org/10.1111/1753-6405.12913}}
+
+\leavevmode\hypertarget{ref-mccarter_smoking_2018}{}%
+\CSLLeftMargin{23. }
+\CSLRightInline{McCarter, K., Baker, A., Britton, B., Wolfenden, L.,
+Wratten, C., bauer, J., Halpin, S., Carter, G., Beck, A., Leigh, L., \&
+Oldmeadow, C. (2018). Smoking, drinking, and depression: Comorbidity in
+head and neck cancer patients undergoing radiotherapy. \emph{Cancer
+Medicine}, \emph{7}(6), 2382--2390.
+\url{https://doi.org/10.1002/cam4.1497}}
+
+\leavevmode\hypertarget{ref-bonevski_smoking_2018}{}%
+\CSLLeftMargin{24. }
+\CSLRightInline{Bonevski, B., Twyman, L., Paul, C., D'Este, C., West,
+R., Siahpush, M., Oldmeadow, C., \& Palazzi, K. (2018). Smoking
+cessation intervention delivered by social service organisations for a
+diverse population of Australian disadvantaged smokers: A pragmatic
+randomised controlled trial. \emph{Preventive Medicine}, \emph{112},
+38--44. \url{https://doi.org/10.1016/j.ypmed.2018.04.005}}
+
+\leavevmode\hypertarget{ref-oldmeadow_sifting_2011}{}%
+\CSLLeftMargin{25. }
+\CSLRightInline{Oldmeadow, C. J., Riveros, R. C., Holliday, E. G.,
+Scott, R., Moscato, P. A., Wang, J. J., Mitchell, P., Buitendijk, G. H.
+S., Vingerling, J. R., Klaver, C. C. W., Klein, R., \& Attia, J. R.
+(2011). Sifting the wheat from the chaff: Prioritizing GWAS results by
+identifying consistency across analytical methods. \emph{Genetic
+Epidemiology}, \emph{35}(8), 745--754.
+\url{https://doi.org/10.1002/gepi.20622}}
+
+\leavevmode\hypertarget{ref-lai_prospective_2017}{}%
+\CSLLeftMargin{26. }
+\CSLRightInline{Lai, J. S., Hure, A. J., Oldmeadow, C., McEvoy, M.,
+Byles, J., \& Attia, J. (2017). Prospective study on the association
+between diet quality and depression in mid-aged women over 9~years.
+\emph{European Journal of Nutrition}, \emph{56}(1), 273--281.
+\url{https://doi.org/10.1007/s00394-015-1078-8}}
+
+\leavevmode\hypertarget{ref-faulkner_prongf_2016}{}%
+\CSLLeftMargin{27. }
+\CSLRightInline{Faulkner, S., Roselli, S., Demont, Y., Pundavela, J.,
+Choquet, G., Leissner, P., Oldmeadow, C., Attia, J., Walker, M. M., \&
+Hondermarck, H. (2016). ProNGF is a potential diagnostic biomarker for
+thyroid cancer. \emph{Oncotarget}, \emph{7}(19), 28488--28497.
+\url{https://doi.org/10.18632/oncotarget.8652}}
+
+\leavevmode\hypertarget{ref-clover_promis_2018}{}%
+\CSLLeftMargin{28. }
+\CSLRightInline{Clover, K., Lambert, S. D., Oldmeadow, C., Britton, B.,
+King, M. T., Mitchell, A. J., \& Carter, G. (2018). PROMIS depression
+measures perform similarly to legacy measures relative to a structured
+diagnostic interview for depression in cancer patients. \emph{Quality of
+Life Research}, \emph{27}(5), 1357--1367.
+\url{https://doi.org/10.1007/s11136-018-1803-x}}
+
+\leavevmode\hypertarget{ref-mandaliya_prognostic_2019}{}%
+\CSLLeftMargin{29. }
+\CSLRightInline{Mandaliya, H., Jones, M., Oldmeadow, C., \& Nordman, I.
+I. C. (2019). Prognostic biomarkers in stage IV non-small cell lung
+cancer (NSCLC): Neutrophil to lymphocyte ratio (NLR), lymphocyte to
+monocyte ratio (LMR), platelet to lymphocyte ratio (PLR) and advanced
+lung cancer inflammation index (ALI). \emph{Translational Lung Cancer
+Research}, \emph{8}(6), 886--894.
+\url{https://doi.org/10.21037/tlcr.2019.11.16}}
+
+\leavevmode\hypertarget{ref-yoong_prevalence_2018}{}%
+\CSLLeftMargin{30. }
+\CSLRightInline{Yoong, S. L., Stockings, E., Chai, L. K., Tzelepis, F.,
+Wiggers, J., Oldmeadow, C., Paul, C., Peruga, A., Kingsland, M., Attia,
+J., \& Wolfenden, L. (2018). Prevalence of electronic nicotine delivery
+systems (ENDS) use among youth globally: A systematic review and
+meta-analysis of country level data. \emph{Australian and New Zealand
+Journal of Public Health}, \emph{42}(3), 303--308.
+\url{https://doi.org/10.1111/1753-6405.12777}}
+
+\leavevmode\hypertarget{ref-dodd_prevalence_2018}{}%
+\CSLLeftMargin{31. }
+\CSLRightInline{Dodd, N., Mansfield, E., Carey, M., \& Oldmeadow, C.
+(2018). Prevalence of appropriate colorectal cancer screening and
+preferences for receiving screening advice among people attending
+outpatient clinics. \emph{Australian and New Zealand Journal of Public
+Health}, \emph{42}(4), 334--339.
+\url{https://doi.org/10.1111/1753-6405.12776}}
+
+\leavevmode\hypertarget{ref-hobden_prevalence_2020}{}%
+\CSLLeftMargin{32. }
+\CSLRightInline{Hobden, B., Carey, M., Bryant, J., Sanson-Fisher, R., \&
+Oldmeadow, C. (2020). Prevalence and Predictors of Symptoms of
+Depression Among Individuals Seeking Treatment from Australian Drug and
+Alcohol Outpatient Clinics. \emph{Community Mental Health Journal},
+\emph{56}(1), 107--115.
+\url{https://doi.org/10.1007/s10597-019-00451-3}}
+
+\leavevmode\hypertarget{ref-ho_prescription_2018}{}%
+\CSLLeftMargin{33. }
+\CSLRightInline{Ho, E., Doherty, M., Thomas, R., Attia, J., Oldmeadow,
+C., \& Clapham, M. (2018). Prescription of opioids to post-operative
+orthopaedic patients at time of discharge from hospital: A prospective
+observational study. \emph{Scandinavian Journal of Pain}, \emph{18}(2),
+253--259. \url{https://doi.org/10.1515/sjpain-2017-0149}}
+
+\leavevmode\hypertarget{ref-khan_pre-hospital_2016}{}%
+\CSLLeftMargin{34. }
+\CSLRightInline{Khan, A. A., Williams, T., Savage, L., Stewart, P.,
+Ashraf, A., Davies, A. J., Faddy, S., Attia, J., Oldmeadow, C.,
+Bhagwandeen, R., Fletcher, P. J., \& Boyle, A. J. (2016). Pre-hospital
+thrombolysis in ST-segment elevation myocardial infarction: A regional
+Australian experience. \emph{Medical Journal of Australia},
+\emph{205}(3), 121--125. \url{https://doi.org/10.5694/mja15.01336}}
+
+\leavevmode\hypertarget{ref-zdenkowski_patient-reported_2019}{}%
+\CSLLeftMargin{35. }
+\CSLRightInline{Zdenkowski, N., Butow, P., Spillane, A., Douglas, C.,
+Snook, K., Jones, M., Oldmeadow, C., Fewster, S., Beckmore, C., \&
+Boyle, F. M. (2019). Patient-reported outcomes with neoadjuvant vs
+adjuvant systemic therapy for operable breast cancer. \emph{Breast},
+\emph{46}, 25--31. \url{https://doi.org/10.1016/j.breast.2019.04.003}}
+
+\leavevmode\hypertarget{ref-sharmin_parent_2019}{}%
+\CSLLeftMargin{36. }
+\CSLRightInline{Sharmin, S., Kypri, K., Wadolowski, M., Bruno, R.,
+Khanam, M., Aiken, A., Hutchinson, D., Najman, J. M., Slade, T.,
+McBride, N., Attia, J., Palazzi, K., Oldmeadow, C., \& Mattick, R. P.
+(2019). Parent hazardous drinking and their children's alcohol use in
+early and mid-adolescence: Prospective cohort study. \emph{European
+Journal of Public Health}, \emph{29}(4), 736--740.
+\url{https://doi.org/10.1093/eurpub/ckz029}}
+
+\leavevmode\hypertarget{ref-al-omary_outcomes_2018}{}%
+\CSLLeftMargin{37. }
+\CSLRightInline{Al-Omary, M. S., Khan, A. A., Davies, A. J., Fletcher,
+P. J., Mcivor, D., Bastian, B., Oldmeadow, C., Sverdlov, A. L., Attia,
+J. R., \& Boyle, A. J. (2018). Outcomes following heart failure
+hospitalization in a regional Australian setting between 2005 and 2014.
+\emph{ESC Heart Failure}, \emph{5}(2), 271--278.
+\url{https://doi.org/10.1002/ehf2.12239}}
+
+\leavevmode\hypertarget{ref-faulkner_neurotrophin_2018}{}%
+\CSLLeftMargin{38. }
+\CSLRightInline{Faulkner, S., Jobling, P., Rowe, C. W., Rodrigues
+Oliveira, S. M., Roselli, S., Thorne, R. F., Oldmeadow, C., Attia, J.,
+Jiang, C. C., Zhang, X. D., Walker, M. M., \& Hondermarck, H. (2018).
+Neurotrophin Receptors TrkA, p75NTR, and Sortilin Are Increased and
+Targetable in Thyroid Cancer. \emph{American Journal of Pathology},
+\emph{188}(1), 229--241.
+\url{https://doi.org/10.1016/j.ajpath.2017.09.008}}
+
+\leavevmode\hypertarget{ref-oldmeadow_multiple_2010}{}%
+\CSLLeftMargin{39. }
+\CSLRightInline{Oldmeadow, C. J., Mengersen, K., Mattick, J. S., \&
+Keith, J. M. (2010). Multiple evolutionary rate classes in animal genome
+evolution. \emph{Molecular Biology and Evolution}, \emph{27}(4),
+942--953. \url{https://doi.org/10.1093/molbev/msp299}}
+
+\leavevmode\hypertarget{ref-wolfenden_multi-strategic_2017}{}%
+\CSLLeftMargin{40. }
+\CSLRightInline{Wolfenden, L., Nathan, N., Janssen, L. M., Wiggers, J.,
+Reilly, K., Delaney, T., Williams, C. M., Bell, C., Wyse, R.,
+Sutherland, R., Campbell, L., Lecathelinais, C., Oldmeadow, C., Freund,
+M., \& Yoong, S. L. (2017). Multi-strategic intervention to enhance
+implementation of healthy canteen policy: A randomised controlled trial.
+\emph{Implementation Science}, \emph{12}(1).
+\url{https://doi.org/10.1186/s13012-016-0537-9}}
+
+\leavevmode\hypertarget{ref-oldmeadow_model_2011}{}%
+\CSLLeftMargin{41. }
+\CSLRightInline{Oldmeadow, C. J., \& Keith, J. (2011). Model selection
+in Bayesian segmentation of multiple DNA alignments.
+\emph{Bioinformatics}, \emph{27}(5), 604--610.
+\url{https://doi.org/10.1093/bioinformatics/btq716}}
+
+\leavevmode\hypertarget{ref-seward_measuring_2017}{}%
+\CSLLeftMargin{42. }
+\CSLRightInline{Seward, K., Wolfenden, L., Wiggers, J., Finch, M., Wyse,
+R., Oldmeadow, C., Presseau, J., Clinton-McHarg, T., \& Yoong, S. L.
+(2017). Measuring implementation behaviour of menu guidelines in the
+childcare setting: Confirmatory factor analysis of a theoretical domains
+framework questionnaire (TDFQ). \emph{International Journal of
+Behavioral Nutrition and Physical Activity}, \emph{14}(1).
+\url{https://doi.org/10.1186/s12966-017-0499-6}}
+
+\leavevmode\hypertarget{ref-morten_managing_2018}{}%
+\CSLLeftMargin{43. }
+\CSLRightInline{Morten, M., Collison, A., Murphy, V. E., Barker, D.,
+Oldmeadow, C., Attia, J., Meredith, J., Powell, H., Robinson, P. D.,
+Sly, P. D., Gibson, P. G., \& Mattes, J. (2018). Managing Asthma in
+Pregnancy (MAP) trial: FENO levels and childhood asthma. \emph{Journal
+of Allergy and Clinical Immunology}, \emph{142}(6), 1765--1772.e4.
+\url{https://doi.org/10.1016/j.jaci.2018.02.039}}
+
+\leavevmode\hypertarget{ref-lai_longitudinal_2016}{}%
+\CSLLeftMargin{44. }
+\CSLRightInline{Lai, J. S., Oldmeadow, C., Hure, A. J., McEvoy, M.,
+Byles, J., \& Attia, J. (2016). Longitudinal diet quality is not
+associated with depressive symptoms in a cohort of middle-aged
+Australian women. \emph{British Journal of Nutrition}, \emph{115}(5),
+842--850. \url{https://doi.org/10.1017/S000711451500519X}}
+
+\leavevmode\hypertarget{ref-hoffman_liquor_2017}{}%
+\CSLLeftMargin{45. }
+\CSLRightInline{Hoffman, G. R., Palazzi, K., Oteng Boateng, B. K., \&
+Oldmeadow, C. (2017). Liquor legislation, last drinks, and lockouts: The
+Newcastle (Australia) solution. \emph{International Journal of Oral and
+Maxillofacial Surgery}, \emph{46}(6), 740--745.
+\url{https://doi.org/10.1016/j.ijom.2017.01.019}}
+
+\leavevmode\hypertarget{ref-hure_invited_2016}{}%
+\CSLLeftMargin{46. }
+\CSLRightInline{Hure, A., Oldmeadow, C., \& Attia, J. (2016). Invited
+commentary: Improving estimates of severe acute malnutrition requires
+more data. \emph{American Journal of Epidemiology}, \emph{184}(12),
+870--872. \url{https://doi.org/10.1093/aje/kww131}}
+
+\leavevmode\hypertarget{ref-oldmeadow_investigation_2008}{}%
+\CSLLeftMargin{47. }
+\CSLRightInline{Oldmeadow, C. J., Wood, I., Mengersen, K., Visscher, P.
+M., Martin, N. G., \& Duffy, D. L. (2008). Investigation of the
+relationship between smoking and appendicitis in Australian twins.
+\emph{Annals of Epidemiology}, \emph{18}(8), 631--636.
+\url{https://doi.org/10.1016/j.annepidem.2008.04.004}}
+
+\leavevmode\hypertarget{ref-chen_influence_2017}{}%
+\CSLLeftMargin{48. }
+\CSLRightInline{Chen, C., Parsons, M. W., Clapham, M., Oldmeadow, C.,
+Levi, C. R., Lin, L., Cheng, X., Lou, M., Kleinig, T. J., Butcher, K.
+S., Dong, Q., \& Bivard, A. (2017). Influence of penumbral reperfusion
+on clinical outcome depends on baseline ischemic core volume.
+\emph{Stroke}, \emph{48}(10), 2739--2745.
+\url{https://doi.org/10.1161/STROKEAHA.117.018587}}
+
+\leavevmode\hypertarget{ref-lai_inflammation_2016}{}%
+\CSLLeftMargin{49. }
+\CSLRightInline{Lai, J. S., Oldmeadow, C., Hure, A. J., McEvoy, M.,
+Hiles, S. A., Boyle, M., \& Attia, J. (2016). Inflammation mediates the
+association between fatty acid intake and depression in older men and
+women. \emph{Nutrition Research}, \emph{36}(3), 234--245.
+\url{https://doi.org/10.1016/j.nutres.2015.11.017}}
+
+\leavevmode\hypertarget{ref-carey_improving_2016}{}%
+\CSLLeftMargin{50. }
+\CSLRightInline{Carey, M., Sanson-Fisher, R., Oldmeadow, C., Mansfield,
+E., \& Walsh, J. (2016). Improving self-management of cancer risk
+factors, underscreening for cancer and depression among general practice
+patients: Study protocol of a randomised controlled trial. \emph{BMJ
+Open}, \emph{6}(11). \url{https://doi.org/10.1136/bmjopen-2016-014782}}
+
+\leavevmode\hypertarget{ref-carey_improving_2020}{}%
+\CSLLeftMargin{51. }
+\CSLRightInline{Carey, M., Sanson-Fisher, R., Zwar, N., Mazza, D.,
+Meadows, G., Piterman, L., Waller, A., Walsh, J., Oldmeadow, C.,
+Deeming, S., Searles, A., Henskens, F., \& Kelly, B. (2020). Improving
+depression outcomes among Australian primary care patients: Protocol for
+a cluster randomised controlled trial. \emph{BMJ Open}, \emph{10}(2).
+\url{https://doi.org/10.1136/bmjopen-2019-032057}}
+
+\leavevmode\hypertarget{ref-giles_implementation_2019}{}%
+\CSLLeftMargin{52. }
+\CSLRightInline{Giles, M., Graham, L., Ball, J., King, J., Watts, W.,
+Harris, A., Oldmeadow, C., Ling, R., Paul, M., O'Brien, A., Parker, V.,
+Wiggers, J., \& Foureur, M. (2019). Implementation of a multifaceted
+nurse-led intervention to reduce indwelling urinary catheter use in four
+Australian hospitals: A cluster controlled study. \emph{Journal of
+Clinical Nursing}, \emph{Print-Electronic}.
+\url{https://doi.org/10.1111/jocn.15142}}
+
+\leavevmode\hypertarget{ref-dowse_impact_2020}{}%
+\CSLLeftMargin{53. }
+\CSLRightInline{Dowse, E., Chan, S., Ebert, L., Wynne, O., Thomas, S.,
+Jones, D., Fealy, S., Evans, T.-J., \& Oldmeadow, C. (2020). Impact of
+maternal perinatal depression and anxiety on birth outcomes: A
+retrospective data analysis. \emph{Maternal and Child Health Journal},
+\emph{MACI-D-19-00319}.
+\url{https://doi.org/10.1007/s10995-020-02906-6}}
+
+\leavevmode\hypertarget{ref-saluja_impact_2020}{}%
+\CSLLeftMargin{54. }
+\CSLRightInline{Saluja, T., Davies, A., Oldmeadow, C., \& Boyle, A.
+(2020). Impact of Fast food Outlet Density on Incidence of Myocardial
+Infarction in the Hunter Region. \emph{Internal Medicine Journal},
+\emph{Print-Electronic}. \url{https://doi.org/10.1111/imj.14745}}
+
+\leavevmode\hypertarget{ref-kepreotes_high-flow_2017}{}%
+\CSLLeftMargin{55. }
+\CSLRightInline{Kepreotes, E., Whitehead, B., Attia, J., Oldmeadow, C.,
+Collison, A., Searles, A., Goddard, B., Hilton, J., Lee, M., \& Mattes,
+J. (2017). High-flow warm humidified oxygen versus standard low-flow
+nasal cannula oxygen for moderate bronchiolitis (HFWHO RCT): An open,
+phase 4, randomised controlled trial. \emph{The Lancet},
+\emph{389}(10072), 930--939.
+\url{https://doi.org/10.1016/S0140-6736(17)30061-2}}
+
+\leavevmode\hypertarget{ref-english_frequent_2018}{}%
+\CSLLeftMargin{56. }
+\CSLRightInline{English, C., Janssen, H., Crowfoot, G., Bourne, J.,
+Callister, R., Dunn, A., Oldmeadow, C., Ong, L. K., Palazzi, K.,
+Patterson, A., Spratt, N. J., Walker, F. R., Dunstan, D. W., \&
+Bernhardt, J. (2018). Frequent, short bouts of light-intensity exercises
+while standing decreases systolic blood pressure: Breaking Up Sitting
+Time after Stroke (BUST-Stroke) trial. \emph{International Journal of
+Stroke}, \emph{13}(9), 932--940.
+\url{https://doi.org/10.1177/1747493018798535}}
+
+\leavevmode\hypertarget{ref-whatnall_feasibility_2019}{}%
+\CSLLeftMargin{57. }
+\CSLRightInline{Whatnall, M. C., Patterson, A. J., Chiu, S., Oldmeadow,
+C., \& Hutchesson, M. J. (2019). Feasibility and preliminary efficacy of
+the eating advice to students (EATS) brief web-based nutrition
+intervention for young adult university students: A pilot randomized
+controlled trial. \emph{Nutrients}, \emph{11}(4).
+\url{https://doi.org/10.3390/nu11040905}}
+
+\leavevmode\hypertarget{ref-gould_feasibility_2019}{}%
+\CSLLeftMargin{58. }
+\CSLRightInline{Gould, G. S., Bovill, M., Pollock, L., Bonevski, B.,
+Gruppetta, M., Atkins, L., Carson-Chahhoud, K., Boydell, K. M., Gribbin,
+G. R., Oldmeadow, C., Hall, A., ICAN QUIT in Pregnancy Pilot Group, \&
+Bar-Zeev, Y. (2019). Feasibility and acceptability of Indigenous
+Counselling and Nicotine (ICAN) QUIT in Pregnancy multicomponent
+implementation intervention and study design for Australian Indigenous
+pregnant women: A pilot cluster randomised step-wedge trial.
+\emph{Addictive Behaviors}, \emph{90}(Print-Electronic), 176--190.
+\url{https://doi.org/10.1016/j.addbeh.2018.10.036}}
+
+\leavevmode\hypertarget{ref-twyman_factors_2016}{}%
+\CSLLeftMargin{59. }
+\CSLRightInline{Twyman, L., Bonevski, B., Paul, C., Bryant, J., West,
+R., Siahpush, M., D'Este, C., Oldmeadow, C., \& Palazzi, K. (2016).
+Factors associated with concurrent tobacco smoking and heavy alcohol
+consumption within a socioeconomically disadvantaged Australian sample.
+\emph{Substance Use and Misuse}, \emph{51}(4), 459--470.
+\url{https://doi.org/10.3109/10826084.2015.1122065}}
+
+\leavevmode\hypertarget{ref-revelas_exceptional_2019}{}%
+\CSLLeftMargin{60. }
+\CSLRightInline{Revelas, M., Thalamuthu, A., Oldmeadow, C., Evans, T.
+J., Armstrong, N. J., Riveros, C., Kwok, J. B., Schofield, P. R.,
+Brodaty, H., Scott, R. J., Attia, J. R., Sachdev, P. S., \& Mather, K.
+A. (2019). Exceptional longevity and polygenic risk for cardiovascular
+health. \emph{Genes}, \emph{10}(3).
+\url{https://doi.org/10.3390/genes10030227}}
+
+\leavevmode\hypertarget{ref-hyde_electronic_2019}{}%
+\CSLLeftMargin{61. }
+\CSLRightInline{Hyde, L. L., Boyes, A. W., Mackenzie, L. J., Leigh, L.,
+Oldmeadow, C., Riveros, C., \& Sanson-Fisher, R. (2019). Electronic
+Health Literacy Among Magnetic Resonance Imaging and Computed Tomography
+Medical Imaging Outpatients: Cluster Analysis. \emph{Journal of Medical
+Internet Research}, \emph{21}(8), e13423.
+\url{https://doi.org/10.2196/13423}}
+
+\leavevmode\hypertarget{ref-collins_efficacy_2017}{}%
+\CSLLeftMargin{62. }
+\CSLRightInline{Collins, C. E., Morgan, P. J., Hutchesson, M. J.,
+Oldmeadow, C., Barker, D., \& Callister, R. (2017). Efficacy of
+Web-Based Weight Loss Maintenance Programs: A Randomized Controlled
+Trial Comparing Standard Features Versus the Addition of Enhanced
+Personalized Feedback over 12 Months. \emph{Behavioral Sciences (Basel,
+Switzerland)}, \emph{7}(4). \url{https://doi.org/10.3390/bs7040076}}
+
+\leavevmode\hypertarget{ref-murawski_efficacy_2019}{}%
+\CSLLeftMargin{63. }
+\CSLRightInline{Murawski, B., Plotnikoff, R. C., Rayward, A. T.,
+Oldmeadow, C., Vandelanotte, C., Brown, W. J., \& Duncan, M. (2019).
+Efficacy of an m-health physical activity and sleep health intervention
+for adults: A randomized waitlist-controlled trial. \emph{AMERICAN
+JOURNAL OF PREVENTIVE MEDICINE}, \emph{57}(4), 503--514.
+\url{https://doi.org/10.1016/j.amepre.2019.05.009}}
+
+\leavevmode\hypertarget{ref-bailey_effects_2017}{}%
+\CSLLeftMargin{64. }
+\CSLRightInline{Bailey, K. A., Baker, A. L., McElduff, P., Jones, M. A.,
+Oldmeadow, C., \& Kavanagh, D. J. (2017). Effects of Assault Type on
+Cognitive Behaviour Therapy for Coexisting Depression and Alcohol
+Misuse. \emph{JOURNAL OF CLINICAL MEDICINE}, \emph{6}(7).
+\url{https://doi.org/10.3390/jcm6070072}}
+
+\leavevmode\hypertarget{ref-hollis_effects_2016}{}%
+\CSLLeftMargin{65. }
+\CSLRightInline{Hollis, J. L., Sutherland, R., Campbell, L., Morgan, P.
+J., Lubans, D. R., Nathan, N., Wolfenden, L., Okely, A. D., Davies, L.,
+Williams, A., Cohen, K. E., Oldmeadow, C., Gillham, K., \& Wiggers, J.
+(2016). Effects of a 'school-based' physical activity intervention on
+adiposity in adolescents from economically disadvantaged communities:
+Secondary outcomes of the 'Physical Activity 4 Everyone' RCT.
+\emph{International Journal of Obesity}, \emph{40}(10), 1486--1493.
+\url{https://doi.org/10.1038/ijo.2016.107}}
+
+\leavevmode\hypertarget{ref-mccarter_effectiveness_2018}{}%
+\CSLLeftMargin{66. }
+\CSLRightInline{McCarter, K. L., Baker, A., Britton, B., Beck, A.,
+Carter, G., Bauer, J., Wratten, C., Halpin, S., Holliday, E., Oldmeadow,
+C., \& Wolfenden, L. (2018). Effectiveness of clinical practice change
+strategies in improving dietitian care for head and neck cancer patients
+according to evidence based clinical guidelines: A stepped wedge
+randomised controlled trial. \emph{Translational Behavioral Medicine},
+\emph{8}, 166--174. \url{https://doi.org/10.1093/tbm/ibx016}}
+
+\leavevmode\hypertarget{ref-vandelanotte_effectiveness_2017}{}%
+\CSLLeftMargin{67. }
+\CSLRightInline{Vandelanotte, C., Kolt, G. S., Caperchione, C. M.,
+Savage, T. N., Rosenkranz, R. R., Maeder, A. J., Van Itallie, A., Tague,
+R., Oldmeadow, C., Mummery, W. K., \& Duncan, M. J. (2017).
+Effectiveness of a Web 2.0 intervention to increase physical activity in
+real-world settings: Randomized ecological trial. \emph{Journal of
+Medical Internet Research}, \emph{19}(11).
+\url{https://doi.org/10.2196/jmir.8484}}
+
+\leavevmode\hypertarget{ref-hodder_effectiveness_2017}{}%
+\CSLLeftMargin{68. }
+\CSLRightInline{Hodder, R. K., Freund, M., Bowman, J., Wolfenden, L.,
+Campbell, E., Dray, J., Lecathelinais, C., Oldmeadow, C., Attia, J., \&
+Wiggers, J. (2017). Effectiveness of a pragmatic school-based universal
+resilience intervention in reducing tobacco, alcohol and illicit
+substance use in a population of adolescents: Cluster-randomised
+controlled trial. \emph{BMJ Open}, \emph{7}(8).
+\url{https://doi.org/10.1136/bmjopen-2017-016060}}
+
+\leavevmode\hypertarget{ref-dray_effectiveness_2017}{}%
+\CSLLeftMargin{69. }
+\CSLRightInline{Dray, J., Bowman, J., Campbell, E., Freund, M., Hodder,
+R., Wolfenden, L., Richards, J., Leane, C., Green, S., Lecathelinais,
+C., Oldmeadow, C., Attia, J., Gillham, K., \& Wiggers, J. (2017).
+Effectiveness of a pragmatic school-based universal intervention
+targeting student resilience protective factors in reducing mental
+health problems in adolescents. \emph{Journal of Adolescence},
+\emph{57}, 74--89.
+\url{https://doi.org/10.1016/j.adolescence.2017.03.009}}
+
+\leavevmode\hypertarget{ref-o_brien_effectiveness_2016}{}%
+\CSLLeftMargin{70. }
+\CSLRightInline{O Brien, K. M., Williams, A., Wiggers, J., Wolfenden,
+L., Yoong, S., Campbell, E., Kamper, S. J., McAuley, J., Attia, J.,
+Oldmeadow, C., \& Williams, C. M. (2016). Effectiveness of a healthy
+lifestyle intervention for low back pain and osteoarthritis of the knee:
+Protocol and statistical analysis plan for two randomised controlled
+trials. \emph{Brazilian Journal of Physical Therapy}, \emph{20}(5),
+477--489. \url{https://doi.org/10.1590/bjpt-rbf.2014.0189}}
+
+\leavevmode\hypertarget{ref-wye_effectiveness_2017}{}%
+\CSLLeftMargin{71. }
+\CSLRightInline{Wye, P. M., Stockings, E. A., Bowman, J. A., Oldmeadow,
+C., \& Wiggers, J. H. (2017). Effectiveness of a clinical practice
+change intervention in increasing the provision of nicotine dependence
+treatment in inpatient psychiatric facilities: An implementation trial.
+\emph{BMC Psychiatry}, \emph{17}(1).
+\url{https://doi.org/10.1186/s12888-017-1220-7}}
+
+\leavevmode\hypertarget{ref-dunlop_effectiveness_2017}{}%
+\CSLLeftMargin{72. }
+\CSLRightInline{Dunlop, A. J., Brown, A. L., Oldmeadow, C., Harris, A.,
+Gill, A., Sadler, C., Ribbons, K., Attia, J., Barker, D., Ghijben, P.,
+Hinman, J., Jackson, M., Bell, J., \& Lintzeris, N. (2017).
+Effectiveness and cost-effectiveness of unsupervised
+buprenorphine-naloxone for the treatment of heroin dependence in a
+randomized waitlist controlled trial. \emph{Drug and Alcohol
+Dependence}, \emph{174}, 181--191.
+\url{https://doi.org/10.1016/j.drugalcdep.2017.01.016}}
+
+\leavevmode\hypertarget{ref-guillaumier_effect_2019}{}%
+\CSLLeftMargin{73. }
+\CSLRightInline{Guillaumier, A., Skelton, E., Shakeshaft, A., Farrell,
+M., Tzelepis, F., Walsberger, S., D'Este, C., Paul, C., Dunlop, A.,
+Stirling, R., Fowlie, C., Kelly, P., Oldmeadow, C., Palazzi, K., \&
+Bonevski, B. (2019). Effect of increasing the delivery of smoking
+cessation care in alcohol and other drug treatment centres: A
+cluster-randomized controlled trial. \emph{Addiction}.
+\url{https://doi.org/10.1111/add.14911}}
+
+\leavevmode\hypertarget{ref-paul_dyadic_2017}{}%
+\CSLLeftMargin{74. }
+\CSLRightInline{Paul, C., Hall, A., Oldmeadow, C., Lynagh, M., Campbell,
+S., Bradstock, K., Williamson, A., Carey, M., \& Sanson-Fisher, R.
+(2017). Dyadic interdependence of psychosocial outcomes among
+haematological cancer survivors and their support persons.
+\emph{Supportive Care in Cancer}, \emph{25}(11), 3339--3346.
+\url{https://doi.org/10.1007/s00520-017-3751-3}}
+
+\leavevmode\hypertarget{ref-algama_drosophila_2014}{}%
+\CSLLeftMargin{75. }
+\CSLRightInline{Algama, M., Oldmeadow, C., Tasker, E., Mengersen, K., \&
+Keith, J. M. (2014). Drosophila 3′ UTRs are more complex than
+protein-coding sequences. \emph{PLoS ONE}, \emph{9}(5).
+\url{https://doi.org/10.1371/journal.pone.0097336}}
+
+\leavevmode\hypertarget{ref-hobden_rates_2017}{}%
+\CSLLeftMargin{76. }
+\CSLRightInline{Hobden, B., Bryant, J., Sanson-Fisher, R., Oldmeadow,
+C., \& Carey, M. (2017). Do rates of depression vary by level of alcohol
+misuse in Australian general practice? \emph{Australian Journal of
+Primary Health}, \emph{23}(3), 263--267.
+\url{https://doi.org/10.1071/PY16076}}
+
+\leavevmode\hypertarget{ref-whatnall_determinants_2019}{}%
+\CSLLeftMargin{77. }
+\CSLRightInline{Whatnall, M. C., Patterson, A. J., Chiu, S., Oldmeadow,
+C., \& Hutchesson, M. J. (2019). Determinants of eating behaviours in
+Australian university students: A cross-sectional analysis.
+\emph{Nutrition and Dietetics}.
+\url{https://doi.org/10.1111/1747-0080.12584}}
+
+\leavevmode\hypertarget{ref-attia_deconfounding_2017}{}%
+\CSLLeftMargin{78. }
+\CSLRightInline{Attia, J. R., Oldmeadow, C., Holliday, E. G., \& Jones,
+M. P. (2017). Deconfounding confounding part 2: Using directed acyclic
+graphs (DAGs). \emph{Medical Journal of Australia}, \emph{206}(11),
+480--482.e1. \url{https://doi.org/10.5694/mja16.01167}}
+
+\leavevmode\hypertarget{ref-ewald_daily_2017}{}%
+\CSLLeftMargin{79. }
+\CSLRightInline{Ewald, B. D., Oldmeadow, C., \& Attia, J. R. (2017).
+Daily step count and the need for hospital care in subsequent years in a
+community-based sample of older australians. \emph{Medical Journal of
+Australia}, \emph{206}(3), 126--130.
+\url{https://doi.org/10.5694/mja16.00640}}
+
+\leavevmode\hypertarget{ref-troy_cryobiopsy_2019}{}%
+\CSLLeftMargin{80. }
+\CSLRightInline{Troy, L. K., Grainge, C., Corte, T., Williamson, J. P.,
+Vallely, M. P., Cooper, W., Mahar, A. M., Lai, S., Mulyadi, E.,
+Torzillo, P. J., Salamonsen, M., Don, G., Myers, J., Raghu, G., Lau, E.
+M. T., Arnold, D., Cao, C., Cashmore, A., Cleary, S., \ldots{}
+Oldmeadow, C. (2019). Cryobiopsy versus open lung biopsy in the
+diagnosis of interstitial lung disease (COLDICE): Protocol of a
+multicentre study. \emph{BMJ Open Respiratory Research}, \emph{6}(1).
+\url{https://doi.org/10.1136/bmjresp-2019-000443}}
+
+\leavevmode\hypertarget{ref-najib_contemporary_2019}{}%
+\CSLLeftMargin{81. }
+\CSLRightInline{Najib, N., Magin, P., Lasserson, D., Quain, D., Attia,
+J., Oldmeadow, C., Garcia-Esperon, C., \& Levi, C. (2019). Contemporary
+prognosis of transient ischemic attack patients: A systematic review and
+meta-analysis. \emph{International Journal of Stroke}, \emph{14}(5),
+460--467. \url{https://doi.org/10.1177/1747493018823568}}
+
+\leavevmode\hypertarget{ref-pezdirc_consuming_2016}{}%
+\CSLLeftMargin{82. }
+\CSLRightInline{Pezdirc, K., Hutchesson, M. J., Williams, R. L., Rollo,
+M. E., Burrows, T. L., Wood, L. G., Oldmeadow, C., \& Collins, C. E.
+(2016). Consuming High-Carotenoid Fruit and Vegetables Influences Skin
+Yellowness and Plasma Carotenoids in Young Women: A Single-Blind
+Randomized Crossover Trial. \emph{Journal of the Academy of Nutrition
+and Dietetics}, \emph{116}(8), 1257--1265.
+\url{https://doi.org/10.1016/j.jand.2016.03.012}}
+
+\leavevmode\hypertarget{ref-oldmeadow_concordance_2014}{}%
+\CSLLeftMargin{83. }
+\CSLRightInline{Oldmeadow, C., Holliday, E. G., McEvoy, M., Scott, R.,
+Kwok, J. B. J., Mather, K., Sachdev, P., Schofield, P., \& Attia, J.
+(2014). Concordance between direct and imputed APOE genotypes using 1000
+genomes data. \emph{Journal of Alzheimer's Disease}, \emph{42}(2),
+391--393. \url{https://doi.org/10.3233/JAD-140846}}
+
+\leavevmode\hypertarget{ref-hobden_computer_2017}{}%
+\CSLLeftMargin{84. }
+\CSLRightInline{Hobden, B., Bryant, J., Carey, M., Sanson-Fisher, R., \&
+Oldmeadow, C. (2017). Computer tablet or telephone? A randomised
+controlled trial exploring two methods of collecting data from drug and
+alcohol outpatients. \emph{Addictive Behaviors}, \emph{71}, 111--117.
+\url{https://doi.org/10.1016/j.addbeh.2017.03.009}}
+
+\leavevmode\hypertarget{ref-kable_comparison_2019}{}%
+\CSLLeftMargin{85. }
+\CSLRightInline{Kable, A., Fullerton, A., Fraser, S., Palazzi, K.,
+Hullick, C., Oldmeadow, C., Pond, D., Searles, A., Edmunds, K., \&
+Attia, J. (2019). Comparison of Potentially Inappropriate Medications
+for People with Dementia at Admission and Discharge during An Unplanned
+Admission to Hospital: Results from the SMS Dementia Study dagger.
+\emph{HEALTHCARE}, \emph{7}(1).
+\url{https://doi.org/10.3390/healthcare7010008}}
+
+\leavevmode\hypertarget{ref-whitcher_comparison_2020}{}%
+\CSLLeftMargin{86. }
+\CSLRightInline{Whitcher, S., Magnusson, M., Gani, J., Oldmeadow, C., \&
+Pockney, P. G. (2020). Comparison of colonic neoplasia detection rates
+in patients screened inside and outside the National Bowel Cancer
+Screening Program. \emph{Medical Journal of Australia}, \emph{212}(6),
+275--276. \url{https://doi.org/10.5694/mja2.50508}}
+
+\leavevmode\hypertarget{ref-bonevski_comparing_2015}{}%
+\CSLLeftMargin{87. }
+\CSLRightInline{Bonevski, B., Twyman, L., Paul, C., D'Este, C., West,
+R., Siahpush, M., Oldmeadow, C., Palazzi, K., Bryant, J., \&
+Guillaumier, A. (2015). Comparing socially disadvantaged smokers who
+agree and decline to participate in a randomised smoking cessation
+trial. \emph{BMJ Open}, \emph{5}(9).
+\url{https://doi.org/10.1136/bmjopen-2015-008419}}
+
+\leavevmode\hypertarget{ref-holliday_common_2012}{}%
+\CSLLeftMargin{88. }
+\CSLRightInline{Holliday, E. G., Maguire, J. M., Evans, T.-J., Koblar,
+S. A., Jannes, J., Sturm, J., Hankey, G. J., Baker, R., Golledge, J.,
+Parsons, M. W., Malik, R., McEvoy, M. A., Biros, E., Lewis, M. D.,
+Lincz, L., Peel, R., Oldmeadow, C. J., Smith, W. T., Moscato, P. A.,
+\ldots{} Attia, J. R. (2012). Common variants at 6p21.1 are associated
+with large artery atherosclerotic stroke. \emph{Nature Genetics},
+\emph{44}(10), 1147--1153.}
+
+\leavevmode\hypertarget{ref-oldmeadow_combined_2014}{}%
+\CSLLeftMargin{89. }
+\CSLRightInline{Oldmeadow, C., Mossman, D., Evans, T., Holliday, E. G.,
+Tooney, P. A., Cairns, M. J., Wu, J., Carr, V., Attia, J. R., \& Scott,
+R. J. (2014). Combined analysis of exon splicing and genome wide
+polymorphism data predict schizophrenia risk loci. \emph{Journal of
+Psychiatric Research}, \emph{52}, 44--49.}
+
+\leavevmode\hypertarget{ref-hobden_co-occurring_2018}{}%
+\CSLLeftMargin{90. }
+\CSLRightInline{Hobden, B., Bryant, J., Sanson-Fisher, R., Oldmeadow,
+C., \& Carey, M. (2018). Co-occurring depression and alcohol misuse is
+under-identified in general practice: A cross-sectional study.
+\emph{Journal of Health Psychology}, \emph{23}(8), 1085--1095.
+\url{https://doi.org/10.1177/1359105316643855}}
+
+\leavevmode\hypertarget{ref-levi_cluster-randomized_2020}{}%
+\CSLLeftMargin{91. }
+\CSLRightInline{Levi, C. R., Attia, J. A., D'Este, C., Ryan, A. E.,
+Henskens, F., Kerr, E., Parsons, M. W., Sanson-Fisher, R. W., Bladin, C.
+F., Lindley, R. I., Middleton, S., Paul, C. L., Anderson, C., Ang, T.,
+Bivard, A., Cadigan, G., Celestino, S., Coles, T., Corbett, A., \ldots{}
+Wolfe, N. (2020). Cluster-Randomized Trial of Thrombolysis
+Implementation Support in Metropolitan and Regional Australian Stroke
+Centers: Lessons for Individual and Systems Behavior Change.
+\emph{Journal of the American Heart Association}, \emph{9}(3).
+\url{https://doi.org/10.1161/JAHA.119.012732}}
+
+\leavevmode\hypertarget{ref-wyse_cluster_2019}{}%
+\CSLLeftMargin{92. }
+\CSLRightInline{Wyse, R., Delaney, T., Gibbins, P., Ball, K., Campbell,
+K., Yoong, S. L., Seward, K., Zoetemeyer, R., Rissel, C., Wiggers, J.,
+Attia, J., Oldmeadow, C., Sutherland, R., Nathan, N., Reilly, K.,
+Reeves, P., \& Wolfenden, L. (2019). Cluster randomised controlled trial
+of an online intervention to improve healthy food purchases from primary
+school canteens: A study protocol of the 'click \& crunch' trial.
+\emph{BMJ Open}, \emph{9}(9).
+\url{https://doi.org/10.1136/bmjopen-2019-030538}}
+
+\leavevmode\hypertarget{ref-yoong_cafe_2016}{}%
+\CSLLeftMargin{93. }
+\CSLRightInline{Yoong, S. L., Nathan, N., Wolfenden, L., Wiggers, J.,
+Reilly, K., Oldmeadow, C., Wyse, R., Sutherland, R., Delaney, T.,
+Butler, P., Janssen, L., Preece, S., \& Williams, C. M. (2016). CAFÉ: A
+multicomponent audit and feedback intervention to improve implementation
+of healthy food policy in primary school canteens: A randomised
+controlled trial. \emph{International Journal of Behavioral Nutrition
+and Physical Activity}, \emph{13}(1).
+\url{https://doi.org/10.1186/s12966-016-0453-z}}
+
+\leavevmode\hypertarget{ref-jones_understanding_2017}{}%
+\CSLLeftMargin{94. }
+\CSLRightInline{Jones, M. P., Beath, A., Oldmeadow, C., \& Attia, J. R.
+(2017). Understanding statistical hypothesis tests and power.
+\emph{MEDICAL JOURNAL OF AUSTRALIA}, \emph{207}(4), 148--150.
+\url{https://doi.org/10.5694/mja16.01022}}
+
+\leavevmode\hypertarget{ref-warren_genome-wide_2017}{}%
+\CSLLeftMargin{95. }
+\CSLRightInline{Warren, H. R., Evangelou, E., Cabrera, C. P., Gao, H.,
+Ren, M., Mifsud, B., Ntalla, I., Surendran, P., Liu, C., Cook, J. P.,
+Kraja, A. T., Drenos, F., Loh, M., Verweij, N., Marten, J., Karaman, I.,
+Lepe, M. P. S., O'Reilly, P. F., Knight, J., \ldots{} Elliott, P.
+(2017). Genome-wide association analysis identifies novel blood pressure
+loci and offers biological insights into cardiovascular risk (vol 49, pg
+403, 2017). \emph{NATURE GENETICS}, \emph{49}(10), 1558--1558.
+\url{https://doi.org/10.1038/ng1017-1558a}}
+
+\leavevmode\hypertarget{ref-hobden_clinician_2017}{}%
+\CSLLeftMargin{96. }
+\CSLRightInline{Hobden, B., Carey, M., Bryant, J., Sanson-Fisher, R., \&
+Oldmeadow, C. (2017). Clinician identification of elevated symptoms of
+depression among individuals seeking treatment for substance misuse.
+\emph{Drug and Alcohol Dependence}, \emph{181}, 71--76.
+\url{https://doi.org/10.1016/j.drugalcdep.2017.09.013}}
+
+\leavevmode\hypertarget{ref-regan_comparison_2017}{}%
+\CSLLeftMargin{97. }
+\CSLRightInline{Regan, T., Paul, C., Ishiguchi, P., D Este, C., Koller,
+C., Forshaw, K., Noble, N., Oldmeadow, C., Bisquera, A., \& Eades, S.
+(2017). Comparison of two sources of clinical audit data to assess the
+delivery of diabetes care in aboriginal communities. \emph{International
+Journal of Environmental Research and Public Health}, \emph{14}(10).
+\url{https://doi.org/10.3390/ijerph14101236}}
+
+\leavevmode\hypertarget{ref-schumacher_reference_2017}{}%
+\CSLLeftMargin{98. }
+\CSLRightInline{Schumacher, T. L., Oldmeadow, C., Clausen, D.,
+Weatherall, L., Keogh, L., Pringle, K. G., \& Rae, K. M. (2017).
+Reference Intervals for Non-Fasting CVD Lipids and Inflammation Markers
+in Pregnant Indigenous Australian Women. \emph{Healthcare}, \emph{5}(4),
+1--11. \url{https://doi.org/10.3390/healthcare5040072}}
+
+\leavevmode\hypertarget{ref-fletcher_supporting_2017}{}%
+\CSLLeftMargin{99. }
+\CSLRightInline{Fletcher, R., Kay-Lambkin, F., May, C., Oldmeadow, C.,
+Attia, J., \& Leigh, L. (2017). Supporting men through their transition
+to fatherhood with messages delivered to their smartphones: A
+feasibility study of SMS4dads. \emph{BMC Public Health}, \emph{17}(1).
+\url{https://doi.org/10.1186/s12889-017-4978-0}}
+
+\leavevmode\hypertarget{ref-gould_clinicians_2017}{}%
+\CSLLeftMargin{100. }
+\CSLRightInline{Gould, G. S., Zeev, Y. B., Tywman, L., Oldmeadow, C.,
+Chiu, S., Clarke, M., \& Bonevski, B. (2017). Do Clinicians Ask Pregnant
+Women about Exposures to Tobacco and Cannabis Smoking, Second-Hand-Smoke
+and E-Cigarettes? An Australian National Cross-Sectional Survey.
+\emph{International Journal of Environmental Research and Public
+Health}, \emph{14}(12). \url{https://doi.org/10.3390/ijerph14121585}}
+
+\leavevmode\hypertarget{ref-whiting_general_2017}{}%
+\CSLLeftMargin{101. }
+\CSLRightInline{Whiting, G., Magin, P., Morgan, S., Tapley, A.,
+Henderson, K., Oldmeadow, C., Ball, J., Driel, M. van, Spike, N.,
+McArthur, L., Scott, J., \& Stocks, N. (2017). General practice
+trainees' clinical experience of dermatology indicates a need for
+improved education: A cross-sectional analysis from the Registrar
+Clinical Encounters in Training Study. \emph{Australasian Journal of
+Dermatology}, \emph{58}(4), e199--e206.
+\url{https://doi.org/10.1111/ajd.12493}}
+
+\leavevmode\hypertarget{ref-holmes_cd36_2018}{}%
+\CSLLeftMargin{102. }
+\CSLRightInline{Holmes, M., Connor, T., Oldmeadow, C., Pockney, P. G.,
+Scott, R. J., \& Talseth-Palmer, B. A. (2018). CD36 - a plausible
+modifier of disease phenotype in familial adenomatous polyposis.
+\emph{Hereditary Cancer in Clinical Practice}, \emph{16}(1).
+\url{https://doi.org/10.1186/s13053-018-0096-y}}
+
+\leavevmode\hypertarget{ref-holliday_pattern_2017}{}%
+\CSLLeftMargin{103. }
+\CSLRightInline{Holliday, S. M., Morgan, S., Tapley, A., Henderson, K.
+M., Dunlop, A. J., Driel, M. L. van, Spike, N. A., McArthur, L. A.,
+Ball, J., Oldmeadow, C. J., \& Magin, P. J. (2017). The pattern of
+anxiolytic and hypnotic management by Australian general practice
+trainees. \emph{Drug and Alcohol Review}, \emph{36}(2), 261--269.
+\url{https://doi.org/10.1111/dar.12404}}
+
+\leavevmode\hypertarget{ref-kolt_using_2017}{}%
+\CSLLeftMargin{104. }
+\CSLRightInline{Kolt, G. S., Rosenkranz, R. R., Vandelanotte, C.,
+Caperchione, C. M., Maeder, A. J., Tague, R., Savage, T. N., Van
+Itallie, A., Mummery, W. K., Oldmeadow, C., \& Duncan, M. J. (2017).
+Using web 2.0 applications to promote health-related physical activity:
+Findings from the WALK 2.0 randomised controlled trial. \emph{British
+Journal of Sports Medicine}, \emph{51}(19), 1433--1440.
+\url{https://doi.org/10.1136/bjsports-2016-096890}}
+
+\leavevmode\hypertarget{ref-james_correlates_2018}{}%
+\CSLLeftMargin{105. }
+\CSLRightInline{James, C., James, C., Calear, A. L., Tynan, R., Roach,
+D., Leigh, L., Oldmeadow, C., Rahman, M., \& Kelly, B. (2018).
+Correlates of psychological distress among workers in the mining
+industry in remote Australia: Evidence from a multi-site cross-sectional
+survey. \emph{PLOS ONE}, \emph{13}(12).
+\url{https://doi.org/10.1371/journal.pone.0209377}}
+
+\leavevmode\hypertarget{ref-lee_gene_2018}{}%
+\CSLLeftMargin{106. }
+\CSLRightInline{Lee, J. J., Wedow, R., Okbay, A., Kong, E., Maghzian,
+O., Zacher, M., Nguyen-Viet, T. A., Bowers, P., Sidorenko, J., Karlsson
+Linnér, R., Fontana, M. A., Kundu, T., Lee, C., Li, H., Li, R., Royer,
+R., Timshel, P. N., Walters, R. K., Willoughby, E. A., \ldots{} Poot, R.
+A. (2018). Gene discovery and polygenic prediction from a genome-wide
+association study of educational attainment in 1.1 million individuals.
+\emph{Nature Genetics}, \emph{50}(8), 1112--1121.
+\url{https://doi.org/10.1038/s41588-018-0147-3}}
+
+\leavevmode\hypertarget{ref-ren_pneumococcal_2018}{}%
+\CSLLeftMargin{107. }
+\CSLRightInline{Ren, S., Holliday, E., Hure, A., Peel, R., Hancock, S.,
+Leigh, L., Oldmeadow, C., Newby, D., Li, S. C., \& Attia, J. (2018).
+Pneumococcal polysaccharide vaccine associated with reduced lengths of
+stay for cardiovascular events hospital admissions: Experience from the
+Hunter Community Study. \emph{Vaccine}, \emph{36}(49), 7520--7524.
+\url{https://doi.org/10.1016/j.vaccine.2018.10.064}}
+
+\leavevmode\hypertarget{ref-sanson-fisher_simple_2018}{}%
+\CSLLeftMargin{108. }
+\CSLRightInline{Sanson-Fisher, R. W., Noble, N. E., Searles, A. M.,
+Deeming, S., Smits, R. E., Oldmeadow, C. J., \& Bryant, J. (2018). A
+simple filter model to guide the allocation of healthcare resources for
+improving the treatment of depression among cancer patients. \emph{BMC
+Cancer}, \emph{18}(1). \url{https://doi.org/10.1186/s12885-018-4009-2}}
+
+\leavevmode\hypertarget{ref-fradgley_system-wide_2018}{}%
+\CSLLeftMargin{109. }
+\CSLRightInline{Fradgley, E. A., Paul, C. L., Bryant, J., Zucca, A., \&
+Oldmeadow, C. (2018). System-wide and group-specific health service
+improvements: Cross-sectional survey of outpatient improvement
+preferences and associations with demographic characteristics.
+\emph{International Journal of Environmental Research and Public
+Health}, \emph{15}(2). \url{https://doi.org/10.3390/ijerph15020179}}
+
+\leavevmode\hypertarget{ref-zdenkowski_single-arm_2018}{}%
+\CSLLeftMargin{110. }
+\CSLRightInline{Zdenkowski, N., Butow, P., Spillane, A., Douglas, C.,
+Snook, K., Jones, M., Oldmeadow, C., Fewster, S., Beckmore, C., \&
+Boyle, F. M. (2018). Single-arm longitudinal study to evaluate a
+decision aid for women offered Neoadjuvant systemic therapy for operable
+breast cancer. \emph{JNCCN Journal of the National Comprehensive Cancer
+Network}, \emph{16}(4), 378--385.
+\url{https://doi.org/10.6004/jnccn.2017.7063}}
+
+\leavevmode\hypertarget{ref-joshi_glycaemic_2018}{}%
+\CSLLeftMargin{111. }
+\CSLRightInline{Joshi, T., Pullen, S.-J., Gebuehr, A., Oldmeadow, C.,
+Attia, J. R., \& Acharya, S. H. (2018). Glycaemic optimization for
+patients with cardiac disease-A before-and-after study.
+\emph{International Journal of Clinical Practice},
+\emph{72}(Print-Electronic), e13086--e13086.
+\url{https://doi.org/10.1111/ijcp.13086}}
+
+\leavevmode\hypertarget{ref-davies_study_2018}{}%
+\CSLLeftMargin{112. }
+\CSLRightInline{Davies, G., Lam, M., Harris, S. E., Trampush, J. W.,
+Luciano, M., Hill, W. D., Hagenaars, S. P., Ritchie, S. J., Marioni, R.
+E., Fawns-Ritchie, C., Liewald, D. C. M., Okely, J. A., Ahola-Olli, A.
+V., Barnes, C. L. K., Bertram, L., Bis, J. C., Burdick, K. E.,
+Christoforou, A., Derosse, P., \ldots{} Kleineidam, L. (2018). Study of
+300,486 individuals identifies 148 independent genetic loci influencing
+general cognitive function. \emph{Nature Communications}, \emph{9}(1).
+\url{https://doi.org/10.1038/s41467-018-04362-x}}
+
+\leavevmode\hypertarget{ref-barnett_survival_2018}{}%
+\CSLLeftMargin{113. }
+\CSLRightInline{Barnett, A. G., Oldmeadow, C., \& Attia, J. R. (2018).
+Survival studies: Competing risks, immortality and censoring.
+\emph{Medical Journal of Australia}, \emph{208}(11).
+\url{https://doi.org/10.5694/mja17.00171}}
+
+\leavevmode\hypertarget{ref-hodder_differential_2018}{}%
+\CSLLeftMargin{114. }
+\CSLRightInline{Hodder, R. K., Freund, M., Bowman, J., Wolfenden, L.,
+Campbell, E., Dray, J., Lecathelinais, C., Oldmeadow, C., Attia, J., \&
+Wiggers, J. (2018). Differential intervention effectiveness of a
+universal school-based resilience intervention in reducing adolescent
+substance use within student subgroups: Exploratory assessment within a
+cluster-randomised controlled trial. \emph{BMJ Open}, \emph{8}(8).
+\url{https://doi.org/10.1136/bmjopen-2017-021047}}
+
+\leavevmode\hypertarget{ref-dodd_have_2018}{}%
+\CSLLeftMargin{115. }
+\CSLRightInline{Dodd, N., Mansfield, E., Carey, M., Oldmeadow, C., \&
+Sanson-Fisher, R. (2018). Have we increased our efforts to identify
+strategies which encourage colorectal cancer screening in primary care
+patients? A review of research outputs over time. \emph{Preventive
+Medicine Reports}, \emph{11}, 100--104.
+\url{https://doi.org/10.1016/j.pmedr.2018.05.015}}
+
+\leavevmode\hypertarget{ref-evangelou_genetic_2018}{}%
+\CSLLeftMargin{116. }
+\CSLRightInline{Evangelou, E., Warren, H. R., Mosen-Ansorena, D.,
+Mifsud, B., Pazoki, R., Gao, H., Ntritsos, G., Dimou, N., Cabrera, C.
+P., Karaman, I., Ng, F. L., Evangelou, M., Witkowska, K., Tzanis, E.,
+Hellwege, J. N., Giri, A., Velez Edwards, D. R., Sun, Y. V., Cho, K.,
+\ldots{} Gandin, I. (2018). Genetic analysis of over 1 million people
+identifies 535 new loci associated with blood pressure traits.
+\emph{Nature Genetics}, \emph{50}(10), 1412--1425.
+\url{https://doi.org/10.1038/s41588-018-0205-x}}
+
+\leavevmode\hypertarget{ref-ligthart_genome_2018}{}%
+\CSLLeftMargin{117. }
+\CSLRightInline{Ligthart, S., Vaez, A., Võsa, U., Stathopoulou, M. G.,
+Vries, P. S. de, Prins, B. P., Van der Most, P. J., Tanaka, T., Naderi,
+E., Rose, L. M., Wu, Y., Karlsson, R., Barbalic, M., Lin, H., Pool, R.,
+Zhu, G., Macé, A., Sidore, C., Trompet, S., \ldots{} Morris, A. P.
+(2018). Genome Analyses of \textgreater200,000 Individuals Identify 58
+Loci for Chronic Inflammation and Highlight Pathways that Link
+Inflammation and Complex Disorders. \emph{American Journal of Human
+Genetics}, \emph{103}(5), 691--706.
+\url{https://doi.org/10.1016/j.ajhg.2018.09.009}}
+
+\leavevmode\hypertarget{ref-abdullah_differing_2018}{}%
+\CSLLeftMargin{118. }
+\CSLRightInline{Abdullah, N., Murad, N. A. A., Attia, J., Oldmeadow, C.,
+Kamaruddin, M. A., Jalal, N. A., Ismail, N., Jamal, R., Scott, R. J., \&
+Holliday, E. G. (2018). Differing contributions of classical risk
+factors to type 2 diabetes in multi-ethnic Malaysian populations.
+\emph{International Journal of Environmental Research and Public
+Health}, \emph{15}(12). \url{https://doi.org/10.3390/ijerph15122813}}
+
+\leavevmode\hypertarget{ref-wyss_multiethnic_2018}{}%
+\CSLLeftMargin{119. }
+\CSLRightInline{Wyss, A. B., Sofer, T., Lee, M. K., Terzikhan, N.,
+Nguyen, J. N., Lahousse, L., Latourelle, J. C., Smith, A. V., Bartz, T.
+M., Feitosa, M. F., Gao, W., Ahluwalia, T. S., Tang, W., Oldmeadow, C.,
+Duan, Q., Jong, K. de, Wojczynski, M. K., Wang, X. Q., Noordam, R.,
+\ldots{} Psaty, B. M. (2018). Multiethnic meta-analysis identifies
+ancestry-specific and cross-ancestry loci for pulmonary function.
+\emph{Nature Communications}, \emph{9}(1).
+\url{https://doi.org/10.1038/s41467-018-05369-0}}
+
+\leavevmode\hypertarget{ref-thibault_prolonged_2018}{}%
+\CSLLeftMargin{120. }
+\CSLRightInline{Thibault, P., Attia, J., \& Oldmeadow, C. (2018). A
+prolonged antibiotic protocol to treat persistent Chlamydophila
+pneumoniae infection improves the extracranial venous circulation in
+multiple sclerosis. \emph{Phlebology}, \emph{33}(6), 397--406.
+\url{https://doi.org/10.1177/0268355517712884}}
+
+\leavevmode\hypertarget{ref-sharma_first_2018}{}%
+\CSLLeftMargin{121. }
+\CSLRightInline{Sharma, B. B., Loxton, D. J., Murray, H., Angeli, G. L.,
+Oldmeadow, C., Chiu, S., \& Smith, R. (2018). A first step to improving
+maternal mortality in a low-literacy setting; the successful use of
+singing to improve knowledge regarding antenatal care. \emph{American
+Journal of Obstetrics and Gynecology}, \emph{219}(6), 615.e1--615.e11.
+\url{https://doi.org/10.1016/j.ajog.2018.09.038}}
+
+\leavevmode\hypertarget{ref-bar-zeev_clinician_2018}{}%
+\CSLLeftMargin{122. }
+\CSLRightInline{Bar-Zeev, Y., Bonevski, B., Gruppetta, M., Twyman, L.,
+Atkins, L., Palazzi, K., Oldmeadow, C., \& Gould, G. S. (2018).
+Clinician factors associated with prescribing nicotine replacement
+therapy in pregnancy: A cross-sectional survey of Australian
+obstetricians and general practitioners. \emph{Australian and New
+Zealand Journal of Obstetrics and Gynaecology}, \emph{58}(3), 366--370.
+\url{https://doi.org/10.1111/ajo.12751}}
+
+\leavevmode\hypertarget{ref-evangelou_erratum_2018}{}%
+\CSLLeftMargin{123. }
+\CSLRightInline{Evangelou, E., Warren, H. R., Mosen-Ansorena, D.,
+Mifsud, B., Pazoki, R., Gao, H., Ntritsos, G., Dimou, N., Cabrera, C.
+P., Karaman, I., Ng, F. L., Evangelou, M., Witkowska, K., Tzanis, E.,
+Hellwege, J. N., Giri, A., Velez Edwards, D. R., Sun, Y. V., Cho, K.,
+\ldots{} Gandin, I. (2018). Erratum to: Genetic analysis of over 1
+million people identifies 535 new loci associated with blood pressure
+traits (Nature Genetics, (2018), 50, 10, (1412-1425),
+10.1038/s41588-018-0205-x). \emph{Nature Genetics}, \emph{50}(12), 1755.
+\url{https://doi.org/10.1038/s41588-018-0297-3}}
+
+\leavevmode\hypertarget{ref-carey_examining_2018}{}%
+\CSLLeftMargin{124. }
+\CSLRightInline{Carey, M., Sanson-Fisher, R., Clinton-McHarg, T., Boyes,
+A., Olver, I., Oldmeadow, C., Paul, C., D'Este, C., \& Henskens, F.
+(2018). Examining variation across treatment clinics in cancer patients'
+psychological outcomes: Results of a cross sectional survey.
+\emph{Supportive Care in Cancer}, \emph{26}(9), 3201--3208.
+\url{https://doi.org/10.1007/s00520-018-4188-z}}
+
+\leavevmode\hypertarget{ref-hobden_finding_2018}{}%
+\CSLLeftMargin{125. }
+\CSLRightInline{Hobden, B., Bryant, J., Carey, M., Baker, A. L.,
+Farrell, M., Oldmeadow, C., Mattick, R. P., Shakeshaft, A., \&
+Sanson-Fisher, R. (2018). Finding the optimal treatment model: A
+systematic review of treatment for co-occurring alcohol misuse and
+depression. \emph{Australian and New Zealand Journal of Psychiatry},
+\emph{52}(8), 737--750. \url{https://doi.org/10.1177/0004867418758922}}
+
+\leavevmode\hypertarget{ref-bryant_how_2018}{}%
+\CSLLeftMargin{126. }
+\CSLRightInline{Bryant, J., Hobden, B., Forshaw, K., Oldmeadow, C.,
+Walsh, J., \& Sanson-Fisher, R. (2018). How accurately do general
+practitioners detect concurrent tobacco use and risky alcohol
+consumption? A cross-sectional study in Australian general practice.
+\emph{Australian Journal of Primary Health}, \emph{24}(5), 378--384.
+\url{https://doi.org/10.1071/PY17122}}
+
+\leavevmode\hypertarget{ref-revelas_review_2018}{}%
+\CSLLeftMargin{127. }
+\CSLRightInline{Revelas, M., Thalamuthu, A., Oldmeadow, C., Evans, T.
+J., Armstrong, N. J., Kwok, J. B., Brodaty, H., Schofield, P. R., Scott,
+R. J., Sachdev, P. S., Attia, J. R., \& Mather, K. A. (2018). Review and
+meta-analysis of genetic polymorphisms associated with exceptional human
+longevity. \emph{Mechanisms of Ageing and Development}, \emph{175},
+24--34. \url{https://doi.org/10.1016/j.mad.2018.06.002}}
+
+\leavevmode\hypertarget{ref-twyman_what_2018}{}%
+\CSLLeftMargin{128. }
+\CSLRightInline{Twyman, L., Bonevski, B., Paul, C., Bryant, J., West,
+R., Siahpush, M., D'este, C., Oldmeadow, C., \& Palazzi, K. (2018). What
+factors are associated with abstinence amongst socioeconomically
+disadvantaged smokers? A cross-sectional survey of use of cessation aids
+and quitting approach. \emph{Drug and Alcohol Review}, \emph{37}(2),
+170--179. \url{https://doi.org/10.1111/dar.12561}}
+
+\leavevmode\hypertarget{ref-twyman_theyre_2019}{}%
+\CSLLeftMargin{129. }
+\CSLRightInline{Twyman, L., Cowles, C., Walsberger, S. C., Baker, A. L.,
+\& Bonevski, B. (2019). {``They're going to smoke anyway''}: A
+qualitative study of community mental health staff and consumer
+perspectives on the role of social and living environments in tobacco
+use and cessation. \emph{Frontiers in Psychiatry}, \emph{10}(JUN),
+1--11. \url{https://doi.org/10.3389/fpsyt.2019.00503}}
+
+\leavevmode\hypertarget{ref-smith_case_2019}{}%
+\CSLLeftMargin{130. }
+\CSLRightInline{Smith, R., Mohapatra, L., Hunter, M., Evans, T. J.,
+Oldmeadow, C., Holliday, E., Hure, A., \& Attia, J. (2019). A case for
+not adjusting birthweight customized standards for ethnicity:
+Observations from a unique Australian cohort. \emph{American Journal of
+Obstetrics and Gynecology}, \emph{220}(3), 277.e1--277.e10.
+\url{https://doi.org/10.1016/j.ajog.2018.10.094}}
+
+\leavevmode\hypertarget{ref-karlsson_linner_genome-wide_2019}{}%
+\CSLLeftMargin{131. }
+\CSLRightInline{Karlsson Linnér, R., Biroli, P., Kong, E., Meddens, S.
+F. W., Wedow, R., Fontana, M. A., Lebreton, M., Tino, S. P., Abdellaoui,
+A., Hammerschlag, A. R., Nivard, M. G., Okbay, A., Rietveld, C. A.,
+Timshel, P. N., Trzaskowski, M., Vlaming, R. D., Zünd, C. L., Bao, Y.,
+Buzdugan, L., \ldots{} Perola, M. (2019). Genome-wide association
+analyses of risk tolerance and risky behaviors in over 1 million
+individuals identify hundreds of loci and shared genetic influences.
+\emph{Nature Genetics}, \emph{51}(2), 245--257.
+\url{https://doi.org/10.1038/s41588-018-0309-3}}
+
+\leavevmode\hypertarget{ref-denham_short-term_2019}{}%
+\CSLLeftMargin{132. }
+\CSLRightInline{Denham, J. W., Joseph, D., Lamb, D. S., Spry, N. A.,
+Duchesne, G., Matthews, J., Atkinson, C., Tai, K. H., Christie, D.,
+Kenny, L., Turner, S., Gogna, N. K., Diamond, T., Delahunt, B.,
+Oldmeadow, C., Attia, J., \& Steigler, A. (2019). Short-term androgen
+suppression and radiotherapy versus intermediate-term androgen
+suppression and radiotherapy, with or without zoledronic acid, in men
+with locally advanced prostate cancer (TROG 03.04 RADAR): 10-year
+results from a randomised, phase 3, factorial trial. \emph{The Lancet
+Oncology}, \emph{20}(2), 267--281.
+\url{https://doi.org/10.1016/S1470-2045(18)30757-5}}
+
+\leavevmode\hypertarget{ref-morten_intron_2019}{}%
+\CSLLeftMargin{133. }
+\CSLRightInline{Morten, B. C., Chiu, S., Oldmeadow, C., Lubinski, J.,
+Scott, R. J., \& Avery-Kiejda, K. A. (2019). The intron 3 16~bp
+duplication polymorphism of p53 (rs17878362) is not associated with
+increased risk of developing triple-negative breast cancer. \emph{Breast
+Cancer Research and Treatment}, \emph{173}(3), 727--733.
+\url{https://doi.org/10.1007/s10549-018-5039-9}}
+
+\leavevmode\hypertarget{ref-jamaluddin_proteomic_2019}{}%
+\CSLLeftMargin{134. }
+\CSLRightInline{Jamaluddin, M. F. B., Nagendra, P. B., Nahar, P.,
+Oldmeadow, C., \& Tanwar, P. S. (2019). Proteomic Analysis Identifies
+Tenascin-C Expression Is Upregulated in Uterine Fibroids.
+\emph{Reproductive Sciences}, \emph{26}(4), 476--486.
+\url{https://doi.org/10.1177/1933719118773420}}
+
+\leavevmode\hypertarget{ref-giri_trans-ethnic_2019}{}%
+\CSLLeftMargin{135. }
+\CSLRightInline{Giri, A., Hellwege, J. N., Keaton, J. M., Park, J., Qiu,
+C., Warren, H. R., Torstenson, E. S., Kovesdy, C. P., Sun, Y. V.,
+Wilson, O. D., Robinson-Cohen, C., Roumie, C. L., Chung, C. P.,
+Birdwell, K. A., Damrauer, S. M., DuVall, S. L., Klarin, D., Cho, K.,
+Wang, Y., \ldots{} Edwards, T. L. (2019). Trans-ethnic association study
+of blood pressure determinants in over 750,000 individuals. \emph{Nature
+Genetics}, \emph{51}(1), 51--62.
+\url{https://doi.org/10.1038/s41588-018-0303-9}}
+
+\leavevmode\hypertarget{ref-jackson_vegetable_2019}{}%
+\CSLLeftMargin{136. }
+\CSLRightInline{Jackson, J. K., Patterson, A. J., Macdonald-Wicks, L.
+K., Forder, P. M., Blekkenhorst, L. C., Bondonno, C. P., Hodgson, J. M.,
+Ward, N. C., Holder, C., Oldmeadow, C., Byles, J. E., \& McEvoy, M. A.
+(2019). Vegetable nitrate intakes are associated with reduced
+self-reported cardiovascular-related complications within a
+representative sample of middle-aged australian women, prospectively
+followed up for 15 years. \emph{Nutrients}, \emph{11}(2).
+\url{https://doi.org/10.3390/nu11020240}}
+
+\leavevmode\hypertarget{ref-britton_reply_2019}{}%
+\CSLLeftMargin{137. }
+\CSLRightInline{Britton, B., Baker, A. L., Wolfenden, L., Wratten, C.,
+Bauer, J., Beck, A. K., McCarter, K., Harrowfield, J., Isenring, E.,
+Tang, C., Oldmeadow, C., \& Carter, G. (2019). In Reply to Lee and
+Douthit, and Champ and Klement. \emph{International Journal of Radiation
+Oncology Biology Physics}, \emph{103}(5), 1283--1284.
+\url{https://doi.org/10.1016/j.ijrobp.2018.12.017}}
+
+\leavevmode\hypertarget{ref-eliezer_alpha_2019}{}%
+\CSLLeftMargin{138. }
+\CSLRightInline{Eliezer, D., Deshpande, A. V., Starkey, M. R., Samnakay,
+N., Oldmeadow, C., \& Kernohan, A. (2019). Alpha blockers for treating
+functional daytime urinary incontinence in children (Protocol).
+\emph{Cochrane Database of Systematic Reviews}, \emph{2019}(4).
+\url{https://doi.org/10.1002/14651858.CD013313}}
+
+\leavevmode\hypertarget{ref-davies_author_2019}{}%
+\CSLLeftMargin{139. }
+\CSLRightInline{Davies, G., Lam, M., Harris, S. E., Trampush, J. W.,
+Luciano, M., Hill, W. D., Hagenaars, S. P., Ritchie, S. J., Marioni, R.
+E., Fawns-Ritchie, C., Liewald, D. C. M., Okely, J. A., Ahola-Olli, A.
+V., Barnes, C. L. K., Bertram, L., Bis, J. C., Burdick, K. E.,
+Christoforou, A., DeRosse, P., \ldots{} Kleineidam, L. (2019). Author
+Correction: Study of 300,486 individuals identifies 148 independent
+genetic loci influencing general cognitive function (Nature
+Communications, (2018), 9, 1, (2098), 10.1038/s41467-018-04362-x).
+\emph{Nature Communications}, \emph{10}(1).
+\url{https://doi.org/10.1038/s41467-019-10160-w}}
+
+\leavevmode\hypertarget{ref-bar-zeev_improving_2019}{}%
+\CSLLeftMargin{140. }
+\CSLRightInline{Bar-Zeev, Y., Bonevski, B., Lim, L. L., Twyman, L.,
+Skelton, E., Gruppetta, M., Palazzi, K., Oldmeadow, C., \& Gould, G. S.
+(2019). Improving health providers smoking cessation care in pregnancy:
+A systematic review and meta-analysis. \emph{Addictive Behaviors},
+\emph{93}, 29--38. \url{https://doi.org/10.1016/j.addbeh.2019.01.002}}
+
+\leavevmode\hypertarget{ref-ferguson_reduced_2019}{}%
+\CSLLeftMargin{141. }
+\CSLRightInline{Ferguson, J. K., Munnoch, S. A., Kozierowski, K., Chiu,
+S., \& Oldmeadow, C. (2019). Reduced VRE and MRSA colonisation and
+infection following sustained reduction in broad spectrum antibiotic use
+in a large tertiary hospital. \emph{Medical Journal of Australia},
+\emph{211}(3), 126--127. \url{https://doi.org/10.5694/mja2.50218}}
+
+\leavevmode\hypertarget{ref-bar-zeev_improving_2019-1}{}%
+\CSLLeftMargin{142. }
+\CSLRightInline{Bar-Zeev, Y., Bovill, M., Bonevski, B., Gruppetta, M.,
+Oldmeadow, C., Palazzi, K., Atkins, L., Reath, J., \& Gould, G. S.
+(2019). Improving smoking cessation care in pregnancy at Aboriginal
+Medical Services: ICAN QUIT in Pregnancy' step-wedge cluster randomised
+study. \emph{BMJ Open}, \emph{9}(6).
+\url{https://doi.org/10.1136/bmjopen-2018-025293}}
+
+\leavevmode\hypertarget{ref-searle_calf_2019}{}%
+\CSLLeftMargin{143. }
+\CSLRightInline{Searle, A., Spink, M. J., Oldmeadow, C., Chiu, S., \&
+Chuter, V. H. (2019). Calf muscle stretching is ineffective in
+increasing ankle range of motion or reducing plantar pressures in people
+with diabetes and ankle equinus: A randomised controlled trial.
+\emph{Clinical Biomechanics}, \emph{69}, 52--57.
+\url{https://doi.org/10.1016/j.clinbiomech.2019.07.005}}
+
+\leavevmode\hypertarget{ref-beck_adapted_2019}{}%
+\CSLLeftMargin{144. }
+\CSLRightInline{Beck, A. K., Forbes, E., Baker, A. L., Britton, B.,
+Oldmeadow, C., \& Carter, G. (2019). Adapted motivational interviewing
+for brief healthcare consultations: Protocol for a systematic review and
+meta-analysis of treatment fidelity in real-world evaluations of
+behaviour change counselling. \emph{BMJ Open}, \emph{9}(7).
+\url{https://doi.org/10.1136/bmjopen-2018-028417}}
+
+\leavevmode\hypertarget{ref-casey_reliability_2019}{}%
+\CSLLeftMargin{145. }
+\CSLRightInline{Casey, S., Lanting, S., Oldmeadow, C., \& Chuter, V.
+(2019). The reliability of the ankle brachial index: A systematic
+review. \emph{Journal of Foot and Ankle Research}, \emph{12}(1), 1--10.
+\url{https://doi.org/10.1186/s13047-019-0350-1}}
+
+\leavevmode\hypertarget{ref-jones_fdg-pet_2019}{}%
+\CSLLeftMargin{146. }
+\CSLRightInline{Jones, M. P., Hruby, G., Metser, U., Sridharan, S.,
+Capp, A., Kumar, M., Gallagher, S., Rutherford, N., Holder, C.,
+Oldmeadow, C., \& Martin, J. (2019). FDG-PET parameters predict for
+recurrence in anal cancer - Results from a prospective, multicentre
+clinical trial. \emph{Radiation Oncology}, \emph{14}(1).
+\url{https://doi.org/10.1186/s13014-019-1342-9}}
+
+\leavevmode\hypertarget{ref-snodgrass_cervical_2019}{}%
+\CSLLeftMargin{147. }
+\CSLRightInline{Snodgrass, S., Croker, C., Yerrapothu, M., Shepherd, S.,
+Stanwell, P., Holder, C., Oldmeadow, C., \& Elliot, J. (2019). Cervical
+muscle volume in individuals with idiopathic neck pain compared to
+asymptomatic controls: A cross-sectional magnetic resonance imaging
+study. \emph{Musculoskeletal Science and Practice}, \emph{44}(In press).
+\url{https://doi.org/10.1016/j.msksp.2019.102050}}
+
+\leavevmode\hypertarget{ref-lee_relationship_2019}{}%
+\CSLLeftMargin{148. }
+\CSLRightInline{Lee, Y. Q., Lumbers, E. R., Oldmeadow, C., Collins, C.
+E., Johnson, V., Keogh, L., Sutherland, K., Gordon, A., Smith, R., Rae,
+K. M., \& Pringle, K. G. (2019). The relationship between maternal
+adiposity during pregnancy and fetal kidney development and kidney
+function in infants: The Gomeroi gaaynggal study. \emph{Physiological
+Reports}, \emph{7}(17), 1--14.
+\url{https://doi.org/10.14814/phy2.14227}}
+
+\leavevmode\hypertarget{ref-sutherland_protocol_2019}{}%
+\CSLLeftMargin{149. }
+\CSLRightInline{Sutherland, R., Brown, A., Nathan, N., Janssen, L.,
+Reynolds, R., Walton, A., Hudson, N., Chooi, A., Yoong, S., Wiggers, J.,
+Bailey, A., Evans, N., Gillham, K., Oldmeadow, C., Searles, A., Reeves,
+P., Rissel, C., Davies, M., Reilly, K., \ldots{} Wolfenden, L. (2019).
+Protocol for an effectiveness- implementation hybrid trial to assess the
+effectiveness and cost-effectiveness of an m-health intervention to
+decrease the consumption of discretionary foods packed in school
+lunchboxes: The 'SWAP IT' trial. \emph{BMC Public Health}, \emph{19}(1),
+1510. \url{https://doi.org/10.1186/s12889-019-7725-x}}
+
+\leavevmode\hypertarget{ref-hasnain_can_2019}{}%
+\CSLLeftMargin{150. }
+\CSLRightInline{Hasnain, M. G., Levi, C. R., Ryan, A., Hubbard, I. J.,
+Hall, A., Oldmeadow, C., Grady, A., Jayakody, A., Attia, J. R., \& Paul,
+C. L. (2019). Can a multicomponent multidisciplinary implementation
+package change physicians' and nurses' perceptions and practices
+regarding thrombolysis for acute ischemic stroke? An exploratory
+analysis of a cluster-randomized trial. \emph{Implementation Science},
+\emph{14}(1). \url{https://doi.org/10.1186/s13012-019-0940-0}}
+
+\leavevmode\hypertarget{ref-denham_development_2019}{}%
+\CSLLeftMargin{151. }
+\CSLRightInline{Denham, A. M. J., Guillaumier, A., McCrabb, S., Turner,
+A., Baker, A. L., Spratt, N. J., Pollack, M., Magin, P., Oldmeadow, C.,
+Collins, C., Callister, R., Wallis, M., Wynne, O., \& Bonevski, B.
+(2019). Development of an online secondary prevention programme for
+stroke survivors: Prevent 2nd Stroke. \emph{BMJ Innovations},
+\emph{5}(1), 35--42. \url{https://doi.org/10.1136/bmjinnov-2017-000257}}
+
+\leavevmode\hypertarget{ref-burgess_eligibility_2019}{}%
+\CSLLeftMargin{152. }
+\CSLRightInline{Burgess, A., Goon, K., Brannan, J. D., Attia, J.,
+Palazzi, K., Oldmeadow, C., Corte, T. J., Glaspole, I., Goh, N., Keir,
+G., Allan, H., Chapman, S., Cooper, W., Ellis, S., Hopkins, P., Moodley,
+Y., Reynolds, P., Zappala, C., Macansh, S., \& Grainge, C. (2019).
+Eligibility for anti-fibrotic treatment in idiopathic pulmonary fibrosis
+depends on the predictive equation used for pulmonary function testing.
+\emph{Respirology}, \emph{24}(10), 988--995.
+\url{https://doi.org/10.1111/resp.13540}}
+
+\leavevmode\hypertarget{ref-vandelanotte_more_2019}{}%
+\CSLLeftMargin{153. }
+\CSLRightInline{Vandelanotte, C., Duncan, M. J., Kolt, G. S.,
+Caperchione, C. M., Savage, T. N., Van Itallie, A., Oldmeadow, C.,
+Alley, S. J., Tague, R., Maeder, A. J., Rosenkranz, R. R., \& Mummery,
+W. K. (2019). More real-world trials are needed to establish if
+web-based physical activity interventions are effective. \emph{British
+Journal of Sports Medicine}, \emph{53}(24), 1553--1554.
+\url{https://doi.org/10.1136/bjsports-2018-099437}}
+
+\leavevmode\hypertarget{ref-beaudry-bellefeuille_toileting_2019}{}%
+\CSLLeftMargin{154. }
+\CSLRightInline{Beaudry-Bellefeuille, I., Lane, A., Chiu, S., Oldmeadow,
+C., Ramos Polo, E., \& Lane, S. J. (2019). The Toileting Habit Profile
+Questionnaire-Revised: Examining Discriminative and Concurrent Validity.
+\emph{Journal of Occupational Therapy, Schools, and Early Intervention},
+\emph{12}(3), 311--322.
+\url{https://doi.org/10.1080/19411243.2019.1590756}}
+
+\leavevmode\hypertarget{ref-hobden_prevalence_2020-1}{}%
+\CSLLeftMargin{155. }
+\CSLRightInline{Hobden, B., Bryant, J., Forshaw, K., Oldmeadow, C.,
+Evans, T. J., \& Sanson-Fisher, R. (2020). Prevalence and
+characteristics associated with concurrent smoking and alcohol misuse
+within Australian general practice patients. \emph{Australian Health
+Review}, \emph{44}(1), 125--131. \url{https://doi.org/10.1071/AH18126}}
+
+\leavevmode\hypertarget{ref-kelly_study_2020}{}%
+\CSLLeftMargin{156. }
+\CSLRightInline{Kelly, P., Deane, F., Byrne, G., Degan, T., Osborne, B.,
+Townsend, C., McKay, J., Robinson, L., Oldmeadow, C., Lawson, K.,
+Searles, A., \& Lunn, J. (2020). Study protocol the Continuing Care
+Project: A randomised controlled trial of a continuing care telephone
+intervention following residential substance dependence treatment.
+\emph{BMC Public Health}, \emph{20}(1).
+\url{https://doi.org/10.1186/s12889-020-8206-y}}
+
+\leavevmode\hypertarget{ref-troy_diagnostic_2020}{}%
+\CSLLeftMargin{157. }
+\CSLRightInline{Troy, L. K., Grainge, C., Corte, T. J., Williamson, J.
+P., Vallely, M. P., Cooper, W. A., Mahar, A., Myers, J. L., Lai, S.,
+Mulyadi, E., Torzillo, P. J., Phillips, M. J., Jo, H. E., Webster, S.
+E., Lin, Q. T., Rhodes, J. E., Salamonsen, M., Wrobel, J. P., Harris,
+B., \ldots{} Twaddell, S. (2020). Diagnostic accuracy of transbronchial
+lung cryobiopsy for interstitial lung disease diagnosis (COLDICE): A
+prospective, comparative study. \emph{The Lancet Respiratory Medicine},
+\emph{8}(2), 171--181.
+\url{https://doi.org/10.1016/S2213-2600(19)30342-X}}
+
+\leavevmode\hypertarget{ref-stuart_psychological_2020}{}%
+\CSLLeftMargin{158. }
+\CSLRightInline{Stuart, A. M., Baker, A. L., Denham, A. M. J., Lee, N.
+K., Hall, A., Oldmeadow, C., Dunlop, A., Bowman, J., \& McCarter, K.
+(2020). Psychological treatment for methamphetamine use and associated
+psychiatric symptom outcomes: A systematic review. \emph{Journal of
+Substance Abuse Treatment}, \emph{109}, 61--79.
+\url{https://doi.org/10.1016/j.jsat.2019.09.005}}
+
+\leavevmode\hypertarget{ref-kelly_erratum_2020}{}%
+\CSLLeftMargin{159. }
+\CSLRightInline{Kelly, P., Deane, F., Baker, A., Byrne, G., Degan, T.,
+Osborne, B., Townsend, C., McKay, J., Robinson, L., Oldmeadow, C.,
+Lawson, K., Searles, A., \& Lunn, J. (2020). Erratum: Correction to:
+Study protocol the Continuing Care Project: A randomised controlled
+trial of a continuing care telephone intervention following residential
+substance dependence treatment (BMC public health (2020) 20 1 (107)).
+\emph{BMC Public Health}, \emph{20}(1), 258.
+\url{https://doi.org/10.1186/s12889-020-8328-2}}
+
+\leavevmode\hypertarget{ref-joseph_radiation_2020}{}%
+\CSLLeftMargin{160. }
+\CSLRightInline{Joseph, D., Denham, J. W., Steigler, A., Lamb, D. S.,
+Spry, N. A., Stanley, J., Shannon, T., Duchesne, G., Atkinson, C.,
+Matthews, J. H. L., Turner, S., Kenny, L., Christie, D., Tai, K. H.,
+Gogna, N. K., Kearvell, R., Murray, J., Ebert, M. A., Haworth, A.,
+\ldots{} Attia, J. (2020). Radiation Dose Escalation or Longer Androgen
+Suppression to Prevent Distant Progression in Men With Locally Advanced
+Prostate Cancer: 10-Year Data From the TROG 03.04 RADAR Trial.
+\emph{International Journal of Radiation Oncology Biology Physics},
+\emph{106}(4), 693--702.
+\url{https://doi.org/10.1016/j.ijrobp.2019.11.415}}
+
+\leavevmode\hypertarget{ref-delahunt_perineural_2020}{}%
+\CSLLeftMargin{161. }
+\CSLRightInline{Delahunt, B., Murray, J. D., Steigler, A., Atkinson, C.,
+Christie, D., Duchesne, G., Egevad, L., Joseph, D., Matthews, J.,
+Oldmeadow, C., Samaratunga, H., Spry, N. A., Srigley, J. R.,
+Hondermarck, H., \& Denham, J. W. (2020). Perineural invasion by
+prostate adenocarcinoma in needle biopsies predicts bone metastasis: Ten
+year data from the TROG 03.04 RADAR Trial. \emph{Histopathology},
+\emph{Print-Electronic}. \url{https://doi.org/10.1111/his.14107}}
+
+\leavevmode\hypertarget{ref-jackson_better_2020}{}%
+\CSLLeftMargin{162. }
+\CSLRightInline{Jackson, J. K., MacDonald-Wicks, L. K., McEvoy, M. A.,
+Forder, P. M., Holder, C., Oldmeadow, C., Byles, J. E., \& Patterson, A.
+J. (2020). Better diet quality scores are associated with a lower risk
+of hypertension and non-fatal CVD in middle-aged Australian women over
+15 years of follow-up. \emph{Public Health Nutrition}, \emph{23}(5),
+882--893. \url{https://doi.org/10.1017/S1368980019002842}}
+
+\leavevmode\hypertarget{ref-phad_dilated_2020}{}%
+\CSLLeftMargin{163. }
+\CSLRightInline{Phad, N. S., Waal, K. de, Holder, C., \& Oldmeadow, C.
+(2020). Dilated hypertrophy: A distinct pattern of cardiac remodeling in
+preterm infants. \emph{Pediatric Research}, \emph{87}(1), 146--152.
+\url{https://doi.org/10.1038/s41390-019-0568-4}}
+
+\leavevmode\hypertarget{ref-english_breaking_2018}{}%
+\CSLLeftMargin{164. }
+\CSLRightInline{English, C., Janssen, H., Crowfoot, G., Callister, R.,
+Dunn, A., Mackie, P., Oldmeadow, C., Ong, L. K., Palazzi, K., Patterson,
+A. J., Spratt, N. J., Walker, F. R., Bernhardt, J., \& Dunstan, D. W.
+(2018). Breaking up sitting time after stroke (BUST-stroke).
+\emph{International Journal of Stroke}, \emph{13}(9), 921--931.
+\url{https://doi.org/10.1177/1747493018801222}}
+
+\leavevmode\hypertarget{ref-ranasinghe_bladder_2013}{}%
+\CSLLeftMargin{165. }
+\CSLRightInline{Ranasinghe, W. K. B., Attia, J., Oldmeadow, C.,
+Lawrentschuk, N., Robertson, J., Ranasinghe, T., Bolton, D., \& Persad,
+R. (2013). Bladder carcinoma in situ (CIS) in Australia: A rising
+incidence for an under-reported malignancy. \emph{BJU International},
+\emph{112}(S2), 46--52. \url{https://doi.org/10.1111/bju.12052}}
+
+\leavevmode\hypertarget{ref-sprott_assessment_2019}{}%
+\CSLLeftMargin{166. }
+\CSLRightInline{Sprott, P., Hibberd, A. D., Heer, M. K., Trevillian, P.
+R., Clark, D. A., Johnson, D. W., Oldmeadow, C., Chiu, S., \& Attia, J.
+R. (2019). Assessment of Restored Kidney Transplantation Including the
+Use of Wider Criteria for Accepting Renal Donors After Cancer Excision.
+\emph{Transplantation Direct}, \emph{5}(11).
+\url{https://doi.org/10.1097/TXD.0000000000000946}}
+
+\leavevmode\hypertarget{ref-lynagh_rct_2012}{}%
+\CSLLeftMargin{167. }
+\CSLRightInline{Lynagh, M. C., Bonevski, B., Sanson-Fisher, R. W.,
+Symonds, I. M., Scott, A., Hall, A. E., \& Oldmeadow, C. J. (2012). An
+RCT protocol of varying financial incentive amounts for smoking
+cessation among pregnant women. \emph{BMC Public Health}, \emph{12},
+1032.}
+
+\leavevmode\hypertarget{ref-guillaumier_online_2019}{}%
+\CSLLeftMargin{168. }
+\CSLRightInline{Guillaumier, A., McCrabb, S., Spratt, N. J., Pollack,
+M., Baker, A. L., Magin, P., Turner, A., Oldmeadow, C., Collins, C.,
+Callister, R., Levi, C., Searles, A., Deeming, S., Wynne, O., Denham, A.
+M. J., Clancy, B., \& Bonevski, B. (2019). An online intervention for
+improving stroke survivors' health-related quality of life: Study
+protocol for a randomised controlled trial. \emph{Trials}, \emph{20}(1).
+\url{https://doi.org/10.1186/s13063-019-3604-0}}
+
+\leavevmode\hypertarget{ref-holliday_examination_2013}{}%
+\CSLLeftMargin{169. }
+\CSLRightInline{Holliday, S., Magin, P., Oldmeadow, C., Attia, J.,
+Dunbabin, J., Henry, J., Lintzeris, N., Goode, S., \& Dunlop, A. (2013).
+An examination of the influences on New South Wales general
+practitioners regarding the provision of opioid substitution therapy.
+\emph{Drug and Alcohol Review}, \emph{32}(5), 495--503.
+\url{https://doi.org/10.1111/dar.12046}}
+
+\leavevmode\hypertarget{ref-holliday_evaluation_2013}{}%
+\CSLLeftMargin{170. }
+\CSLRightInline{Holliday, S., Magin, P., Dunbabin, J., Oldmeadow, C.,
+Henry, J. M., Lintzeris, N., Attia, J., Goode, S., \& Dunlop, A. (2013).
+An Evaluation of the Prescription of Opioids for Chronic Nonmalignant
+Pain by Australian General Practitioners. \emph{Pain Medicine (United
+States)}, \emph{14}(1), 62--74.
+\url{https://doi.org/10.1111/j.1526-4637.2012.01527.x}}
+
+\leavevmode\hypertarget{ref-sinclair_evaluation_2019}{}%
+\CSLLeftMargin{171. }
+\CSLRightInline{Sinclair, P. M., Kable, A., Levett-Jones, T., Holder,
+C., \& Oldmeadow, C. J. (2019). An evaluation of general practice
+nurses' knowledge of chronic kidney disease risk factors and screening
+practices following completion of a case study-based asynchronous
+e-learning module. \emph{Australian Journal of Primary Health},
+\emph{25}(4), 346--352. \url{https://doi.org/10.1071/PY18173}}
+
+\leavevmode\hypertarget{ref-kable_evaluation_2019}{}%
+\CSLLeftMargin{172. }
+\CSLRightInline{Kable, A., Pond, D., Hullick, C., Chenoweth, L., Duggan,
+A., Attia, J., \& Oldmeadow, C. (2019). An evaluation of discharge
+documentation for people with dementia discharged home from hospital --
+A cross-sectional pilot study. \emph{Dementia}, \emph{18}(5),
+1764--1776. \url{https://doi.org/10.1177/1471301217728845}}
+
+\leavevmode\hypertarget{ref-bovill_aboriginal_2020}{}%
+\CSLLeftMargin{173. }
+\CSLRightInline{Bovill, M., Bar-Zeev, Y., Bonevski, B., Gruppetta, M.,
+Oldmeadow, C., Hall, A., Reath, J., \& Gould, G. S. (2020). Aboriginal
+Wingadhan Birrang (woman's journey) of smoking cessation during
+pregnancy as they participate in the ICAN QUIT in pregnancy pilot
+step-wedge trial. \emph{Women and Birth}, \emph{33}(3), 300--308.
+\url{https://doi.org/10.1016/j.wombi.2019.05.003}}
+
+\leavevmode\hypertarget{ref-sutherland_cluster_2019}{}%
+\CSLLeftMargin{174. }
+\CSLRightInline{Sutherland, R., Campbell, E., Nathan, N., Wolfenden, L.,
+Lubans, D. R., Morgan, P. J., Gillham, K., Oldmeadow, C., Searles, A.,
+Reeves, P., Williams, M., Evans, N., Bailey, A., Morrison, R.,
+McLaughlin, M., \& Wiggers, J. (2019). A cluster randomised trial of an
+intervention to increase the implementation of physical activity
+practices in secondary schools: Study protocol for scaling up the
+Physical Activity 4 Everyone (PA4E1) program. \emph{BMC Public Health},
+\emph{19}(1). \url{https://doi.org/10.1186/s12889-019-6965-0}}
+
+\leavevmode\hypertarget{ref-hutchesson_targeted_2018}{}%
+\CSLLeftMargin{175. }
+\CSLRightInline{Hutchesson, M., Callister, R., Morgan, P., Pranata, I.,
+Clarke, E., Skinner, G., Ashton, L., Whatnall, M., Jones, M., Oldmeadow,
+C., \& Collins, C. (2018). A Targeted and Tailored eHealth Weight Loss
+Program for Young Women: The Be Positive Be Healthe Randomized
+Controlled Trial. \emph{Healthcare}, \emph{6}(2), 1--19.
+\url{https://doi.org/10.3390/healthcare6020039}}
+
+\leavevmode\hypertarget{ref-hasnain_thrombolysis_2020}{}%
+\CSLLeftMargin{176. }
+\CSLRightInline{Hasnain, M. G., Paul, C. L., Attia, J. R., Ryan, A.,
+Kerr, E., Oldmeadow, C., D'Este, C. A., Bivard, A., Hubbard, I. J.,
+Milton, A. H., \& Levi, C. R. (2020). Thrombolysis implementation
+intervention and clinical outcome: A secondary analysis of a cluster
+randomized trial. \emph{BMC Cardiovascular Disorders}, \emph{20}(1),
+432. \url{https://doi.org/10.1186/s12872-020-01705-9}}
+
+\leavevmode\hypertarget{ref-lim_systematic_2017}{}%
+\CSLLeftMargin{177. }
+\CSLRightInline{Lim, M. S., Ariyarajah, A., Oldmeadow, C., Hall, A., \&
+Enjeti, A. K. (2017). A Systematic Review and Meta-analysis Comparing
+Anticoagulation versus No Anticoagulation and Shorter versus Longer
+duration of Anticoagulation for Treatment of Isolated Distal Deep Vein
+Thrombosis. \emph{Seminars in Thrombosis and Hemostasis}, \emph{43}(8),
+836--848. \url{https://doi.org/10.1055/s-0037-1604085}}
+
+\leavevmode\hypertarget{ref-iseme_role_2017}{}%
+\CSLLeftMargin{178. }
+\CSLRightInline{Iseme, R. A., McEvoy, M., Kelly, B., Agnew, L., Walker,
+F. R., Handley, T., Oldmeadow, C., Attia, J., \& Boyle, M. (2017). A
+role for autoantibodies in atherogenesis. \emph{Cardiovascular
+Research}, \emph{113}(10), 1102--1112.
+\url{https://doi.org/10.1093/cvr/cvx112}}
+
+\leavevmode\hypertarget{ref-jones_prospective_2020}{}%
+\CSLLeftMargin{179. }
+\CSLRightInline{Jones, M., Hruby, G., Coolens, C., Driscoll, B.,
+Stanwell, P., Kumar, M., Capp, A., Sridharan, S., Arm, J., Gallagher,
+S., Holder, C., Oldmeadow, C., \& Martin, J. (2020). A prospective,
+multi-centre trial of multi-parametric MRI as a biomarker in anal
+carcinoma. \emph{Radiotherapy and Oncology}, \emph{144}, 7--12.
+\url{https://doi.org/10.1016/j.radonc.2019.10.001}}
+
+\leavevmode\hypertarget{ref-stevenson_multi-center_2020}{}%
+\CSLLeftMargin{180. }
+\CSLRightInline{Stevenson, W., Bryant, J., Watson, R., Sanson-Fisher,
+R., Oldmeadow, C., Henskens, F., Brown, C., Ramanathan, S., Tiley, C.,
+Enjeti, A., Guest, J., Tzelepis, F., Paul, C., \& D'Este, C. (2020). A
+multi-center randomized controlled trial to reduce unmet needs,
+depression, and anxiety among hematological cancer patients and their
+support persons. \emph{Journal of Psychosocial Oncology}, \emph{38}(3),
+272--292. \url{https://doi.org/10.1080/07347332.2019.1692991}}
+
+\leavevmode\hypertarget{ref-de_vries_meta-analysis_2016}{}%
+\CSLLeftMargin{181. }
+\CSLRightInline{De Vries, P. S., Chasman, D. I., Sabater-Lleal, M.,
+Chen, M. H., Huffman, J. E., Steri, M., Tang, W., Teumer, A., Marioni,
+R. E., Grossmann, V., Hottenga, J. J., Trompet, S., Müller-Nurasyid, M.,
+Zhao, J. H., Brody, J. A., Kleber, M. E., Guo, X., Wang, J. J., Auer, P.
+L., \ldots{} Franco, O. H. (2016). A meta-analysis of 120 246
+individuals identifies 18 new loci for fibrinogen concentration.
+\emph{Human Molecular Genetics}, \emph{25}(2), 358--370.
+\url{https://doi.org/10.1093/hmg/ddv454}}
+
+\leavevmode\hypertarget{ref-noble_cross-sectional_2015}{}%
+\CSLLeftMargin{182. }
+\CSLRightInline{Noble, N. E., Paul, C. L., Turner, N., Blunden, S. V.,
+Oldmeadow, C., \& Turon, H. E. (2015). A cross-sectional survey and
+latent class analysis of the prevalence and clustering of health risk
+factors among people attending an Aboriginal Community Controlled Health
+Service. \emph{BMC Public Health}, \emph{15}(1).
+\url{https://doi.org/10.1186/s12889-015-2015-8}}
+
+\leavevmode\hypertarget{ref-nathan_cluster_2019}{}%
+\CSLLeftMargin{183. }
+\CSLRightInline{Nathan, N., Wiggers, J., Bauman, A. E., Rissel, C.,
+Searles, A., Reeves, P., Oldmeadow, C., Naylor, P. J., Cradock, A. L.,
+Sutherland, R., Gillham, K., Duggan, B., Chad, S., McCarthy, N.,
+Pettett, M., Jackson, R., Reilly, K., Herrmann, V., Hope, K., \ldots{}
+Wolfenden, L. (2019). A cluster randomised controlled trial of an
+intervention to increase the implementation of school physical activity
+policies and guidelines: Study protocol for the physically active
+children in education (PACE) study. \emph{BMC Public Health},
+\emph{19}(1). \url{https://doi.org/10.1186/s12889-019-6492-z}}
+
+\leavevmode\hypertarget{ref-paul_staff_2019}{}%
+\CSLLeftMargin{184. }
+\CSLRightInline{Paul, C., D'Este, C., Ryan, A., Jayakody, A., Attia, J.,
+Oldmeadow, C., Kerr, E., Henskens, F., Grady, A., \& Levi, C. R. (2019).
+Staff perspectives from Australian hospitals seeking to improve
+implementation of thrombolysis care for acute stroke. \emph{SAGE OPEN
+MEDICINE}, \emph{7}(UNSP 2050312119865656).
+\url{https://doi.org/10.1177/2050312119865656}}
+
+\leavevmode\hypertarget{ref-oldmeadow_heritability_2009}{}%
+\CSLLeftMargin{185. }
+\CSLRightInline{Oldmeadow, C. J., Mengersen, K., Martin, N., \& Duffy,
+D. L. (2009). Heritability and linkage analysis of appendicitis
+utilizing age at onset. \emph{Twin Research and Human Genetics},
+\emph{12}(2), 150--157. \url{https://doi.org/10.1375/twin.12.2.150}}
+
+\leavevmode\hypertarget{ref-okada_meta-analysis_2012}{}%
+\CSLLeftMargin{186. }
+\CSLRightInline{Okada, Y., Sim, X., Go, M. J., Wu, J.-Y., Gu, D.,
+Takeuchi, F., Takahashi, A., Maeda, S., Tsunoda, T., Chen, P., Lim,
+S.-C., Wong, T.-Y., Liu, J., Young, T. L., Aung, T., Seielstad, M., Teo,
+Y.-Y., Kim, Y. J., Lee, J.-Y., \ldots{} Attia, J. R. (2012).
+Meta-analysis identifies multiple loci associated with kidney
+function-related traits in east Asian populations. \emph{Nature
+Genetics}, \emph{44}(8), 904--909.}
+
+\leavevmode\hypertarget{ref-collins_percutaneous_2012}{}%
+\CSLLeftMargin{187. }
+\CSLRightInline{Collins, N. J., Hatton, R., Ng, K., Bhagwandeen, R.,
+Attia, J. R., Oldmeadow, C. J., \& Jayasinghe, R. (2012). Percutaneous
+device closure of patent foramen ovale using the premere occlusion
+device: Initial experience, procedural, and intermediate-term results.
+\emph{Journal of Invasive Cardiology}, \emph{24}(4), 164--168.}
+
+\leavevmode\hypertarget{ref-kottgen_genome-wide_2013}{}%
+\CSLLeftMargin{188. }
+\CSLRightInline{Kottgen, A., Albrecht, E., Teumer, A., Vitart, V.,
+Krumsiek, J., Hundertmark, C., Pistis, G., Ruggiero, D., O'Seaghdha, C.
+M., Haller, T., Yang, Q., Tanaka, T., Johnson, A. D., Kutalik, Z.,
+Smith, A. V., Shi, J., Struchalin, M., Middelberg, R. P. S., Brown, M.
+J., \ldots{} Al, E. (2013). Genome-wide association analyses identify 18
+new loci associated with serum urate concentrations. \emph{Nature
+Genetics}, \emph{45}(2), 145--154.}
+
+\leavevmode\hypertarget{ref-rietveld_gwas_2013}{}%
+\CSLLeftMargin{189. }
+\CSLRightInline{Rietveld, C. A., Medland, S. E., Derringer, J., Yang,
+J., Esko, T., Martin, N. W., Westra, H.-J., Shakhbazov, K., Abdellaoui,
+A., Agrawal, A., Albrecht, E., Alizadeh, B. Z., Amin, N., Barnard, J.,
+Baumeister, S. E., Benke, K. S., Bielak, L. F., Boatman, J. A., Boyle,
+P. A., \ldots{} Al, E. (2013). GWAS of 126,559 individuals identifies
+genetic variants associated with educational attainment. \emph{Science},
+\emph{340}(6139), 1467--1471.}
+
+\leavevmode\hypertarget{ref-gunathilake_mild_2013}{}%
+\CSLLeftMargin{190. }
+\CSLRightInline{Gunathilake, R., Oldmeadow, C., McEvoy, M., Kelly, B.,
+Inder, K., Schofield, P., \& Attia, J. (2013). Mild Hyponatremia Is
+Associated With Impaired Cognition And Falls In Community-Dwelling Older
+Persons. \emph{Journal of the American Geriatrics Society},
+\emph{61}(10), 1838--1839. \url{https://doi.org/10.1111/jgs.12468}}
+
+\leavevmode\hypertarget{ref-williams_changes_2013}{}%
+\CSLLeftMargin{191. }
+\CSLRightInline{Williams, N., Hardy, B. M., Tarrant, S., Enninghorst,
+N., Attia, J., Oldmeadow, C., \& Balogh, Z. J. (2013). Changes in hip
+fracture incidence, mortality and length of stay over the last decade in
+an Australian major trauma centre. \emph{Archives of Osteoporosis},
+\emph{8}(1-2). \url{https://doi.org/10.1007/s11657-013-0150-3}}
+
+\leavevmode\hypertarget{ref-mccarthy-jones_preliminary_2014}{}%
+\CSLLeftMargin{192. }
+\CSLRightInline{McCarthy-Jones, S., Green, M. J., Scott, R. J., Tooney,
+P. A., Cairns, M. J., Wu, J. Q., Oldmeadow, C., \& Carr, V. (2014).
+Preliminary evidence of an interaction between the FOXP2 gene and
+childhood emotional abuse predicting likelihood of auditory verbal
+hallucinations in schizophrenia. \emph{Journal of Psychiatric Research},
+\emph{50}(1), 66--72.
+\url{https://doi.org/10.1016/j.jpsychires.2013.11.012}}
+
+\leavevmode\hypertarget{ref-rifat_development_2014}{}%
+\CSLLeftMargin{193. }
+\CSLRightInline{Rifat, M., Milton, A. H., Hall, J., Oldmeadow, C.,
+Islam, M. A., Husain, A., Akhanda, M. W., \& Siddiquea, B. N. (2014).
+Development of multidrug resistant tuberculosis in Bangladesh: A
+case-control study on risk factors. \emph{PLoS ONE}, \emph{9}(8).
+\url{https://doi.org/10.1371/journal.pone.0105214}}
+
+\leavevmode\hypertarget{ref-de_zeeuw_polygenic_2014}{}%
+\CSLLeftMargin{194. }
+\CSLRightInline{Zeeuw, E. L. de, Beijsterveldt, C. E. M. van, Glasner,
+T. J., Bartels, M., Ehli, E. A., Davies, G. E., Hudziak, J. J.,
+Rietveld, C. A., Groen-Blokhuis, M. M., Hottenga, J. J., Geus, E. J. C.
+de, Boomsma, D. I., Abdellaoui, A., Agrawal, A., Albrecht, E., Alizadeh,
+B. Z., Allik, J., Amin, N., Attia, J. R., \ldots{} Joshi, P. K. (2014).
+Polygenic scores associated with educational attainment in adults
+predict educational achievement and ADHD symptoms in children.
+\emph{American Journal of Medical Genetics, Part B: Neuropsychiatric
+Genetics}, \emph{165}(6), 510--520.
+\url{https://doi.org/10.1002/ajmg.b.32254}}
+
+\leavevmode\hypertarget{ref-george_risk_2014}{}%
+\CSLLeftMargin{195. }
+\CSLRightInline{George, M., Asab, N. A., Varughese, E., Irwin, M.,
+Oldmeadow, C., Hollebone, K., Apen, K., \& Renner, S. (2014). Risk
+awareness on uterine cancer among Australian women. \emph{Asian Pacific
+Journal of Cancer Prevention}, \emph{15}(23), 10251--10254.
+\url{https://doi.org/10.7314/APJCP.2014.15.23.10251}}
+
+\leavevmode\hypertarget{ref-abdullah_architecture_2014}{}%
+\CSLLeftMargin{196. }
+\CSLRightInline{Abdullah, N., Attia, J., Oldmeadow, C., Scott, R. J., \&
+Holliday, E. G. (2014). The architecture of risk for type 2 diabetes:
+Understanding asia in the context of global findings.
+\emph{International Journal of Endocrinology}, \emph{2014}.
+\url{https://doi.org/10.1155/2014/593982}}
+
+\leavevmode\hypertarget{ref-napthali_thyroid_2014}{}%
+\CSLLeftMargin{197. }
+\CSLRightInline{Napthali, K., Boyle, M., Tran, H., Schofield, P. W.,
+Peel, R., McEvoy, M., Oldmeadow, C., \& Attia, J. (2014). Thyroid
+Antibodies, Autoimmunity and Cognitive Decline: Is There a
+Population-Based Link? \emph{DEMENTIA AND GERIATRIC COGNITIVE DISORDERS
+EXTRA}, \emph{4}(2), 140--146. \url{https://doi.org/10.1159/000362716}}
+
+\leavevmode\hypertarget{ref-moayyeri_genetic_2014}{}%
+\CSLLeftMargin{198. }
+\CSLRightInline{Moayyeri, A., Hsu, Y. H., Karasik, D., Estrada, K.,
+Xiao, S. M., Nielson, C., Srikanth, P., Giroux, S., Wilson, S. G.,
+Zheng, H. F., Smith, A. V., Pye, S. R., Leo, P. J., Teumer, A., Hwang,
+J. Y., Ohlsson, C., McGuigan, F., Minster, R. L., Hayward, C., \ldots{}
+Lorenc, R. S. (2014). Genetic determinants of heel bone properties:
+Genome-wide association meta-analysis and replication in the
+GEFOS/GENOMOS consortium. \emph{Human Molecular Genetics},
+\emph{23}(11), 3054--3068. \url{https://doi.org/10.1093/hmg/ddt675}}
+
+\leavevmode\hypertarget{ref-denham_short-term_2014}{}%
+\CSLLeftMargin{199. }
+\CSLRightInline{Denham, J. W., Joseph, D., Lamb, D. S., Spry, N. A.,
+Duchesne, G., Matthews, J., Atkinson, C., Tai, K. H., Christie, D., \&
+Kenny, L. (2014). Short-term androgen suppression and radiotherapy
+versus intermediate-term androgen suppression and radiotherapy, with or
+without zoledronic acid, in men with locally advanced prostate cancer
+(TROG 03.04 RADAR): An open-label, randomised, phase 3 factorial trial.
+\emph{The Lancet Oncology}, \emph{15}(10), 1076--1089.
+\url{https://doi.org/10.1016/S1470-2045(14)70328-6}}
+
+\leavevmode\hypertarget{ref-loth_genome-wide_2014}{}%
+\CSLLeftMargin{200. }
+\CSLRightInline{Loth, D. W., Artigas, M. S., Gharib, S. A., Wain, L. V.,
+Franceschini, N., Koch, B., Pottinger, T. D., Smith, A. V., Duan, Q., \&
+Oldmeadow, C. (2014). Genome-wide association analysis identifies six
+new loci associated with forced vital capacity. \emph{Nature Genetics},
+\emph{46}(7), 669--677. \url{https://doi.org/10.1038/ng.3011}}
+
+\leavevmode\hypertarget{ref-holliday_polygenic_2014}{}%
+\CSLLeftMargin{201. }
+\CSLRightInline{Holliday, E. G., Traylor, M., Malik, R., Bevan, S.,
+Maguire, J., Koblar, S. A., Sturm, J., Hankey, G. J., Oldmeadow, C.,
+McEvoy, M., Sudlow, C., Rothwell, P. M., Coresh, J., Hamet, P.,
+Tremblay, J., Turner, S. T., De Andrade, M., Rao, M., Schmidt, R.,
+\ldots{} Markus, H. S. (2014). Polygenic overlap between kidney function
+and large artery atherosclerotic stroke. \emph{Stroke}, \emph{45}(12),
+3508--3513. \url{https://doi.org/10.1161/STROKEAHA.114.006609}}
+
+\leavevmode\hypertarget{ref-morgan_-consultation_2015}{}%
+\CSLLeftMargin{202. }
+\CSLRightInline{Morgan, S., Wearne, S., Tapley, A., Henderson, K.,
+Oldmeadow, C., Ball, J., Driel, M. V., Scott, J., Spike, N., McArthur,
+L., \& Magin, P. (2015). In-consultation information and adviceseeking
+by Australian GP trainees from GP trainers a cross-sectional analysis.
+\emph{Education for Primary Care}, \emph{26}(3), 155--165.
+\url{https://doi.org/10.1080/14739879.2015.11494335}}
+
+\leavevmode\hypertarget{ref-thomson_prevalence_2015}{}%
+\CSLLeftMargin{203. }
+\CSLRightInline{Thomson, A., Morgan, S., Tapley, A., Driel, M. van,
+Henderson, K., Oldmeadow, C., Ball, J., Spike, N., McArthur, L., O'Mara,
+P., Scott, J., \& Magin, P. (2015). Prevalence and associations of
+gender concordance in general practice consultations: A cross-sectional
+analysis. \emph{European Journal for Person Centered Healthcare},
+\emph{3}(4), 470--477. \url{https://doi.org/10.5750/ejpch.v3i4.1016}}
+
+\leavevmode\hypertarget{ref-debette_genome-wide_2015}{}%
+\CSLLeftMargin{204. }
+\CSLRightInline{Debette, S., Ibrahim Verbaas, C. A., Bressler, J.,
+Schuur, M., Smith, A., Bis, J. C., Davies, G., Wolf, C., Gudnason, V.,
+Chibnik, L. B., Yang, Q., DeStefano, A. L., De Quervain, D. J. F.,
+Srikanth, V., Lahti, J., Grabe, H. J., Smith, J. A., Priebe, L., Yu, L.,
+\ldots{} Garcia, M. (2015). Genome-wide studies of verbal declarative
+memory in nondemented older people: The Cohorts for Heart and Aging
+Research in Genomic Epidemiology Consortium. \emph{Biological
+Psychiatry}, \emph{77}(8), 749--763.
+\url{https://doi.org/10.1016/j.biopsych.2014.08.027}}
+
+\leavevmode\hypertarget{ref-sales_quality_2015}{}%
+\CSLLeftMargin{205. }
+\CSLRightInline{Sales, M., Quain, D., Lasserson, D., Levi, C.,
+Oldmeadow, C., Jiwa, M., Parsons, M., Russell, M., Clarey, J., \& Magin,
+P. (2015). Quality of referrals and guideline compliance for time to
+consultation at an acute neurovascular clinic. \emph{Journal of Stroke
+and Cerebrovascular Diseases}, \emph{24}(4), 874--880.
+\url{https://doi.org/10.1016/j.jstrokecerebrovasdis.2014.12.004}}
+
+\leavevmode\hypertarget{ref-holliday_genetic_2015}{}%
+\CSLLeftMargin{206. }
+\CSLRightInline{Holliday, E. G., Traylor, M., Malik, R., Bevan, S.,
+Falcone, G., Hopewell, J. C., Cheng, Y. C., Cotlarciuc, I., Bis, J. C.,
+Boerwinkle, E., Boncoraglio, G. B., Clarke, R., Cole, J. W., Fornage,
+M., Furie, K. L., Ikram, M. A., Jannes, J., Kittner, S. J., Lincz, L.
+F., \ldots{} Wray, N. R. (2015). Genetic overlap between diagnostic
+subtypes of ischemic stroke. \emph{Stroke}, \emph{46}(3), 615--619.
+\url{https://doi.org/10.1161/STROKEAHA.114.007930}}
+
+\leavevmode\hypertarget{ref-davies_genetic_2015}{}%
+\CSLLeftMargin{207. }
+\CSLRightInline{Davies, G., Armstrong, N., Bis, J. C., Bressler, J.,
+Chouraki, V., Giddaluru, S., Hofer, E., Ibrahim-Verbaas, C. A., Kirin,
+M., \& Lahti, J. (2015). Genetic contributions to variation in general
+cognitive function: A meta-analysis of genome-wide association studies
+in the CHARGE consortium (N=53 949). \emph{Molecular Psychiatry},
+\emph{20}(2), 183--192. \url{https://doi.org/10.1038/mp.2014.188}}
+
+\leavevmode\hypertarget{ref-denham_radiation_2015}{}%
+\CSLLeftMargin{208. }
+\CSLRightInline{Denham, J. W., Steigler, A., Joseph, D., Lamb, D. S.,
+Spry, N. A., Duchesne, G., Atkinson, C., Matthews, J., Turner, S.,
+Kenny, L., Tai, K.-H., Gogna, N. K., Gill, S., Tan, H., Kearvell, R.,
+Murray, J., Ebert, M., Haworth, A., Kennedy, A., \ldots{} Attia, J.
+(2015). Radiation dose escalation or longer androgen suppression for
+locally advanced prostate cancer? Data from the TROG 03.04 RADAR trial.
+\emph{Radiotherapy and Oncology}, \emph{115}(3), 301--307.
+\url{https://doi.org/10.1016/j.radonc.2015.05.016}}
+
+\leavevmode\hypertarget{ref-grady_gp_2015}{}%
+\CSLLeftMargin{209. }
+\CSLRightInline{Grady, A., Carey, M., Oldmeadow, C., Bryant, J., Mazza,
+D., \& Sanson-Fisher, R. (2015). GP detection of health risk factors
+among general practice patients at risk of primary and secondary stroke.
+\emph{Family Practice}, \emph{32}(3), 336--342.
+\url{https://doi.org/10.1093/fampra/cmv024}}
+
+\leavevmode\hypertarget{ref-kelly_study_2015}{}%
+\CSLLeftMargin{210. }
+\CSLRightInline{Kelly, P. J., Baker, A. L., Deane, F. P., Callister, R.,
+Collins, C. E., Oldmeadow, C., Attia, J. R., Townsend, C. J., Ingram,
+I., Byrne, G., \& Keane, C. A. (2015). Study protocol: A stepped wedge
+cluster randomised controlled trial of a healthy lifestyle intervention
+for people attending residential substance abuse treatment. \emph{BMC
+Public Health}, \emph{15}, 465--465.
+\url{https://doi.org/10.1186/s12889-015-1729-y}}
+
+\leavevmode\hypertarget{ref-khan_effect_2020}{}%
+\CSLLeftMargin{211. }
+\CSLRightInline{Khan, M. N., Harris, M. L., Oldmeadow, C., \& Loxton, D.
+(2020). Effect of unintended pregnancy on skilled antenatal care uptake
+in Bangladesh: Analysis of national survey data. \emph{Archives of
+Public Health = Archives Belges De Sante Publique}, \emph{78}, 81.
+\url{https://doi.org/10.1186/s13690-020-00468-1}}
+
+\leavevmode\hypertarget{ref-magin_gp_2015}{}%
+\CSLLeftMargin{212. }
+\CSLRightInline{Magin, P., Morgan, S., Wearne, S., Tapley, A.,
+Henderson, K., Oldmeadow, C., Ball, J., Scott, J., Spike, N., McArthur,
+L., \& Driel, M. van. (2015). GP trainees' in-consultation
+information-seeking: Associations with human, paper and electronic
+sources. \emph{Family Practice}, \emph{32}(5), 525--532.
+\url{https://doi.org/10.1093/fampra/cmv047}}
+
+\leavevmode\hypertarget{ref-holliday_pattern_2015}{}%
+\CSLLeftMargin{213. }
+\CSLRightInline{Holliday, S., Morgan, S., Tapley, A., Dunlop, A.,
+Henderson, K., Driel, M. van, Spike, N., Mcarthur, L., Ball, J.,
+Oldmeadow, C., \& Magin, P. (2015). The Pattern of Opioid Management by
+Australian General Practice Trainees. \emph{Pain Medicine (United
+States)}, \emph{16}(9), 1720--1731.
+\url{https://doi.org/10.1111/pme.12820}}
+
+\leavevmode\hypertarget{ref-noble_which_2015}{}%
+\CSLLeftMargin{214. }
+\CSLRightInline{Noble, N., Paul, C., Turon, H., \& Oldmeadow, C. (2015).
+Which modifiable health risk behaviours are related? A systematic review
+of the clustering of Smoking, Nutrition, Alcohol and Physical activity
+('SNAP') health risk factors. \emph{Preventive Medicine}, \emph{81},
+16--41. \url{https://doi.org/10.1016/j.ypmed.2015.07.003}}
+
+\leavevmode\hypertarget{ref-rifat_factors_2015}{}%
+\CSLLeftMargin{215. }
+\CSLRightInline{Rifat, M., Hall, J., Oldmeadow, C., Husain, A.,
+Hinderaker, S. G., \& Milton, A. H. (2015). Factors related to previous
+tuberculosis treatment of patients with multidrugresistant tuberculosis
+in Bangladesh. \emph{BMJ Open}, \emph{5}(9).
+\url{https://doi.org/10.1136/bmjopen-2015-008273}}
+
+\leavevmode\hypertarget{ref-kay-lambkin_itread_2015}{}%
+\CSLLeftMargin{216. }
+\CSLRightInline{Kay-Lambkin, F. J., Baker, A. L., Geddes, J., Hunt, S.
+A., Woodcock, K. L., Teesson, M., Oldmeadow, C., Lewin, T. J., Bewick,
+B. M., Brady, K., Spring, B., Deady, M., Barrett, E., \& Thornton, L.
+(2015). The iTreAD project: A study protocol for a randomised controlled
+clinical trial of online treatment and social networking for binge
+drinking and depression in young people Health behavior, health
+promotion and society. \emph{BMC Public Health}, \emph{15}(1).
+\url{https://doi.org/10.1186/s12889-015-2365-2}}
+
+\leavevmode\hypertarget{ref-morgan_pathology_2015}{}%
+\CSLLeftMargin{217. }
+\CSLRightInline{Morgan, S., Henderson, K. M., Tapley, A., Scott, J., Van
+Driel, M. L., Spike, N. A., Mcarthur, L. A., Davey, A. R., Oldmeadow,
+C., Ball, J., \& Magin, P. J. (2015). Pathology test-ordering behaviour
+of Australian general practice trainees: A cross-sectional analysis.
+\emph{International Journal for Quality in Health Care}, \emph{27}(6),
+528--535. \url{https://doi.org/10.1093/intqhc/mzv086}}
+
+\leavevmode\hypertarget{ref-yoong_alignment_2015}{}%
+\CSLLeftMargin{218. }
+\CSLRightInline{Yoong, S. L., Hall, A., Williams, C. M., Skelton, E.,
+Oldmeadow, C., Wiggers, J., Karimkhani, C., Boyers, L. N., Dellavalle,
+R. P., Hilton, J., \& Wolfenden, L. (2015). Alignment of systematic
+reviews published in the Cochrane database of systematic reviews and the
+database of abstracts and reviews of effectiveness with global
+burden-of-disease data: A bibliographic analysis. \emph{Journal of
+Epidemiology and Community Health}, \emph{69}(7), 708--714.
+\url{https://doi.org/10.1136/jech-2014-205389}}
+
+\leavevmode\hypertarget{ref-iseme_autoantibodies_2015}{}%
+\CSLLeftMargin{219. }
+\CSLRightInline{Iseme, R. A., McEvoy, M., Kelly, B., Agnew, L., Attia,
+J., Walker, F. R., Oldmeadow, C., \& Boyle, M. (2015). Autoantibodies
+are not predictive markers for the development of depressive symptoms in
+a population-based cohort of older adults. \emph{European Psychiatry},
+\emph{30}(6), 694--700.
+\url{https://doi.org/10.1016/j.eurpsy.2015.06.006}}
+
+\leavevmode\hypertarget{ref-chan_genetics_2015}{}%
+\CSLLeftMargin{220. }
+\CSLRightInline{Chan, J. P. L., Thalamuthu, A., Oldmeadow, C.,
+Armstrong, N. J., Holliday, E. G., McEvoy, M., Kwok, J. B., Assareh, A.
+A., Peel, R., Hancock, S. J., Reppermund, S., Menant, J., Trollor, J.
+N., Brodaty, H., Schofield, P. R., Attia, J. R., Sachdev, P. S., Scott,
+R. J., \& Mather, K. A. (2015). Genetics of hand grip strength in mid to
+late life. \emph{Age}, \emph{37}(1), 1--10.
+\url{https://doi.org/10.1007/s11357-015-9745-5}}
+
+\leavevmode\hypertarget{ref-griffin_receptor_2020}{}%
+\CSLLeftMargin{221. }
+\CSLRightInline{Griffin, N., Marsland, M., Roselli, S., Oldmeadow, C.,
+Attia, J., Walker, M. M., Hondermarck, H., \& Faulkner, S. (2020). The
+Receptor Tyrosine Kinase TrkA Is Increased and Targetable in
+HER2-Positive Breast Cancer. \emph{Biomolecules}, \emph{10}(9).
+\url{https://doi.org/10.3390/biom10091329}}
+
+\leavevmode\hypertarget{ref-rifat_health_2015}{}%
+\CSLLeftMargin{222. }
+\CSLRightInline{Rifat, M., Hall, J., Milton, A. H., Oldmeadow, C., \&
+Husain, A. (2015). Health system delay in treatment of multidrug
+resistant tuberculosis patients in Bangladesh. \emph{BMC Infectious
+Diseases}, \emph{2015}(526), 1--8.
+\url{https://doi.org/10.1186/s12879-015-1253-9}}
+
+\leavevmode\hypertarget{ref-abdullah_characterizing_2015}{}%
+\CSLLeftMargin{223. }
+\CSLRightInline{Abdullah, N., Abdul Murad, N. A., Attia, J., Oldmeadow,
+C., Mohd Haniff, E. A., Syafruddin, S. E., Abd Jalal, N., Ismail, N.,
+Ishak, M., Jamal, R., Scott, R. J., \& Holliday, E. G. (2015).
+Characterizing the genetic risk for Type 2 diabetes in a Malaysian
+multi-ethnic cohort. \emph{Diabetic Medicine}, \emph{32}(10),
+1377--1384. \url{https://doi.org/10.1111/dme.12735}}
+
+\leavevmode\hypertarget{ref-kable_nurse_2015}{}%
+\CSLLeftMargin{224. }
+\CSLRightInline{Kable, A., James, C., Snodgrass, S., Plotnikoff, R.,
+Guest, M., Ashby, S., Oldmeadow, C., \& Collins, C. (2015). Nurse
+provision of healthy lifestyle advice to people who are overweight or
+obese. \emph{Nursing and Health Sciences}, \emph{17}(4), 451--459.}
+
+\leavevmode\hypertarget{ref-thomson_clinical_2016}{}%
+\CSLLeftMargin{225. }
+\CSLRightInline{Thomson, A., Morgan, S., O'Mara, P., Tapley, A.,
+Henderson, K., Van Driel, M., Oldmeadow, C., Ball, J., Scott, J., Spike,
+N., McArthur, L., \& Magin, P. (2016). Clinical encounters of Australian
+general practice registrars with Aboriginal and Torres Strait Islander
+patients. \emph{Australian and New Zealand Journal of Public Health},
+\emph{40}, S75--S80. \url{https://doi.org/10.1111/1753-6405.12412}}
+
+\leavevmode\hypertarget{ref-mather_genome-wide_2016}{}%
+\CSLLeftMargin{226. }
+\CSLRightInline{Mather, K. A., Thalamuthu, A., Oldmeadow, C., Song, F.,
+Armstrong, N. J., Poljak, A., Holliday, E. G., McEvoy, M., Kwok, J. B.,
+Assareh, A. A., Reppermund, S., Kochan, N. A., Lee, T., Ames, D.,
+Wright, M. J., Trollor, J. N., Schofield, P. W., Brodaty, H., Scott, R.
+J., \ldots{} Sachdev, P. S. (2016). Genome-wide significant results
+identified for plasma apolipoprotein H levels in middle-aged and older
+adults. \emph{Scientific Reports}, \emph{6}.
+\url{https://doi.org/10.1038/srep23675}}
+
+\leavevmode\hypertarget{ref-ashman_maternal_2016}{}%
+\CSLLeftMargin{227. }
+\CSLRightInline{Ashman, A. M., Collins, C. E., Hure, A. J., Jensen, M.,
+\& Oldmeadow, C. (2016). Maternal diet during early childhood, but not
+pregnancy, predicts diet quality and fruit and vegetable acceptance in
+offspring. \emph{Maternal and Child Nutrition}, \emph{12}(3), 579--590.
+\url{https://doi.org/10.1111/mcn.12151}}
+
+\leavevmode\hypertarget{ref-ibrahim-verbaas_gwas_2016}{}%
+\CSLLeftMargin{228. }
+\CSLRightInline{Ibrahim-Verbaas, C. A., Bressler, J., Debette, S.,
+Schuur, M., Smith, A. V., Bis, J. C., Davies, G., Trompet, S., Smith, J.
+A., Wolf, C., Chibnik, L. B., Liu, Y., Vitart, V., Kirin, M., Petrovic,
+K., Polasek, O., Zgaga, L., Fawns-Ritchie, C., Hoffmann, P., \ldots{}
+Chasman, D. I. (2016). GWAS for executive function and processing speed
+suggests involvement of the CADM2 gene. \emph{Molecular Psychiatry},
+\emph{21}(2), 189--197. \url{https://doi.org/10.1038/mp.2015.37}}
+
+\leavevmode\hypertarget{ref-turnock_prevalence_2016}{}%
+\CSLLeftMargin{229. }
+\CSLRightInline{Turnock, A., Morgan, S., Henderson, K., Tapley, A., Van
+Driel, M., Oldmeadow, C., Ball, J., Presser, J., Davey, A., Scott, J.,
+\& Magin, P. (2016). Prevalence and associations of general practice
+nurses' involvement in consultations of general practitioner registrars:
+A cross-sectional analysis. \emph{Australian Health Review},
+\emph{40}(1), 92--99. \url{https://doi.org/10.1071/AH15010}}
+
+\leavevmode\hypertarget{ref-kay-lambkin_study_2016}{}%
+\CSLLeftMargin{230. }
+\CSLRightInline{Kay-Lambkin, F. J., Thornton, L., Lappin, J. M.,
+Hanstock, T., Sylvia, L., Jacka, F., Baker, A. L., Berk, M., Mitchell,
+P. B., Callister, R., Rogers, N., Webster, S., Dennis, S., Oldmeadow,
+C., MacKinnon, A., Doran, C., Turner, A., \& Hunt, S. (2016). Study
+protocol for a systematic review of evidence for lifestyle interventions
+targeting smoking, sleep, alcohol/other drug use, physical activity, and
+healthy diet in people with bipolar disorder. \emph{Systematic Reviews},
+\emph{5}(1). \url{https://doi.org/10.1186/s13643-016-0282-9}}
+
+\leavevmode\hypertarget{ref-thomson_recording_2016}{}%
+\CSLLeftMargin{231. }
+\CSLRightInline{Thomson, A., Morgan, S., O'Mara, P., Tapley, A.,
+Henderson, K., Van Driel, M., Oldmeadow, C., Ball, J., Scott, J., Spike,
+N., McArthur, L., \& Magin, P. (2016). The recording of Aboriginal and
+Torres Strait Islander status in general practice clinical records: A
+cross-sectional study. \emph{Australian and New Zealand Journal of
+Public Health}, \emph{40}, S70--S74.
+\url{https://doi.org/10.1111/1753-6405.12400}}
+
+\leavevmode\hypertarget{ref-guillaumier_self-exempting_2016}{}%
+\CSLLeftMargin{232. }
+\CSLRightInline{Guillaumier, A., Bonevski, B., Paul, C., D este, C.,
+Twyman, L., Palazzi, K., \& Oldmeadow, C. (2016). Self-exempting beliefs
+and intention to quit smoking within a socially disadvantaged Australian
+sample of smokers. \emph{International Journal of Environmental Research
+and Public Health}, \emph{13}(1).
+\url{https://doi.org/10.3390/ijerph13010118}}
+
+\leavevmode\hypertarget{ref-minelli_association_2016}{}%
+\CSLLeftMargin{233. }
+\CSLRightInline{Minelli, C., Dean, C. H., Hind, M., Alves, A. C.,
+Amaral, A. F. S., Siroux, V., Huikari, V., Artigas, M. S., Evans, D. M.,
+Loth, D. W., Bossé, Y., Postma, D. S., Sin, D., Thompson, J., Demenais,
+F., Henderson, J., Bouzigon, E., Jarvis, D., Järvelin, M. R., \ldots{}
+Garcia, M. (2016). Association of Forced Vital Capacity with the
+Developmental Gene NCOR2. \emph{PLoS ONE}, \emph{11}(2).
+\url{https://doi.org/10.1371/journal.pone.0147388}}
+
+\leavevmode\hypertarget{ref-dallas_antibiotic_2016}{}%
+\CSLLeftMargin{234. }
+\CSLRightInline{Dallas, A., Driel, M. van, Morgan, S., Tapley, A.,
+Henderson, K., Ball, J., Oldmeadow, C., Davey, A., Mulquiney, K., Davis,
+J., Spike, N., McArthur, L., \& Magin, P. (2016). Antibiotic prescribing
+for sore throat: A cross-sectional analysis of the ReCEnT study
+exploring the habits of early-career doctors in family practice.
+\emph{Family Practice}, \emph{33}(3), 302--308.
+\url{https://doi.org/10.1093/fampra/cmw014}}
+
+\leavevmode\hypertarget{ref-anne_immersion_2016}{}%
+\CSLLeftMargin{235. }
+\CSLRightInline{Anne, S., Tse, R., Oldmeadow, C., Attia, J. R., \& Cala,
+A. D. (2016). Immersion of bovine eyeballs after 1 hour in seawater does
+not result in elevation of postmortem vitreous humor sodium and chloride
+levels. \emph{American Journal of Forensic Medicine and Pathology},
+\emph{37}(2), 108--111.
+\url{https://doi.org/10.1097/PAF.0000000000000229}}
+
+\leavevmode\hypertarget{ref-fradgley_cross-sectional_2016}{}%
+\CSLLeftMargin{236. }
+\CSLRightInline{Fradgley, E. A., Bryant, J., Paul, C. L., Hall, A. E.,
+Sanson-Fisher, R. W., \& Oldmeadow, C. (2016). Cross-sectional data that
+explore the relationship between outpatients' quality of life and
+preferences for quality improvement in oncology settings. \emph{Journal
+of Oncology Practice}, \emph{12}(6), e746--e754.
+\url{https://doi.org/10.1200/JOP.2016.011023}}
+
+\leavevmode\hypertarget{ref-okbay_genetic_2016}{}%
+\CSLLeftMargin{237. }
+\CSLRightInline{Okbay, A., Baselmans, B. M. L., De Neve, J. E., Turley,
+P., Nivard, M. G., Fontana, M. A., Meddens, S. F. W., Linnér, R. K.,
+Rietveld, C. A., Derringer, J., Gratten, J., Lee, J. J., Liu, J. Z., De
+Vlaming, R., SAhluwalia, T., Buchwald, J., Cavadino, A., Frazier-Wood,
+A. C., Furlotte, N. A., \ldots{} Trzaskowski, M. (2016). Genetic
+variants associated with subjective well-being, depressive symptoms, and
+neuroticism identified through genome-wide analyses. \emph{Nature
+Genetics}, \emph{48}(6), 624--633.
+\url{https://doi.org/10.1038/ng.3552}}
+
+\leavevmode\hypertarget{ref-okbay_genome-wide_2016}{}%
+\CSLLeftMargin{238. }
+\CSLRightInline{Okbay, A., Beauchamp, J. P., Fontana, M. A., Lee, J. J.,
+Pers, T. H., Rietveld, C. A., Turley, P., Chen, G. B., Emilsson, V.,
+Meddens, S. F. W., Oskarsson, S., Pickrell, J. K., Thom, K., Timshel,
+P., De Vlaming, R., Abdellaoui, A., Ahluwalia, T. S., Bacelis, J.,
+Baumbach, C., \ldots{} Horan, M. A. (2016). Genome-wide association
+study identifies 74 loci associated with educational attainment.
+\emph{Nature}, \emph{533}(7604), 539--542.
+\url{https://doi.org/10.1038/nature17671}}
+
+\leavevmode\hypertarget{ref-mandaliya_psychosocial_2016}{}%
+\CSLLeftMargin{239. }
+\CSLRightInline{Mandaliya, H., Ansari, Z., Evans, T., Oldmeadow, C., \&
+George, M. (2016). Psychosocial analysis of cancer survivors in rural
+Australia: Focus on demographics, quality of life and financial domains.
+\emph{Asian Pacific Journal of Cancer Prevention}, \emph{17}(5),
+2459--2464. \url{https://doi.org/10.7314/APJCP.2016.17.5.2459}}
+
+\leavevmode\hypertarget{ref-garland_elevation_2016}{}%
+\CSLLeftMargin{240. }
+\CSLRightInline{Garland, J., Tse, R., Oldmeadow, C., Attia, J., Anne,
+S., \& Cala, A. D. (2016). Elevation of post mortem vitreous humour
+sodium and chloride levels can be used as a reliable test in cases of
+suspected salt water drowning when the immersion times are less than one
+hour. \emph{Forensic Science International}, \emph{266}, 338--342.
+\url{https://doi.org/10.1016/j.forsciint.2016.06.001}}
+
+\leavevmode\hypertarget{ref-bryant_consumer_2016}{}%
+\CSLLeftMargin{241. }
+\CSLRightInline{Bryant, J., Sanson-Fisher, R., Fradgley, E., Hobden, B.,
+Zucca, A., Henskens, F., Searles, A., Webb, B., \& Oldmeadow, C. (2016).
+A consumer register: An acceptable and cost-effective alternative for
+accessing patient populations. \emph{BMC Medical Research Methodology},
+\emph{16}(1), 134.}
+
+\leavevmode\hypertarget{ref-fealy_demographic_2020}{}%
+\CSLLeftMargin{242. }
+\CSLRightInline{Fealy, S., Attia, J., Leigh, L., Oldmeadow, C.,
+Hazelton, M., Foureur, M., Collins, C. E., Smith, R., \& Hure, A.
+(2020). Demographic and social-cognitive factors associated with
+gestational weight gain in an Australian pregnancy cohort. \emph{Eating
+Behaviors}, \emph{39}, 101430.
+\url{https://doi.org/10.1016/j.eatbeh.2020.101430}}
+
+\leavevmode\hypertarget{ref-marioni_genetic_2016}{}%
+\CSLLeftMargin{243. }
+\CSLRightInline{Marioni, R. E., Ritchie, S. J., Joshi, P. K., Hagenaars,
+S. P., Okbay, A., Fischer, K., Adams, M. J., Hill, W. D., Davies, G.,
+Nagy, R., Amador, C., Läll, K., Metspalu, A., Liewald, D. C., Campbell,
+A., Wilson, J. F., Hayward, C., Esko, T., Porteous, D. J., \ldots{}
+Cappuccio, F. P. (2016). Genetic variants linked to education predict
+longevity. \emph{Proceedings of the National Academy of Sciences of the
+United States of America}, \emph{113}(47), 13366--13371.
+\url{https://doi.org/10.1073/pnas.1605334113}}
+
+\leavevmode\hypertarget{ref-twyman_association_2016}{}%
+\CSLLeftMargin{244. }
+\CSLRightInline{Twyman, L., Bonevski, B., Paul, C., Kay-Lambkin, F. J.,
+Bryant, J., Oldmeadow, C., Palazzi, K., \& Guillaumier, A. (2016). The
+association between cannabis use and motivation and intentions to quit
+tobacco within a sample of Australian socioeconomically disadvantaged
+smokers. \emph{Health Education Research}, \emph{31}(6), 771--781.
+\url{https://doi.org/10.1093/her/cyw049}}
+
+\leavevmode\hypertarget{ref-anderson_evaluation_2016}{}%
+\CSLLeftMargin{245. }
+\CSLRightInline{Anderson, D., Phelan, H., Jones, K., Smart, C.,
+Oldmeadow, C., King, B., \& Crock, P. (2016). Evaluation of a novel
+continuous glucose monitoring guided system for adjustment of insulin
+dosing~--~PumpTune: A randomized controlled trial. \emph{Pediatric
+Diabetes}, \emph{17}(7), 478--482.
+\url{https://doi.org/10.1111/pedi.12332}}
+
+\leavevmode\hypertarget{ref-fradgley_getting_2016}{}%
+\CSLLeftMargin{246. }
+\CSLRightInline{Fradgley, E. A., Paul, C. L., Bryant, J., \& Oldmeadow,
+C. (2016). Getting right to the point: Identifying Australian
+outpatients' priorities and preferences for patient-centred quality
+improvement in chronic disease care. \emph{International Journal for
+Quality in Health Care}, \emph{28}(4), 470--477.
+\url{https://doi.org/10.1093/intqhc/mzw049}}
+
+\leavevmode\hypertarget{ref-gunathilake_association_2016}{}%
+\CSLLeftMargin{247. }
+\CSLRightInline{Gunathilake, R., Oldmeadow, C., McEvoy, M., Inder, K.
+J., Schofield, P. W., Nair, B. R., \& Attia, J. (2016). The association
+between obesity and cognitive function in older persons: How much is
+mediated by inflammation, fasting plasma glucose, and
+hypertriglyceridemia? \emph{Journals of Gerontology - Series A
+Biological Sciences and Medical Sciences}, \emph{71}(12), 1603--1608.
+\url{https://doi.org/10.1093/gerona/glw070}}
+
+\leavevmode\hypertarget{ref-de_vries_comparison_2017}{}%
+\CSLLeftMargin{248. }
+\CSLRightInline{De Vries, P. S., Sabater-Lleal, M., Chasman, D. I.,
+Trompet, S., Ahluwalia, T. S., Teumer, A., Kleber, M. E., Chen, M. H.,
+Wang, J. J., Attia, J. R., Marioni, R. E., Steri, M., Weng, L. C., Pool,
+R., Grossmann, V., Brody, J. A., Venturini, C., Tanaka, T., Rose, L. M.,
+\ldots{} Dehghan, A. (2017). Comparison of HapMap and 1000 genomes
+reference panels in a large-scale genome-wide association study.
+\emph{PLoS ONE}, \emph{12}(1).
+\url{https://doi.org/10.1371/journal.pone.0167742}}
+
+\leavevmode\hypertarget{ref-zhang_increasing_2017}{}%
+\CSLLeftMargin{249. }
+\CSLRightInline{Zhang, X., Khan, A. A., Haq, E. U., Rahim, A., Hu, D.,
+Attia, J., Oldmeadow, C., Ma, X., Ding, R., \& Boyle, A. J. (2017).
+Increasing mortality from ischaemic heart disease in China from 2004 to
+2010: Disproportionate rise in rural areas and elderly subjects. 438
+million person-years follow-up. \emph{European Heart Journal - Quality
+of Care and Clinical Outcomes}, \emph{3}(1), 47--52.
+\url{https://doi.org/10.1093/ehjqcco/qcw041}}
+
+\leavevmode\hypertarget{ref-bar_zeev_opportunities_2016}{}%
+\CSLLeftMargin{250. }
+\CSLRightInline{Bar Zeev, Y., Bonevski, B., Tywman, L., Watt, K.,
+Clarke, M., Atkins, L., Palazzi, K., Oldmeadow, C., \& Gould, G. S.
+(2016). Opportunities missed: A cross-sectional survey of the provision
+of smoking cessation care to pregnant women by Australian General
+Practitioners and Obstetricians. \emph{Nicotine and Tobacco Research},
+636--641. \url{https://doi.org/10.1093/ntr/ntw331}}
+
+\leavevmode\hypertarget{ref-waller_perceptions_2020}{}%
+\CSLLeftMargin{251. }
+\CSLRightInline{Waller, A., Chan, S., Chan, C. W. H., Chow, M. C. M.,
+Kim, M., Kang, S. J., Oldmeadow, C., \& Sanson-Fisher, R. (2020).
+Perceptions of optimal end-of-life care in hospitals: A cross-sectional
+study of nurses in three locations. \emph{Journal of Advanced Nursing}.
+\url{https://doi.org/10.1111/jan.14510}}
+
+\leavevmode\hypertarget{ref-clover_reduced_2017}{}%
+\CSLLeftMargin{252. }
+\CSLRightInline{Clover, K. A., Rogers, K. M., Britton, B., Oldmeadow,
+C., Attia, J., \& Carter, G. L. (2017). Reduced prevalence of pain and
+distress during 4 years of screening with QUICATOUCH in Australian
+oncology patients. \emph{European Journal of Cancer Care}, \emph{26}(6),
+1--10. \url{https://doi.org/10.1111/ecc.12636}}
+
+\leavevmode\hypertarget{ref-laver_cardiac_2017}{}%
+\CSLLeftMargin{253. }
+\CSLRightInline{Laver, D. R., Attia, J., Oldmeadow, C., \& Quail, A. W.
+(2017). Cardiac Calcium Release Channel (Ryanodine Receptor 2)
+Regulation by Halogenated Anesthetics. \emph{Anesthesiology},
+\emph{126}(3), 495--506.
+\url{https://doi.org/10.1097/ALN.0000000000001519}}
+
+\leavevmode\hypertarget{ref-dallas_antibiotic_2017}{}%
+\CSLLeftMargin{254. }
+\CSLRightInline{Dallas, A., Driel, M. van, Morgan, S., Tapley, A.,
+Henderson, K., Oldmeadow, C., Ball, J., Davey, A., Mulquiney, K., Davis,
+J., Spike, N., McArthur, L., Stewart, R., \& Magin, P. (2017).
+Antibiotic prescribing for acute otitis media and acute sinusitis: A
+cross-sectional analysis of the ReCEnT study exploring the habits of
+early career doctors in family practice. \emph{Family Practice},
+\emph{34}(2), 180--187. \url{https://doi.org/10.1093/fampra/cmw144}}
+
+\leavevmode\hypertarget{ref-gleeson_developing_2017}{}%
+\CSLLeftMargin{255. }
+\CSLRightInline{Gleeson, M., Pyne, D. B., Elkington, L. J., Hall, S. T.,
+Attia, J. R., Oldmeadow, C., Wood, L. G., \& Callister, R. (2017).
+Developing a multi-component immune model for evalusating the risk of
+respiratory illness in athletes. \emph{EXERCISE IMMUNOLOGY REVIEW},
+\emph{23}, 52--64.}
+
+\leavevmode\hypertarget{ref-davies_disparities_2017}{}%
+\CSLLeftMargin{256. }
+\CSLRightInline{Davies, A. J., Naudin, C., Al-Omary, M., Khan, A.,
+Oldmeadow, C., Jones, M., Bastian, B., Bhagwandeen, R., Fletcher, P.,
+Leitch, J., \& Boyle, A. (2017). Disparities in the incidence of acute
+myocardial infarction: Long-term trends from the Hunter region.
+\emph{Internal Medicine Journal}, \emph{47}(5), 557--562.
+\url{https://doi.org/10.1111/imj.13399}}
+
+\leavevmode\hypertarget{ref-joshi_duration_2017}{}%
+\CSLLeftMargin{257. }
+\CSLRightInline{Joshi, T., Oldmeadow, C., Attia, J., \& Wynne, K.
+(2017). The duration of intrapartum maternal hyperglycaemia predicts
+neonatal hypoglycaemia in women with pre-existing diabetes.
+\emph{Diabetic Medicine}, \emph{34}(5), 725--731.
+\url{https://doi.org/10.1111/dme.13337}}
+
+\leavevmode\hypertarget{ref-harris_stress_2017}{}%
+\CSLLeftMargin{258. }
+\CSLRightInline{Harris, M. L., Oldmeadow, C., Hure, A., Luu, J., Loxton,
+D., \& Attia, J. (2017). Stress increases the risk of type 2 diabetes
+onset in women: A 12-year longitudinal study using causal modelling.
+\emph{PLOS ONE}, \emph{12}(2).
+\url{https://doi.org/10.1371/journal.pone.0172126}}
+
+\leavevmode\hypertarget{ref-warren_genome-wide_2017-1}{}%
+\CSLLeftMargin{259. }
+\CSLRightInline{Warren, H. R., Evangelou, E., Cabrera, C. P., Gao, H.,
+Ren, M., Mifsud, B., Ntalla, I., Surendran, P., Liu, C., Cook, J. P.,
+Kraja, A. T., Drenos, F., Loh, M., Verweij, N., Marten, J., Karaman, I.,
+Segura Lepe, M. P., O'Reilly, P. F., Knight, J., \ldots{} Luan, J.
+(2017). Genome-wide association analysis identifies novel blood pressure
+loci and offers biological insights into cardiovascular risk.
+\emph{Nature Genetics}, \emph{49}(3), 403--415.
+\url{https://doi.org/10.1038/ng.3768}}
+
+\leavevmode\hypertarget{ref-dodd_testing_2017}{}%
+\CSLLeftMargin{260. }
+\CSLRightInline{Dodd, N., Carey, M. L., Mansfield, E., \& Oldmeadow, C.
+(2017). Testing the Effectiveness of a Primary Care Intervention to
+Improve Uptake of Colorectal Cancer Screening: A Randomized Controlled
+Trial Protocol. \emph{JMIR RESEARCH PROTOCOLS}, \emph{6}(5).
+\url{https://doi.org/10.2196/resprot.7432}}
+
+\leavevmode\hypertarget{ref-abdullah_predicting_2017}{}%
+\CSLLeftMargin{261. }
+\CSLRightInline{Abdullah, N., Abdul Murad, N. A., Mohd Haniff, E. A.,
+Syafruddin, S. E., Attia, J., Oldmeadow, C., Kamaruddin, M. A., Abd
+Jalal, N., Ismail, N., Ishak, M., Jamal, R., Scott, R. J., \& Holliday,
+E. G. (2017). Predicting type 2 diabetes using genetic and environmental
+risk factors in a multi-ethnic Malaysian cohort. \emph{Public Health},
+\emph{149}, 31--38. \url{https://doi.org/10.1016/j.puhe.2017.04.003}}
+
+\leavevmode\hypertarget{ref-zdenkowski_treatment_2017}{}%
+\CSLLeftMargin{262. }
+\CSLRightInline{Zdenkowski, N., Radvan, G., Pugliese, L., Charlton, J.,
+Oldmeadow, C., Fraser, A., \& Bonaventura, A. (2017). Treatment of
+pancreatic insufficiency using pancreatic extract in patients with
+advanced pancreatic cancer: A pilot study (PICNIC). \emph{Supportive
+Care in Cancer}, \emph{25}(6), 1963--1971.
+\url{https://doi.org/10.1007/s00520-017-3602-2}}
+
+\leavevmode\hypertarget{ref-gould_exploring_2017}{}%
+\CSLLeftMargin{263. }
+\CSLRightInline{Gould, G. S., Bovill, M., Chiu, S., Bonevski, B., \&
+Oldmeadow, C. (2017). Exploring an adapted Risk Behaviour Diagnosis
+Scale among Indigenous Australian women who had experiences of smoking
+during pregnancy: A cross-sectional survey in regional New South Wales,
+Australia. \emph{BMJ Open}, \emph{7}(5).
+\url{https://doi.org/10.1136/bmjopen-2016-015054}}
+
+\leavevmode\hypertarget{ref-willems_large-scale_2017}{}%
+\CSLLeftMargin{264. }
+\CSLRightInline{Willems, S. M., Wright, D. J., Day, F. R., Trajanoska,
+K., Joshi, P. K., Morris, J. A., Matteini, A. M., Garton, F. C., Grarup,
+N., Oskolkov, N., Thalamuthu, A., Mangino, M., Liu, J., Demirkan, A.,
+Lek, M., Xu, L., Wang, G., Oldmeadow, C., Gaulton, K. J., \ldots{}
+Kammerer, C. (2017). Large-scale GWAS identifies multiple loci for hand
+grip strength providing biological insights into muscular fitness.
+\emph{Nature Communications}, \emph{8}.
+\url{https://doi.org/10.1038/ncomms16015}}
+
+\leavevmode\hypertarget{ref-wain_novel_2017}{}%
+\CSLLeftMargin{265. }
+\CSLRightInline{Wain, L. V., Vaez, A., Jansen, R., Joehanes, R., Van Der
+Most, P. J., Erzurumluoglu, A. M., O'Reilly, P. F., Cabrera, C. P.,
+Warren, H. R., Rose, L. M., Verwoert, G. C., Hottenga, J. J.,
+Strawbridge, R. J., Esko, T., Arking, D. E., Hwang, S. J., Guo, X.,
+Kutalik, Z., Trompet, S., \ldots{} Harris, T. B. (2017). Novel Blood
+Pressure Locus and Gene Discovery Using Genome-Wide Association Study
+and Expression Data Sets from Blood and the Kidney. \emph{Hypertension},
+\emph{70}(3), e4--e19.
+\url{https://doi.org/10.1161/HYPERTENSIONAHA.117.09438}}
+
+\leavevmode\hypertarget{ref-dodd_are_2017}{}%
+\CSLLeftMargin{266. }
+\CSLRightInline{Dodd, N., Mansfield, E., Carey, M., \& Oldmeadow, C.
+(2017). Are Australian general practice patients appropriately screened
+for colorectal cancer? A cross-sectional study. \emph{Australasian
+Medical Journal}, \emph{10}(7), 610--619.
+\url{https://doi.org/10.21767/AMJ.2017.3041}}
+
+\leavevmode\hypertarget{ref-blyton_pilot_2020}{}%
+\CSLLeftMargin{267. }
+\CSLRightInline{Blyton, S. J., Edwards, S., Moghaddas, D., Zoete, R. M.
+J. de, Palazzi, K., Oldmeadow, C., Bolton, P., Rivett, D. A., \&
+Snodgrass, S. J. (2020). A Pilot Longitudinal Study of 3-Dimensional
+Head and Neck Kinematics During Functional Tasks in Individuals With
+Chronic Idiopathic Neck Pain Either Wait-Listed for or Receiving
+Chiropractic Spinal Manipulative Therapy With Exercise. \emph{Journal of
+Manipulative and Physiological Therapeutics}.
+\url{https://doi.org/10.1016/j.jmpt.2019.01.003}}
+
+\end{document}

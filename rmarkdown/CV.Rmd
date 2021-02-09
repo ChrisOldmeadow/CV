@@ -1,0 +1,110 @@
+---
+name: Chris
+surname: Oldmeadow
+position: "Director"
+address: "Data Sciences, Hunter Medical Research Institute"
+phone: +1410329874
+www: www.chrisoldmeadow.xyz
+email: "christopher.oldmeadow@hmri.org.au"
+twitter: chrisoldmeadow
+github: ChrisOldmeadow
+linkedin: chris-oldmeadow
+date: "`r format(Sys.time(), '%B %Y')`"
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library(here)
+library(tidyverse)
+library(kableExtra)
+```
+
+# Biography
+
+Dr Oldmeadow is the Director of the Clinical Research Design, IT and Statistical Support (CReDITSS) Unit at HMRI. Dr Oldmeadow is an applied statistician with an international reputation for managing, maintaining and analysing large complex health related data sets.  He oversees statistical consultancy projects from various fields of research, including Cancer, Stroke, Cardiology, Respiratory, Public Health, and Health Services. He has a strong track-record in co-ordinating the analytic plans of research projects. He has years of experience as the statistical leader for the design, analysis and data management of clinical studies, ranging from Pilot/Phase1 through to Phase 4, and across the spectrum of translational research. 
+
+Dr Oldmeadow’s methodological expertise spans a broad range of experimental settings such as single arm trials, parallel group, cross-over, stepped-wedge; biomarker and diagnostic studies; as well as observational studies, registries and linked administrative data sets. He is also actively researching statistical methodologies in biostatistics in the areas of causal modeling, missing data, and Bayesian statistics.
+
+
+# Education
+
+```{r}
+library(tibble)
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where,
+  "Bachelor of Mathematics (Hon)", "2004", "University of Newcastle", "NSW, Australia",
+  "PhD (Statistics)", "2009", "Queensland University of Technology", "QLD, Australia",
+) %>% 
+  detailed_entries(Degree, Year, Institution, Where)
+```
+
+
+# Employment History
+
+```{r}
+tribble(
+  ~ Start, ~ End, ~ Position, ~ Institute,
+  2008, 2009, "Post Doctoral Research Fellow", "Department of Statistics, Monash University",
+  2009, 2013, "Post Doctoral Research Fellow", "School of Medicine and Public Health, University of Newcastle",
+  2013, 2018, "Senior Statistician", "Hunter Medical Research Institute",
+  2018, NA, "Associate Director, Data Sciences", "Hunter Medical Research Institute"
+  ) %>% 
+  arrange(-Start) %>%
+  mutate(End = replace_na(End, "")) %>%
+  mutate(Years = if_else(End == Start,
+        as.character(Start),
+        paste(Start, "--", End, sep = ""),
+        paste(Start, "--", End, sep = ""))) %>%
+  select(Years, Position, Institute) %>%
+ kable(format = "latex", booktabs = T) %>%
+ kable_styling(latex_options = c("striped"))
+  
+```
+
+# Competitive funding
+
+```{r}
+dat <- read_csv(file = here("funding_oldmeadow.csv"))
+num_amt <- readr::parse_number(dat$Amount)
+tot <- sum(as.numeric(num_amt))
+```
+
+Dr Oldmeadow has been awarded over `r scales::dollar(tot)` in competitive funding as chief investigator.
+
+
+```{r}
+dat %>%
+    kable(format = "latex", longtable = TRUE, booktabs = T) %>%
+    kable_styling(latex_options = c("striped", "scale_down")) %>%
+    column_spec(2, width = "15em") %>%
+    column_spec(3, width = "20em")
+ #   collapse_rows(columns = 1)
+
+```
+
+# Publications
+
+```{r}
+id <- "Lo70aGIAAAAJ&hl&"
+l <- scholar::get_profile(id)
+
+
+```
+
+Dr Oldmeadow  has published over 280 journal articles, in peer reviewed journals including a number in leading journals (e.g. Nature, Lancet, Lancet Oncology and Science). He has a H-index of `r l$h_index` and an i10-index of `r l$i10_index`, with `r l$total_cites` citations since 2009. The topics of his papers reflect the variety of projects Dr Oldmeadow is involved in. 
+
+```{r}
+#scholar::get_publications(id) %>% 
+  #distinct(title, .keep_all = TRUE) %>%
+#  transmute(bibtype = "Article", author = as.character(author),
+#            title = as.character(title),
+#            journaltitle = as.character(journal), year, key = row_number()) %>% 
+#  RefManageR::as.BibEntry() %>% 
+#  RefManageR::WriteBib("oldmeadow.bib")
+
+bibliography_entries(here("publications", "oldmeadow.bib"))
+```
+
+
