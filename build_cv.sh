@@ -60,7 +60,7 @@ done
 ## Join the HTML files into one HTML CV
 #
 
-pandoc --metadata title=" " --standalone -c $cvBuildDir/cv_style.css --section-divs -f markdown -t html5 \
+pandoc --metadata title=" " --standalone -H $cvBuildDir/fontawesome.txt -c $cvBuildDir/cv_style.css --section-divs -f markdown -t html5 \
 -o "$cvDir/$cvName.html" \
 -A $cvBuildDir/summary.html \
 -A $cvBuildDir/education.html \
